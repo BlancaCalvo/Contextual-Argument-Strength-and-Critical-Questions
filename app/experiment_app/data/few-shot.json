@@ -1,0 +1,480 @@
+{
+  "1": {
+    "do": [
+      {
+        "question": "What's the price of the new table?",
+        "answer": "The price of the new table is 10$."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "What's the price of the new table?",
+        "answer": "The price of the new table is 10$, but the price of the second-hand table is 5$."
+      }
+    ]
+  },
+  "141": {
+    "do": [
+      {
+        "question": "How expensive is the rice cooker compared to how much he spends on ready made rice packets",
+        "answer": "The rice cooker Sam has considered costs $30. Ready-made packets are $1 each."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "How expensive is the rice cooker compared to how much he spends on ready made rice packets",
+        "answer": "The rice cooker Sam has considered costs $30. Ready-made packets are $1 each. Although Sam does not care about the price."
+      }
+    ]
+  },
+  "271": {
+    "do": [
+      {
+        "question": "How is electricity lost due to the current refrigerator",
+        "answer": "Electricity is being lost because the refrigerator\u2019s outdated compressor runs at only 40% of the efficiency of modern compressors."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "How is electricity lost due to the current refrigerator",
+        "answer": "Electricity is being lost because the refrigerator\u2019s outdated compressor runs at only 40% of the efficiency of modern compressors, and the uncleaned condenser coils can further reduce efficiency."
+      }
+    ]
+  },
+  "272": {
+    "do": [
+      {
+        "question": "Would it be more space saving to use cubes?",
+        "answer": "It's not clear that cubes would be more space saving for Kay's short carry-on trip."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "can kay pack everything loosely?",
+        "answer": "Yes, Kay can pack everything loosely using a simple liner bag, as this is a common method preferred by about 60% of survey respondents on similar trips."
+      }
+    ]
+  },
+  "3111": {
+    "do": [
+      {
+        "question": "how much does a studio cost?",
+        "answer": "A studio costs more than a room in a shared flat"
+      }
+    ],
+    "avoid": [
+      {
+        "question": "how much does a studio cost?",
+        "answer": "Taylor's new employer offers a substantial monthly housing stipend that covers the full difference between a studio apartment and a shared living arrangement, meaning Taylor's out-of-pocket housing costs would be the same in either situation."
+      }
+    ]
+  },
+  "4152": {
+    "do": [
+      {
+        "question": "how much woudl Noa loose?",
+        "answer": "100 dollars."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "how much woudl Noa loose?",
+        "answer": "The difference between the quoted price and what Noa meant to charge represents a loss on this particular order, though not in their monthly balance."
+      }
+    ]
+  },
+  "4161": {
+    "do": [
+      {
+        "question": "would glueing the strip be only a temporary fix?",
+        "answer": "Yes, gluing the strip would be a temporary fix."
+      },
+      {
+        "question": "is money saving something alex is trying",
+        "answer": "No, Alex is trying to avoid a significant time investment."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "would glueing the strip be only a temporary fix?",
+        "answer": "Yes, Alex only needs the repair to last three weeks, so gluing the strip would be a temporary fix."
+      },
+      {
+        "question": "is money saving something alex is trying",
+        "answer": "No, Alex is trying to avoid a significant time investment, and the replacement strip costs about the same as a tube of marine-grade adhesive."
+      }
+    ]
+  },
+  "5212": {
+    "do": [
+      {
+        "question": "does a small fee mean it has more meaning to those that attend?",
+        "answer": "Riley has no information regarding the meaning of a small fee for attendants."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "does a small fee mean it has more meaning to those that attend?",
+        "answer": "The mentor stated that starting free was a mistake that attracted people unwilling to pay and damaged the brand's perceived value, suggesting that charging a fee might lend more value or seriousness to the offering."
+      }
+    ]
+  },
+  "5231": {
+    "do": [
+      {
+        "question": "Is there any information on the actual usefulness of vents compared to radiators?",
+        "answer": "Vents are useful in newer, well-insulated homes, while older, in less-insulated homes they can lead to uneven heating, greater heat loss, and can distribute dust."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "Is there any information on the actual usefulness of vents compared to radiators?",
+        "answer": "Vents are useful in newer, well-insulated homes where they can heat efficiently, while in your parents\u2019 older, less-insulated home they often lead to uneven heating, greater heat loss, and can distribute dust."
+      }
+    ]
+  },
+  "6232": {
+    "do": [
+      {
+        "question": "Are they well-established enough to have their own brand and website?",
+        "answer": "It\u2019s not clear how established the business is yet."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "Are they well-established enough to have their own brand and website?",
+        "answer": "They want their business to have its own recognizable brand and can customize their own shop\u2019s branding and website, though it\u2019s not clear how established the business is yet."
+      }
+    ]
+  },
+  "6251": {
+    "do": [
+      {
+        "question": "what looks better",
+        "answer": "Alex has not yet installed it, therefore he does not know what looks better."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "what looks better",
+        "answer": "Laying the planks along the hallway\u2019s length makes the space appear noticeably longer."
+      }
+    ]
+  },
+  "7291": {
+    "do": [
+      {
+        "question": "does avery need strong graphics?",
+        "answer": "Strong graphics are not Avery\u2019s priority for daily use."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "does avery need strong graphics?",
+        "answer": "Avery enjoys gaming with good graphics, but it's more important to them that it works well for coursework."
+      }
+    ]
+  },
+  "9382": {
+    "do": [
+      {
+        "question": "are non-sticky pans reliable",
+        "answer": "No, they degrade quickly and need frequent replacement."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "are non-sticky pans reliable",
+        "answer": "No, James prioritizes pans that heat evenly and last for years, and cheaper alternatives degrade quickly and need frequent replacement."
+      }
+    ]
+  },
+  "9401": {
+    "do": [
+      {
+        "question": "Is morgan in a program that requires regular computer based coursework?",
+        "answer": "Yes, Morgan is in a program that involves regular computer-based coursework."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "Is morgan in a program that requires regular computer based coursework?",
+        "answer": "Yes, Morgan is planning to use the laptop primarily for coursework and general academic tasks, indicating that they are in a program that involves regular computer-based coursework."
+      }
+    ]
+  },
+  "10392": {
+    "do": [
+      {
+        "question": "how is kay learning the language",
+        "answer": "Kay is learning Mandarin Chinese through a language learning app, that includes phrase-based and word-based materials, spaced repetition, audio recordings from native speakers, and progress tracking."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "how is kay learning the language",
+        "answer": "Kay is learning Mandarin Chinese through a language learning app, dedicating about an hour each day to study sessions that include phrase-based and word-based materials, spaced repetition, audio recordings from native speakers, and progress tracking. They intend to eventually read Mandarin novels and news articles."
+      }
+    ]
+  },
+  "10431": {
+    "do": [
+      {
+        "question": "do smart scales work for multi users",
+        "answer": "Yes, smart scales can work for multiple users because they typically have user profiles and automatic user detection features."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "do smart scales work for multi users",
+        "answer": "Yes, smart scales can work for multiple users because they typically have user profiles and automatic user detection features. Taylor know a household where they use one and it works."
+      }
+    ]
+  },
+  "11432": {
+    "do": [
+      {
+        "question": "Is she able to clearly understand both the writing of korean and the language by mouth?",
+        "answer": "It\u2019s not clear that she can clearly understand spoken Korean."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "Is she able to clearly understand both the writing of korean and the language by mouth?",
+        "answer": "No, Jay is mainly focused on improving written Korean and is less concerned with listening comprehension, so it\u2019s not clear that she can clearly understand spoken Korean."
+      }
+    ]
+  },
+  "11481": {
+    "do": [
+      {
+        "question": "Could an electric pepper grinder be easier though?",
+        "answer": "Yes, it could be easier for Alex."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "Could an electric pepper grinder be easier though?",
+        "answer": "Alex values convenience and often expresses frustration with kitchen tools that require extra effort or produce inconsistent results, which suggests an electric grinder might be easier for them to use."
+      }
+    ]
+  },
+  "12472": {
+    "do": [
+      {
+        "question": "how is kay learning chinese",
+        "answer": "Kay is learning Chinese using a language learning app with listening exercises, speaking practice modules, and immersive virtual reality scenarios."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "how is kay learning chinese",
+        "answer": "Kay is learning Chinese using a language learning app with listening exercises, speaking practice modules, and immersive virtual reality scenarios. He plans to begin speaking in low-pressure situations through structured practice sessions on the app."
+      }
+    ]
+  },
+  "12531": {
+    "do": [
+      {
+        "question": "Is it easy to build a wooden bed provided you access information online and are reasonably competent?",
+        "answer": "No, it's not easy."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "Is it easy to build a wooden bed provided you access information online and are reasonably competent?",
+        "answer": "No, it would not be easy for Charlie, since Charlie has no woodworking or bed-building experience, no knowledge of joinery or load-bearing design, and only basic household tools."
+      }
+    ]
+  },
+  "15612": {
+    "do": [
+      {
+        "question": "will jordan get any benefits from making half their grains whole",
+        "answer": "It's not clear whether Jordan will get benefits."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "will jordan get any benefits from making half their grains whole",
+        "answer": "It's not clear whether Jordan will gain specific health benefits from making half their grains whole, as the evidence linking whole grain consumption to particular health outcomes is of moderate to low quality."
+      }
+    ]
+  },
+  "16662": {
+    "do": [
+      {
+        "question": "wil the course help Avery get a job",
+        "answer": "The course includes \"job placement help\" with resume review, interview coaching, and access to a job board with partner employer listings."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "wil the course help Avery get a job",
+        "answer": "The course includes \"job placement help\" with resume review, interview coaching, and access to a job board with partner employer listings. However, Riley's coworker experienced an eighteen-month gap before being hired even after taking the course, while Riley's neighbor's existing professional relationship was the primary reason for their hire."
+      }
+    ]
+  },
+  "16701": {
+    "do": [
+      {
+        "question": "doe smoving to a new city guarentee a higher salary?",
+        "answer": "Charlie has received a formal job offer in the new city that pays 10% higher than their current salary."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "doe smoving to a new city guarentee a higher salary?",
+        "answer": "Charlie has received a formal job offer in the new city that pays 10% higher than their current salary, but there is no information on the advertised job's salaries."
+      }
+    ]
+  },
+  "17712": {
+    "do": [
+      {
+        "question": "would employers not see it as eager if jay follows up?",
+        "answer": "Jay and Taylor do not know that."
+      },
+      {
+        "question": "why is jay worried?",
+        "answer": "Jay is wondering what is the best course of action."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "would employers not see it as eager if jay follows up?",
+        "answer": "Most employers prefer candidates wait at least one to two weeks before following up, so contacting them within the first week is not generally presented as eagerness they want."
+      },
+      {
+        "question": "why is jay worried?",
+        "answer": "Jay is considering when to follow up after submitting job applications and is aware that a hiring manager finds early follow-up emails frustrating, adding to the concern about when is the best time to reach out."
+      }
+    ]
+  },
+  "18772": {
+    "do": [
+      {
+        "question": "What are Robin's working hours and current commute times like?",
+        "answer": "Robin typically leaves the office by 5 PM, and I don't have that information about the current commute times."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "What are Robin's working hours and current commute times like?",
+        "answer": "Robin typically leaves the office by 5 PM and rarely stays past regular business hours, and I don't have that information about the current commute times."
+      }
+    ]
+  },
+  "18801": {
+    "do": [
+      {
+        "question": "Does the one year contract have actual bettter opportunities?",
+        "answer": "The recruiter claimed there would be \"more opportunity for growth\" but did not provide specific details or measures of such growth."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "Does the one year contract have actual bettter opportunities?",
+        "answer": "None of the candidates who previously accepted similar contract positions with claims of \"more opportunity for growth\" from the recruiter were offered permanent roles or promotions when their contracts ended."
+      }
+    ]
+  },
+  "19802": {
+    "do": [
+      {
+        "question": "how motivated is ray to run in general",
+        "answer": "Ray generally maintains a regular running habit of three to four times per week."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "how motivated is ray to run in general",
+        "answer": "Ray generally maintains a regular running habit of three to four times per week and has consistently resumed after skipped runs without difficulty."
+      }
+    ]
+  },
+  "20881": {
+    "do": [
+      {
+        "question": "are steady update systems stable?",
+        "answer": "Steady systems are known for a conservative approach to changes, which implies they are generally stable."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "are steady update systems stable?",
+        "answer": "Steady systems are known for a conservative approach to changes, updating every two years, which implies they are generally stable. However, compatibility issues can still occasionally occur after updates."
+      }
+    ]
+  },
+  "21882": {
+    "do": [
+      {
+        "question": "Is there more benefit to it being planned?",
+        "answer": "It's not clear whether there is more benefit to planning workouts in advance."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "Is there more benefit to it being planned?",
+        "answer": "It's not clear whether there is more benefit to planning workouts in advance. Jay finds that planning sometimes creates pressure, which can reduce motivation, but their friend maintains a consistent routine without advance planning."
+      }
+    ]
+  },
+  "251141": {
+    "do": [
+      {
+        "question": "what is sky's budget?",
+        "answer": "Sky does not have a specific stated budget."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "What is Sky's budget for the car?",
+        "answer": "Sky has a pre-approved low-interest auto loan, which they can use to finance the car purchase, but they do not have enough cash on hand to purchase any car outright."
+      }
+    ]
+  },
+  "261181": {
+    "do": [
+      {
+        "question": "is jordan looking for deep clesn cleans#",
+        "answer": "It's not clear that they are specifically looking for deep cleans."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "is jordan looking for deep clesn cleans#",
+        "answer": "Jordan has been reconsidering whether to keep cleaning independently or hire a professional service, and it's not clear that they are specifically looking for deep cleans."
+      }
+    ]
+  },
+  "271201": {
+    "do": [
+      {
+        "question": "Does Robin have any allergies or respiratory issues?",
+        "answer": "Robin has mild seasonal allergies, with no formal dust-related respiratory diagnosis."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "Does Robin have any allergies or respiratory issues?",
+        "answer": "Robin has mild seasonal allergies and has occasionally had sneezing and nasal congestion after long periods without vacuuming, with no formal dust-related respiratory diagnosis."
+      }
+    ]
+  },
+  "291281": {
+    "do": [
+      {
+        "question": "How heavy is your schedule now?",
+        "answer": "Charlie\u2019s current work schedule involves frequent travel and long hours."
+      }
+    ],
+    "avoid": [
+      {
+        "question": "How heavy is your schedule now?",
+        "answer": "Charlie\u2019s current work schedule involves frequent travel and long hours, which might cause him leaving the pet alone for hours."
+      }
+    ]
+  }
+}

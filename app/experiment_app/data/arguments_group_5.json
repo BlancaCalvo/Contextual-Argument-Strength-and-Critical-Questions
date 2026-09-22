@@ -1,0 +1,217 @@
+[
+  {
+    "id": "16662",
+    "s_id": "16",
+    "situation": "Avery, a good friend of yours, is trying to find a job and is wondering whether to pay for a short training course that includes \u201cjob placement help,\u201d or to learn the skills on their own at low cost. Riley, another friend, argues:",
+    "topic": "Job",
+    "a_id": "66",
+    "dataset": "2",
+    "text": "My neighbour paid for a course and got hired in three months; my cousin self-studied and took a year.",
+    "label (automated)": "not supported",
+    "critical questions": [
+      "Are there differences between Avery's situation and Riley's neighbor's?  ",
+      "Are there differences between Avery's situation and Riley's cousin's?  ",
+      "Did Riley's neighbor and cousin do anything else differently during their job search?  ",
+      "Was something Riley's neighbor learned in the course a central reason why they got hired?  ",
+      "Do you know anyone else who took the course and still took a long time to get hired?  ",
+      "Do you know anyone else who did not take the course but got hired quickly?  ",
+      "Is three months versus one year actually a meaningful difference given the cost of the course?"
+    ],
+    "scheme": "Argument from Analogy",
+    "answers": [
+      "Yes: Avery is entering the field with no relevant background, while Riley's neighbor had over five years of prior experience and was hired mainly through an existing professional connection.",
+      "Yes; Avery is considering a career change and exploring how to enter a new field, while Riley's cousin conducted a passive job search and applied to only a few positions per month.",
+      "Yes, Riley's neighbor actively networked and applied to multiple jobs each week, while Riley's cousin applied to only a few positions per month.",
+      "No, the hiring manager said Riley's neighbor's existing professional relationship was the primary reason they were hired.",
+      "Yes, Riley's coworker took the same course and was not hired in the field until eighteen months later.",
+      "Yes, Riley has a former classmate who did not take the course and was hired within two months.",
+      "Yes, a difference between finding work in about three months versus about one year would be meaningful relative to the course cost, because the course costs about $8,000, roughly equal to seven months of the salary gap between unemployment and an entry-level job."
+    ],
+    "neutral_context": "Avery has been considering a career change for the past several months and recently started exploring options for entering a new field. The training course in question is offered by a private education company and runs for approximately twelve weeks, combining online modules with some in-person workshops. The \"job placement help\" component includes resume review, interview coaching, and access to a job board with listings from partner employers. Avery currently has some savings set aside but would need to budget carefully if choosing the paid course option. The self-study alternative would involve using free online resources, library materials, and possibly a few inexpensive books to learn the same technical skills covered in the formal program. Riley and Avery have known each other since college and often discuss major life decisions together. Riley works in an adjacent industry and has observed several people navigate similar career transitions over the years, which is why they felt comfortable offering input. The field Avery is considering has seen steady demand for new hires in recent years, with positions available at companies ranging from small startups to established corporations. Entry-level roles typically require demonstrating competency in specific technical skills, though hiring practices vary considerably between employers. Some companies prioritize credentials and formal training, while others focus primarily on portfolio work or practical assessments during the interview process. Avery has been researching both options for several weeks, reading reviews of the course online and talking to people who have made similar transitions. The decision feels significant because it involves both a substantial financial commitment and a choice about how to spend the coming months of preparation time.",
+    "cq_labels": [
+      "demolishing",
+      "neutral",
+      "undermining",
+      "demolishing",
+      "demolishing",
+      "neutral",
+      "undermining"
+    ],
+    "avg": "1.8",
+    "tier": 0
+  },
+  {
+    "id": "4152",
+    "s_id": "4",
+    "situation": "Noa, your neighbour who runs a small home bakery, is wondering if they should honour a mistaken low quote for a custom cake order. Noa argues:",
+    "topic": "Business",
+    "a_id": "15",
+    "dataset": "2",
+    "text": "Keeping my word shows honesty and respect, which matters more than a small loss. ",
+    "label (automated)": "strong",
+    "critical questions": [
+      "Are honesty and respect seen as good by Noa's customers?  ",
+      "Could the small loss have major consequences for Noa that could undermine the relevance of respect and honesty in this situation?  ",
+      "Is honoring the mistaken low quote respectful and honest for Noa?  ",
+      "Is there a possibility of renegotiating the price honestly with the customer for Noa?"
+    ],
+    "scheme": "Argument from Values",
+    "answers": [
+      "Honesty is seen positively by Noa\u2019s loyal customers, and it\u2019s not clear whether respect is mentioned.",
+      "No, the 100-dollar loss would not have major consequences for Noa because it can be covered by the emergency fund without affecting essential expenses.",
+      "Yes, honoring the mistaken low quote would be consistent with the integrity and follow-through Noa's loyal customers value.",
+      "It's not clear whether the customer would agree to an honest renegotiation of the price after accepting the quoted amount."
+    ],
+    "neutral_context": "Noa runs a small home bakery out of a converted kitchen space, taking custom orders for cakes, pastries, and other baked goods for neighbors and local customers. The bakery has been operating for several years, building a steady clientele through word-of-mouth recommendations in the neighborhood. Noa handles all aspects of the business personally, from baking to customer communication to pricing and invoicing.\n\nRecently, while preparing a quote for a custom cake order, Noa made an error in the pricing calculation. The quote sent to the customer was lower than intended, though Noa only realized the mistake after the customer had already accepted and confirmed the order. The difference between the quoted price and what Noa meant to charge represents a loss on this particular order, though not in their monthly balance.\n\nThe customer who received this quote has been ordering from Noa's bakery for some time and has developed a friendly rapport with Noa through repeated interactions. This customer typically places orders for family gatherings and special occasions throughout the year.\n\nNoa's bakery operates on typical small-business margins, with income fluctuating based on seasonal demand and the number of orders received in any given month. Like many home-based food businesses, Noa balances the flexibility of working from home against the limitations of producing goods in a residential kitchen with finite capacity. The bakery does not have formal contracts or written terms of service beyond the basic quotes and confirmations exchanged with customers via text message or email. Noa personally delivers most orders to customers within the neighborhood, which has helped foster direct relationships with regular buyers.",
+    "cq_labels": [
+      "neutral",
+      "favorable",
+      "irrefutable",
+      "irrefutable"
+    ],
+    "avg": "4.0",
+    "tier": 2
+  },
+  {
+    "id": "5231",
+    "s_id": "5",
+    "situation": "Your parents are wondering whether to use vents (forced-air) or baseboard radiators for home heating. James, your sibling, argues:",
+    "topic": "House",
+    "a_id": "23",
+    "dataset": "1",
+    "text": "Many newer homes use vents, which suggests the setup works well for most households. ",
+    "label (automated)": "weak",
+    "critical questions": [
+      "Is there a reason for using vents in newer homes other than them being good for most households? Is this reason relevant to your parents' situation? ",
+      "Are your parents' heating requirements similar to those of the newer homes using vents?  ",
+      "Does the fact that vents work well in newer homes mean they will work well in your parents' home?  ",
+      "How does James know most homes use vents?"
+    ],
+    "scheme": "Argument from Popular Practice",
+    "answers": [
+      "Yes; vents in newer homes are often used because they can share ductwork with central air conditioning, and that reason is not relevant to your parents since they do not need air conditioning.",
+      "No, your parents' home has older single-pane windows and less insulation, unlike newer vented homes that are built with tighter envelopes and better insulation.",
+      "No, vents working well in newer homes does not mean they will work well in your parents' home because older, less-insulated homes often have uneven heating and greater heat loss with vents.",
+      "James thinks that because he casually noticed vents in a few recently built houses in the neighborhood, not because of any systematic data or survey."
+    ],
+    "neutral_context": "James's belief that most newer homes use vents is based on casual observations of a few recently built houses in the neighborhood, not on any systematic data or survey of home heating systems.\n\nYour parents have lived in their current home for nearly four decades, having moved in shortly after it was constructed in the mid-1980s. The house has served them well over the years, though like many homes of its era, it retains many of its original features and systems. The heating system, in particular, has remained largely unchanged since the house was first built. Recently, your parents have been discussing whether to upgrade or replace their heating setup, which has prompted a family conversation about the merits of different heating options. James, who has taken an interest in home improvement matters, has been visiting some of the newer developments in the area and has formed opinions about what heating systems seem popular in contemporary construction. Your parents are trying to make an informed decision that balances cost, comfort, and practicality for their specific living situation. They value input from their children but also want to consider the unique characteristics of their own home. The house features the construction standards typical of its time period, including the window types and insulation levels that were common in residential building during the 1980s. As with many families facing home improvement decisions, there are different perspectives being shared, and your parents are weighing various factors as they consider their options. The discussion has been friendly but reflects genuine uncertainty about which direction to take with such a significant household decision.\n\nA forced-air vent system installation would cost around $2,000. A baseboard radiator system would cost around $5,000.\n\nYour parents do not need air conditioning.",
+    "cq_labels": [
+      "favorable",
+      "neutral",
+      "favorable"
+    ],
+    "avg": "2.0",
+    "tier": 1
+  },
+  {
+    "id": "12472",
+    "s_id": "12",
+    "situation": "Kay, a roommate of yours, has started learning Chinese and is wondering whether to begin with speaking exercises right away, even if they make mistakes, or wait until they understand more. Another roommate, River, argues:",
+    "topic": "Education",
+    "a_id": "47",
+    "dataset": "2",
+    "text": "If you avoid speaking exercises, you may freeze in real situations, like at a store or doctor. ",
+    "label (automated)": "not supported",
+    "critical questions": [
+      "What evidence shows that Kay speaking right away reduces freezing in real situations?  ",
+      "Could Kay starting to speak before understanding lead to bad consequences?  ",
+      "Are there other methods to prevent freezing besides Kay's immediate speaking?  ",
+      "In what situations is Kay planning to start speaking? Are these situations less likely to make him freeze?  ",
+      "Is freezing in real situations caused by Kay's lack of early speaking, or by other factors like anxiety?  ",
+      "Does the language Kay is learning have unique complexities that might impact his decision to speak early?  ",
+      "Is Kay's goal to use the language in real situations?  ",
+      "How undesirable is it for Kay to freeze in real situations?"
+    ],
+    "scheme": "Argument from Danger Appeal",
+    "answers": [
+      "There is no evidence that speaking right away reduces freezing in real situations, since one relative who practiced speaking from day one still experiences severe freezing.",
+      "Yes, starting to speak too early could ingrain incorrect tonal patterns that are very difficult to correct later and may increase the risk of freezing in real situations if underlying social anxiety is present.",
+      "Yes, practicing in low-pressure simulated situations and building comprehension first are described as other ways that may help prevent freezing.",
+      "Kay plans to start speaking only in low-pressure structured practice sessions on his language learning app, and yes, those situations are less likely to make him freeze since his past freezing has happened only in high-stakes evaluations.",
+      "Kay\u2019s freezing in real situations is linked to factors like social anxiety and high-stakes pressure rather than simply a lack of early speaking practice.",
+      "Yes, Chinese has a tonal system where small pronunciation errors can completely change meanings, and speaking too early may reinforce incorrect tonal patterns that are hard to fix.",
+      "No, Kay's primary goal is to read literature and academic papers in Chinese, not to use it in real-life conversation.",
+      "It is not especially undesirable for Kay right now, since spoken communication is only a secondary concern and they do not expect to need it for several years."
+    ],
+    "neutral_context": "Kay is studying to reach A1 level.\n\nKay, River, and their other roommates share an apartment near the university where most of them are completing graduate studies. Kay decided to take on a new language as a personal project outside his primary academic work, having always been interested in accessing certain texts that have never been fully translated into English. He downloaded a popular language learning app that offers various features including listening exercises, speaking practice modules, and immersive virtual reality scenarios. The roommates often discuss their various projects and hobbies during evening meals, which is how the conversation about language learning approaches came up. River, who tends to have strong opinions about learning strategies, initiated the discussion about speaking practice after noticing Kay spending considerable time with headphones on, working through audio lessons. Kay has mentioned that he doesn't anticipate needing to use Chinese in conversation anytime soon, as his interest lies primarily in written materials. Chinese is known for its complexity, particularly its sound system, which differs substantially from English. Kay had previously taken a public speaking course during his undergraduate years as part of an effort to improve his presentation skills. One of Kay's cousins also learned a foreign language in recent years and has shared experiences from that process. The roommates generally get along well and often engage in friendly debates about various topics, with these conversations rarely becoming contentious. Kay tends to be thoughtful about his learning approaches and appreciates hearing different perspectives before settling on a strategy.",
+    "cq_labels": [
+      "undermining",
+      "neutral",
+      "demolishing",
+      "undermining",
+      "demolishing",
+      "demolishing",
+      "undermining",
+      "undermining"
+    ],
+    "avg": "1.8",
+    "tier": 1
+  },
+  {
+    "id": "9401",
+    "s_id": "9",
+    "situation": "Morgan, a flatmate of yours, is trying to decide whether to buy a laptop that runs system A or system B. Riley, another flatmate, argues:",
+    "topic": "Technology",
+    "a_id": "40",
+    "dataset": "1",
+    "text": "Most classmates in my program use system B.",
+    "label (automated)": "reasonable",
+    "critical questions": [
+      "Are the classmates in Riley's program happy with their choice?  ",
+      "Is Morgan going to use their computer differently than those classmates?  ",
+      "What were the reasons for the classmates in Riley's program to choose this system?  ",
+      "Does the popularity of system B among classmates mean it is the better system overall?  ",
+      "Does system B meet all the specific needs and requirements of Morgan's work or study?"
+    ],
+    "scheme": "Argument from Popular Practice",
+    "answers": [
+      "Yes, several classmates in Riley's program say system B is reliable and well-suited for their coursework.",
+      "No, Morgan plans to use the laptop primarily for coursework and general academic tasks, similar to those classmates.",
+      "They chose system B because their professors recommended it for the software tools used in the program and because many found it reliable and well-suited for coursework.",
+      "No, system B being popular among classmates does not mean it is better overall.",
+      "System B meets Morgan's main coursework requirements, though one specialized application they may need for an elective course runs better on system A."
+    ],
+    "neutral_context": "Morgan, Riley, and their other flatmates share a rental apartment near campus, splitting costs to make student living more affordable. The three-bedroom unit has become an informal study space where housemates often work on assignments together at the kitchen table or in the small living room. Morgan's current laptop recently started showing signs of age\u2014the battery barely holds a charge, and the machine runs slowly when multiple applications are open\u2014prompting the search for a replacement before the upcoming semester gets too demanding.\n\nRiley is partway through a program that involves regular computer-based coursework, giving them daily exposure to what other students in their cohort are using. The program attracts a mix of students with varying levels of technical background, and laptop choices among them reflect a range of budgets and personal preferences. Classroom discussions and group projects mean Riley has had plenty of opportunities to observe what devices classmates bring to lectures and study sessions.\n\nMorgan has been researching options for several weeks, comparing specifications, reading reviews, and trying to balance performance needs against a limited student budget. The decision feels significant since a laptop purchase represents a substantial expense and Morgan expects to use the machine throughout the remainder of their studies. Both system A and system B have established presences in the consumer market, each with its own ecosystem of compatible accessories and software. Morgan has asked several friends and flatmates for input, gathering opinions from people with different experiences and priorities. The conversation with Riley is one of several Morgan has had while weighing the decision, and the flatmates have generally been willing to share their perspectives when asked.\n\nBoth systems are free to Morgan.",
+    "cq_labels": [
+      "favorable",
+      "favorable",
+      "favorable",
+      "neutral",
+      "favorable"
+    ],
+    "avg": "3.2",
+    "tier": 2
+  },
+  {
+    "id": "19802",
+    "s_id": "19",
+    "situation": "Ray, a roommate, is wondering if they should go for a short easy run today when they don\u2019t feel motivated, or skip and rest. Sam, another roommate, argues:",
+    "topic": "Sport",
+    "a_id": "80",
+    "dataset": "2",
+    "text": "Skipping today makes it easier to skip tomorrow and break the habit.",
+    "label (automated)": "not supported",
+    "critical questions": [
+      "How likely is it that Ray breaks the habit if they skip today?  ",
+      "Are there any potential bad consequences for Ray of not skipping today?  ",
+      "Could Ray skip today and not break the habit?  ",
+      "Are there any precedents of Ray skipping a day and then breaking the habit?"
+    ],
+    "scheme": "Argument from Consequences",
+    "answers": [
+      "It seems unlikely that Ray would break the habit if they skip today.",
+      "Yes, running today could increase the risk of Ray's recurring knee injury flaring up because running when unmotivated often coincides with physical fatigue.",
+      "Yes, Ray could skip today without breaking the habit.",
+      "No, Ray has never broken the habit after skipping a day."
+    ],
+    "neutral_context": "Ray and Sam have been roommates for about eight months, sharing a two-bedroom apartment near the university where they both work. Ray took up running about six months ago as a way to stay active and clear their head after long days at the office. They typically aim to run three to four times per week, usually in the early morning before work or in the evening after dinner, depending on their schedule. Ray uses a popular running app to log their workouts and track their progress over time. About four months ago, Ray developed some knee trouble that required a visit to their doctor, who provided guidance on managing the issue going forward. Sam doesn't run but stays active through cycling and occasional yoga classes. The two roommates often chat in the kitchen or living room about their days, including their exercise routines and how they're feeling. Today is a weekday, and Ray had tentatively planned a short, easy run for this afternoon. The weather outside is mild and suitable for running. Ray mentioned feeling unmotivated this morning over breakfast, which prompted the conversation with Sam. Their usual running route is a simple two-mile loop through the neighborhood that takes about twenty minutes to complete. Ray keeps their running shoes and gear organized by the front door for easy access. Over the past two months, Ray's running schedule has had some variation, with some weeks being more consistent than others depending on work demands and how they've been feeling physically. Sam has observed Ray's running routine casually during their time as roommates and sometimes asks how runs went when Ray returns home.",
+    "cq_labels": [
+      "demolishing",
+      "demolishing",
+      "undermining",
+      "undermining"
+    ],
+    "avg": "1.5",
+    "tier": 0
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "id": "10392",
+    "s_id": "10",
+    "situation": "Kay, a colleague of yours, has just started learning a new language and is wondering whether they should study single words or full phrases. Casey, another colleague, argues:",
+    "topic": "Education",
+    "a_id": "39",
+    "dataset": "2",
+    "text": "Many common sayings don\u2019t make sense word by word, so learning the whole phrase helps. ",
+    "label (automated)": "reasonable",
+    "critical questions": [
+      "Do many common sayings in the language Kay is learning not make sense word by word?  ",
+      "Are common sayings important in the language Kay is trying to learn?  ",
+      "Are there disadvantages in learning whole phrases instead of words for Kay?  ",
+      "Does this approach work equally well for the language that Kay is trying to learn?  ",
+      "Does this approach work equally for the language that Kay is trying to learn?  "
+    ],
+    "scheme": "Argument from Example",
+    "answers": [
+      "Yes, many common four-character idioms in Mandarin Chinese cannot be understood by translating each character individually.",
+      "Yes, common four-character idioms called chengyu are important in Mandarin Chinese because they appear frequently in written texts, formal speeches, and everyday conversations.",
+      "Yes, learning whole phrases can still leave Kay needing additional context and practice with native speakers to use them appropriately in conversation.",
+      "It's not clear which approach you mean, though for Mandarin Chinese, learning chengyu as complete phrases tends to work better for recalling their meanings than learning the individual characters separately.",
+      "It's not clear which approach you mean, though for Mandarin Chinese learners tend to recall chengyu more accurately when they study them as complete phrases rather than as individual characters."
+    ],
+    "neutral_context": "Kay recently decided to take on Mandarin Chinese as a new language, motivated by a desire to eventually read novels and news articles in the original language. Currently working through a language learning app, Kay has been making steady progress through the beginner modules and is now facing decisions about how to structure their study sessions going forward. The app offers various learning paths, including sections devoted to vocabulary building and others focused on phrases and expressions. Kay mentioned this learning journey during a casual conversation with colleagues, which sparked a discussion about different approaches to language study. Casey, who has some familiarity with language learning methods, offered their perspective on the matter. Kay has been dedicating about an hour each day to studying, typically in the evenings after work, and has found the process both challenging and rewarding. The app Kay uses includes features like spaced repetition, audio recordings from native speakers, and progress tracking. Kay has not yet had the opportunity to practice with native Mandarin speakers but hopes to find conversation partners once they feel more confident with the basics. The discussion between Kay and Casey took place in the office break room, where colleagues often share advice and experiences about their various hobbies and personal projects. Kay appreciates getting input from others, though they recognize that language learning is a personal process and what works for one person may not work for another. The conversation has prompted Kay to think more carefully about their study approach and whether adjustments might help them reach their reading goals more efficiently.",
+    "cq_labels": [
+      "favorable",
+      "neutral",
+      "neutral",
+      "favorable",
+      "favorable"
+    ],
+    "avg": "3.5",
+    "tier": 2
+  },
+  {
+    "id": "4161",
+    "s_id": "4",
+    "situation": "Alex, your neighbour, is wondering if they should glue the torn shower door strip or replace it. Casey, a friend, argues:",
+    "topic": "House",
+    "a_id": "16",
+    "dataset": "1",
+    "text": "I tried glue on a similar strip before; it held for a month and then failed.",
+    "label (automated)": "weak",
+    "critical questions": [
+      "What tools, methods, and materials did Casey use? Could Alex do it better now?  ",
+      "Did something happen after Casey repaired it the last time?  ",
+      "Is there any difference between the strip Casey repaired before and the one Alex has now?  ",
+      "How long does Alex need the repair to last?  ",
+      "Are there any alternative repair methods that might be more effective for Alex?  "
+    ],
+    "scheme": "Argument from Analogy",
+    "answers": [
+      "Casey used a general-purpose household adhesive to repair the strip, and Alex could likely do it better now by using a marine-grade adhesive formulated for wet environments.",
+      "Yes, the bathroom ventilation fan broke and was not replaced for several weeks, leading to prolonged high humidity.",
+      "No, Casey's previous strip and Alex's current strip are the same type of flexible PVC material and are approximately the same age.",
+      "Alex needs the repair to last three weeks.",
+      "Yes, using a marine-grade adhesive designed for wet environments or replacing the shower door strip would likely be more effective."
+    ],
+    "neutral_context": "Alex lives in a rented apartment in a modest building where residents handle minor maintenance issues themselves. The bathroom features a standard glass shower enclosure with flexible strips along the door edges that prevent water from splashing onto the floor. One of these strips has developed a tear near the bottom, causing small amounts of water to escape during showers. Alex has been placing a towel on the floor as a temporary solution while deciding how to address the problem permanently.\n\nCasey is a friend who has dealt with similar household repairs in the past and occasionally offers advice on such matters. The two often discuss practical problems over coffee or while catching up on weekends. Casey's previous apartment had a comparable shower setup, which is why the topic came up in conversation.\n\nThe local hardware store that carries bathroom fixtures and repair supplies is located in a commercial area across town, accessible primarily by bus with one transfer required. The store stocks a variety of adhesives, sealants, and replacement parts for common household items. Alex typically handles small repairs independently rather than involving the building's landlord, who tends to be slow in responding to maintenance requests.\n\nThe apartment's bathroom is a standard size with tile flooring and painted walls. The shower enclosure is original to the unit and has been functional for years with only occasional minor issues. The ventilation in the bathroom comes from a ceiling-mounted exhaust fan that helps manage moisture levels after showers. Alex keeps basic tools and supplies in a small closet, including items picked up from previous repair projects. The lease agreement allows tenants to make cosmetic fixes without prior approval, as long as no permanent alterations are made to the unit's structure.",
+    "cq_labels": [
+      "undermining",
+      "undermining",
+      "neutral",
+      "undermining",
+      "neutral"
+    ],
+    "avg": "2.0",
+    "tier": 1
+  },
+  {
+    "id": "7291",
+    "s_id": "7",
+    "situation": "Avery, a classmate of yours, is wondering if they should buy laptop A with long battery life or laptop B with stronger graphics. Morgan, another classmate, argues:",
+    "topic": "Technology",
+    "a_id": "29",
+    "dataset": "1",
+    "text": "For a full day of classes without charging, choosing the long-battery model makes the most sense.",
+    "label (automated)": "weak",
+    "critical questions": [
+      "Does Avery ever have a full day of classes?  ",
+      "Are there chargers at Avery's classes or between classes?  ",
+      "Does the long-battery model that Avery is considering actually last for a whole day?  ",
+      "Could the stronger graphics computer's battery also last a whole day?"
+    ],
+    "scheme": "Practical Reasoning",
+    "answers": [
+      "No, Avery only has two or three classes per day with gaps in between.",
+      "There are power outlets in campus hallways and common areas between classes, and it's not clear whether there are chargers in Avery's classes.",
+      "It typically lasts about five to six hours under student use, which would generally cover Avery\u2019s school day.",
+      "Under typical student use, the stronger-graphics laptop usually lasts about four to five hours, so it likely would not last a whole day on battery alone."
+    ],
+    "neutral_context": "Avery is currently a college student facing a common decision: choosing between two laptops with different strengths. Laptop A emphasizes extended battery life as its main selling point, while Laptop B prioritizes superior graphics capabilities. Morgan, who shares classes with Avery, has offered an opinion on which option makes more sense. Avery uses their laptop for typical student activities throughout the day, including taking notes during lectures, browsing the internet for research, and working on assignments in various document formats. The campus where Avery attends classes has multiple buildings spread across the grounds, and Avery moves between these locations depending on their schedule. Like many students, Avery keeps their living space in a campus dormitory, which serves as a home base during the academic term. The laptop purchase represents a significant decision for Avery, as the chosen device will likely serve as their primary computer for coursework, entertainment, and personal use over the coming years. Both laptops fall within Avery's budget, making the choice primarily about which features matter most for daily use. Avery has been gathering opinions from classmates and doing research online to inform the decision. The graphics performance difference between the two models would mainly affect activities like gaming, video editing, or running design software, while battery life affects portability and convenience throughout the day. Avery enjoys gaming with good graphics, but it's more important to them that it works well for coursework. Avery has not yet made a final decision and remains open to input from friends and classmates who have experience with similar purchasing decisions.\n\nLaptop A costs $100 more then Laptop B.",
+    "cq_labels": [
+      "undermining",
+      "neutral",
+      "undermining",
+      "undermining"
+    ],
+    "avg": "2.0",
+    "tier": 1
+  },
+  {
+    "id": "18801",
+    "s_id": "18",
+    "situation": "James, your sibling, is wondering if they should leave a stable permanent job for a one-year contract that the recruiter says has more opportunity for growth. Casey, your cousin, argues:",
+    "topic": "Job",
+    "a_id": "80",
+    "dataset": "1",
+    "text": "The recruiter benefits if you accept, so their praise may not be neutral.",
+    "label (automated)": "strong",
+    "critical questions": [
+      "Does the recruiter get any benefit from James accepting the offer? What evidence is there of this benefit?  ",
+      "Could the recruiter's praise be honest even if they also benefit from James accepting?  ",
+      "Is the recruiter's praise a relevant reason for James to accept the job?  ",
+      "What is the relation between the recruiter's praise and the claim of more opportunity for growth for James? Is this relation relevant to assessing the argument\u2019s validity?  ",
+      "Has James independently researched the growth opportunities at the new company? Or can the recruiter provide references or testimonials from previous candidates they've placed in similar contracts?"
+    ],
+    "scheme": "Argument from Bias",
+    "answers": [
+      "Yes, the recruiter benefits financially because they receive a commission only if James accepts the position, and the agency charges the hiring company a placement fee equal to 20% of the new hire\u2019s first-year salary.",
+      "Whether the recruiter's praise is honest is not clear; the recruiter would receive a commission only if James accepts the position.",
+      "The recruiter's praise is not a strong independent reason to accept because the recruiter earns commission only if James takes the job and has made similar growth claims before without those candidates receiving permanent roles or promotions.",
+      "The recruiter\u2019s praise of the contract role is tied to a financial incentive because they earn commission only if James accepts it, and that relationship is relevant to assessing how credible their \u201cmore opportunity for growth\u201d claim is.",
+      "It's not clear whether James has independently researched the growth opportunities, and the recruiter has offered to provide contact information for two previous candidates placed in similar contract roles."
+    ],
+    "neutral_context": "James has worked at their current company for four years in a marketing coordinator role. The position offers standard benefits including health insurance, paid time off, and a retirement contribution match. James lives in a mid-sized city where the job market for marketing professionals is moderately competitive. The contract position being offered is with a larger company in the same industry, located about fifteen minutes further from James's apartment. The one-year contract would pay approximately 12% more than James's current salary. James first connected with the recruiter through a professional networking site about six weeks ago after updating their profile. Casey and James have been close since childhood and often discuss major life decisions with each other. James is currently single with no dependents and has about four months of living expenses saved. The hiring company uses contract positions as part of their regular staffing strategy across multiple departments. James has not previously worked on a contract basis, having held only permanent positions since graduating from college seven years ago. The recruiter reached out to James specifically because their experience matched keywords the hiring company had specified for the role. James has had two phone interviews and one in-person interview with the hiring manager at the new company. The contract includes a standard non-compete clause that would prevent James from working for direct competitors for six months after the contract ends. James's current employer does not know they have been interviewing elsewhere. Casey works in an unrelated field and has no direct experience with recruitment agencies or contract employment arrangements.",
+    "cq_labels": [
+      "irrefutable",
+      "favorable",
+      "neutral",
+      "irrefutable",
+      "neutral"
+    ],
+    "avg": "3.3",
+    "tier": 2
+  },
+  {
+    "id": "10431",
+    "s_id": "10",
+    "situation": "Taylor, your cousin, is wondering whether to buy a smart bathroom scale or a basic bathroom scale. James, your sibling, argues:",
+    "topic": "Technology",
+    "a_id": "43",
+    "dataset": "1",
+    "text": "In one household, a smart scale kept mixing up two users\u2019 weights, which made the records unreliable.",
+    "label (automated)": "not supported",
+    "critical questions": [
+      "Do all smart scales behave this way?",
+      "Did the users do something wrong in that household?",
+      "Is this behaviour preventable in Taylor's situation?",
+      "Are there differences between that household and Taylor's household?",
+      "Do other households manage to keep the records reliable?",
+      "Is the mixing up of users a problem specific to smart scales or could it happen with basic scales too?",
+      "Do the benefits of a smart scale outweigh this one reported issue for Taylor?"
+    ],
+    "scheme": "Argument from Analogy",
+    "answers": [
+      "No, as far as Taylor knows, not all smart scales have this problem.",
+      "James does not know what caused the mix-up in that household.",
+      "Yes, in Taylor's situation user mix-up would not be a concern because Taylor lives alone.",
+      "Yes, Taylor lives alone, which is a difference from the other household.",
+      "As far as Taylor knows, other households generally do keep the records reliable, since Taylor has not heard of this problem happening elsewhere.",
+      "User mix-ups are specific to smart scales, because basic scales do not have user profiles or automatic user detection.",
+      "Taylor has not decided whether the benefits of a smart scale outweigh that reported issue for them."
+    ],
+    "neutral_context": "Taylor has been thinking about purchasing a new bathroom scale and recently mentioned this to family members during a casual conversation. James, Taylor's sibling, shared a story about a household where a smart scale had caused some issues with weight tracking. Taylor currently lives alone in a one-bedroom apartment and has been interested in monitoring weight as part of a general health awareness routine. The decision between a smart scale and a basic scale came up because both options are readily available at local stores and online retailers, with various models spanning different price ranges in each category. Smart scales typically connect to smartphone apps and can track weight over time, while basic scales simply display the current weight on a digital or analog readout. Taylor has no strong preference for either type and is gathering opinions from family and friends before making a purchase. James has always been willing to share experiences and advice with Taylor, and the two have a close relationship where they frequently discuss everyday decisions. The conversation about scales happened naturally when Taylor mentioned needing to replace an old scale that had stopped working. Taylor tends to research purchases carefully and appreciates hearing different perspectives before spending money, even on relatively small household items. The family has a habit of sharing product recommendations and warnings with each other, viewing it as helpful rather than intrusive. Smart scales are more expensive than basic scales.",
+    "cq_labels": [
+      "undermining",
+      "demolishing",
+      "demolishing",
+      "neutral",
+      "neutral"
+    ],
+    "avg": "1.3",
+    "tier": 0
+  },
+  {
+    "id": "18772",
+    "s_id": "18",
+    "situation": "Robin, a colleague of yours, is wondering whether to rent a small apartment near work in the city or a larger place farther away in the suburbs. Noa, another colleague, argues:",
+    "topic": "Life-style",
+    "a_id": "77",
+    "dataset": "2",
+    "text": "If you work late hours, shorter comutes cut daily stress. ",
+    "label (automated)": "weak",
+    "critical questions": [
+      "Does Robin work late hours?  ",
+      "Is reducing daily stress a goal for Robin?  ",
+      "Would a shorter commute actually cut daily stress for Robin?  ",
+      "Could the stress from a smaller place outweigh the stress saved by a shorter commute for Robin?  ",
+      "Could the stress from living in the city outweigh the stress saved by a shorter commute for Robin?  ",
+      "Could other factors, such as the difference in price, be other sources of stress for Robin?  ",
+      "Are there other aspects of city or suburban living that contribute to stress for Robin?"
+    ],
+    "scheme": "Practical Reasoning",
+    "answers": [
+      "Robin typically leaves the office by 5 PM and rarely stays past regular business hours.",
+      "It's not clear whether reducing daily stress is a goal for Robin.",
+      "Commuting does not seem to be a source of Robin's stress, so it's not clear that a shorter commute would cut their daily stress.",
+      "No, Robin has no problem with smaller spaces, and it's not clear that a shorter commute would reduce Robin's stress.",
+      "It's not clear whether living in the city would be more stressful for Robin than the shorter commute would relieve.",
+      "Price does not appear to be a source of stress for Robin, since Robin can comfortably afford either option with similar money left over.",
+      "Robin hasn't said that any other aspect of city or suburban living contributes to their stress."
+    ],
+    "neutral_context": "Robin has been considering a change in living situation after their current lease came up for renewal. The two options under consideration are a compact one-bedroom apartment located in the urban core and a more spacious two-bedroom place in a residential suburban area. Both properties became available around the same time, and Robin has toured each one twice to get a better sense of the spaces. The city apartment is on the third floor of a converted warehouse building with exposed brick walls and large windows, while the suburban option is a ground-floor unit in a newer complex with its own small patio. Robin has worked at the same company for four years and has a stable position with predictable income. Noa and Robin have been colleagues for about two years and often discuss personal decisions over lunch, with Noa generally being someone who enjoys offering advice on practical matters. Robin tends to be methodical about big decisions and has been weighing this choice for several weeks, gathering input from various friends and coworkers. The lease terms for both apartments are similar, with standard twelve-month agreements and comparable security deposit requirements. Robin currently lives with a roommate in a mid-sized apartment but is looking to live alone for the first time in several years. The move would need to happen within the next month regardless of which option Robin chooses, as the current lease expires at the end of that period. Both neighborhoods have grocery stores, restaurants, and other basic amenities within reasonable distance, though the character of the available businesses differs between the urban and suburban locations.",
+    "cq_labels": [
+      "undermining",
+      "undermining",
+      "undermining",
+      "undermining",
+      "neutral",
+      "neutral",
+      "undermining"
+    ],
+    "avg": "1.0",
+    "changed_questions": {
+      "6": {
+        "original_question": "Are there other aspects of city or suburban living that are important to Robin besides commuting time?",
+        "new_question": "Are there other aspects of city or suburban living that contribute to stress for Robin?"
+      }
+    },
+    "tier": 0
+  }
+]

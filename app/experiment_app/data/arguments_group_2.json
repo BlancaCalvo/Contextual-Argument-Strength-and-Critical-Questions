@@ -1,0 +1,263 @@
+[
+  {
+    "id": "271201",
+    "s_id": "27",
+    "situation": "Robin, a colleague, is wondering if they should buy a robot vacuum or a manual vacuum. Sam, another colleague, argues:",
+    "topic": "Technology",
+    "a_id": "120",
+    "dataset": "1",
+    "text": "Health guides say frequent vacuuming reduces dust, and robots make daily cleaning more likely. ",
+    "label (automated)": "reasonable",
+    "critical questions": [
+      "Which health guides do Robin refer to? Who are the authors? Are the authors health experts?",
+      "Does house dust harm Robin's health? What evidence supports that claim? How much dust is considered unhealthy?",
+      "Do the authors or sponsors of those guides have any self-interest related to selling robot vacuums?",
+      "What, exactly, do those guides state about vacuuming frequency and health? If the exact wording can't be checked, does the claim given appear incomplete or out of context?",
+      "Could a person still achieve daily cleaning with a manual vacuum?",
+      "Could daily cleaning have any negative consequences for Robin?",
+      "Does vacuuming more frequently actually reduce dust levels significantly for Robin?",
+      "Could robot vacuums have any disadvantage for Robin's health? And for Robin's frequent cleaning?"
+    ],
+    "scheme": "Argument from Expert Opinion",
+    "answers": [
+      "Robin referred to a health guide published by a national respiratory health organization, and it was co-authored by a team that includes two pulmonologists and an indoor air quality researcher, who are health experts.",
+      "House dust appears to irritate Robin at times, supported by Robin\u2019s occasional sneezing and nasal congestion after extended periods without vacuuming and by the health guide\u2019s statement that removing dust and allergens can reduce respiratory irritation, and it is not clear how much dust is considered unhealthy.",
+      "There is no indication of self-interest in selling robot vacuums, since the guide was published by a nonprofit funded mainly by donations and government research grants and was co-authored by pulmonologists and an indoor air quality researcher.",
+      "The guide says vacuuming at least two to three times per week is recommended for households with allergy-prone individuals because regular removal of dust and allergens can help reduce respiratory irritation, and a claim implying the guide says daily vacuuming is needed would be incomplete.",
+      "Yes, a person could still achieve daily cleaning with a manual vacuum.",
+      "Daily cleaning with a low-effort automated routine is unlikely to have meaningful negative consequences for Robin.",
+      "Yes, vacuuming regularly at least two to three times per week can help reduce dust and allergens for Robin.",
+      "For Robin\u2019s health, running a robot vacuum is unlikely to create meaningful negative consequences from the routine itself, and for frequent cleaning its disadvantage is that it is somewhat less effective than a manual vacuum at deep-cleaning the living room rug."
+    ],
+    "neutral_context": "Robin and Sam work together and occasionally chat about household matters during breaks. Robin has been thinking about upgrading cleaning equipment and mentioned the decision between a robot vacuum and a traditional manual vacuum. Robin lives alone in an apartment with predominantly hardwood flooring and a medium-sized area rug in the living room. Robin works full-time and has mentioned that evenings after work often feel draining, though Robin has managed to maintain some daily habits like brief exercise routines. Robin experiences mild seasonal allergies and has noticed occasional sneezing and nasal congestion after going extended periods without vacuuming, though Robin has never received a formal diagnosis for any dust-related respiratory condition. Sam brought up a health guide during their conversation, which was published by a national respiratory health organization. This nonprofit organization receives its funding primarily through individual donations and government research grants rather than corporate sponsorships from appliance companies. The guide was co-authored by a team that includes two pulmonologists and an indoor air quality researcher. The guide recommends vacuuming at least two to three times per week for households with allergy-prone individuals, noting that regular removal of dust and allergens can help reduce respiratory irritation, though it does not indicate that daily vacuuming is necessary for most people. Robot vacuums as a product category generally handle hardwood floors effectively, though they tend to be somewhat less capable at deep-cleaning rugs compared to manual vacuums, although repeated passes can remove surface-level dust and debris from medium-pile rugs. Robin has not experienced issues with fatigue or burnout from maintaining the existing brief daily exercise routine.\n\nThe robot vacuum costs $200. A manual one costs $150.",
+    "cq_labels": [
+      "favorable",
+      "favorable",
+      "neutral",
+      "favorable",
+      "favorable",
+      "favorable",
+      "neutral",
+      "favorable"
+    ],
+    "avg": "3.5",
+    "changed_questions": {
+      "7": {
+        "original_question": "Do robot vacuums have any disadvantages that Robin should take into account?",
+        "new_question": "Could robot vacuums have any disadvantage for Robin's health? And for Robin's frequent cleaning?"
+      }
+    },
+    "tier": 2
+  },
+  {
+    "id": "6251",
+    "s_id": "6",
+    "situation": "Alex, a neighbour, is renovating their hallway and is wondering whether to lay plank flooring along the hallway or across it. Charlie, another neighbour, argues:",
+    "topic": "House",
+    "a_id": "25",
+    "dataset": "1",
+    "text": "Like stripes on clothes, planks running along the hall make it look longer. ",
+    "label (automated)": "strong",
+    "critical questions": [
+      "Do stripes on clothes people look longer?  ",
+      "Are there relevant differences between clothing and plank flooring that might make the effect differ?  ",
+      "Does laying planks along the hallway actually make the hallway appear longer?  ",
+      "Does Alex want the hallway to look longer?  ",
+      "Are there other factors that matter more to Alex than appearance?"
+    ],
+    "scheme": "Argument from Analogy",
+    "answers": [
+      "Yes, vertical stripes on clothing make people look longer.",
+      "No, the interior designer said the same directional line effect applies in both clothing and plank flooring.",
+      "Yes, laying the planks along the hallway\u2019s length makes the space appear noticeably longer.",
+      "Yes, Alex seems to want it to look longer.",
+      "No, appearance is what matters most to Alex."
+    ],
+    "neutral_context": "Alex has lived in the neighbourhood for several years and recently decided to renovate the hallway of their home. The hallway connects the front entrance to the main living areas and sees regular foot traffic from family members and visitors. The renovation project has been in the planning stages for a few months, and Alex has already selected a plank flooring material in a mid-tone wood finish that complements the existing d\u00e9cor throughout the house.\n\nCharlie lives a few doors down and has known Alex casually through typical neighbourhood interactions\u2014occasional chats while collecting mail or during community events. When Charlie learned about the renovation project during a recent conversation, they offered their opinion on the flooring direction, as many neighbours tend to share home improvement advice with one another.\n\nAlex is notably short in stature and has developed personal style preferences over the years, regularly choosing clothing with vertical stripes because they find such patterns create a flattering elongating effect on their appearance. The hallway in question is a standard residential corridor that Alex has described to neighbours as feeling somewhat cramped, specifically noting concerns about its narrow width rather than its length.\n\nFor this renovation, Alex consulted with an interior designer who provided professional guidance on various aspects of the project. The budget Alex allocated for the flooring work comfortably accommodates the project regardless of which direction the planks are laid, since the total number of planks required and the labour costs for installation remain the same whether the flooring runs lengthwise or crosswise. The interior designer confirmed that the same directional principles used in fashion regarding stripe orientation apply to flooring and interior spaces, with parallel lines capable of guiding the eye and affecting spatial perception. Alex now faces the decision of which orientation to choose for the new plank flooring.",
+    "cq_labels": [
+      "irrefutable",
+      "favorable",
+      "irrefutable",
+      "neutral",
+      "neutral"
+    ],
+    "avg": "3.3",
+    "tier": 2
+  },
+  {
+    "id": "12531",
+    "s_id": "12",
+    "situation": "Charlie, a parent of yours, is wondering whether to build a wooden bed frame or buy a ready-made one. Ren, your sibling, argues:",
+    "topic": "House",
+    "a_id": "53",
+    "dataset": "1",
+    "text": "If it\u2019s built poorly, the bed could wobble or even collapse. ",
+    "label (automated)": "strong",
+    "critical questions": [
+      "How likely is it that the bed will collapse specifically due to Charlie's self-built wooden frame?  ",
+      "How likely is it that Charlie's self-built bed frame would be built poorly?  ",
+      "How likely is it that the bed will wobble specifically due to Charlie's self-built wooden frame?  ",
+      "What experience does Charlie have in constructing bed frames?  ",
+      "Have any other bed frames built by Charlie ever collapsed or wobbled?  ",
+      "How dangerous would it be if the bed wobbled or collapsed?  ",
+      "Could a ready-made bed also wobble or collapse, and is it less likely?  ",
+      "Can a poorly built frame be fixed or reinforced if problems arise?  ",
+      "Are there advantages of Charlie building the bed that would make the risks worth it?  ",
+      "Are there disadvantages of buying the bed that would make the risks worth it?"
+    ],
+    "scheme": "Argument from Danger Appeal",
+    "answers": [
+      "It's not clear how likely collapse is, but a self-built frame by Charlie would carry a real risk of structural failure.",
+      "It is likely that Charlie's self-built bed frame would be built poorly.",
+      "It's likely to wobble if Charlie builds it, given Charlie's lack of experience with joinery and load-bearing furniture construction.",
+      "Charlie has never built a bed frame or any similar weight-bearing furniture before.",
+      "No, Charlie has never built any other bed frames.",
+      "It's not clear how dangerous it would be if the bed wobbled or collapsed.",
+      "Yes, a ready-made bed can wobble or collapse, and it's not clear whether it is less likely.",
+      "Yes, a poorly built frame can sometimes be fixed or reinforced, though doing so can be difficult without experience and basic household tools may be insufficient.",
+      "The possible advantages are the satisfaction of building a functional piece of furniture personally and the chance to make it in a size that better maximizes the room space.",
+      "Yes, buying the bed might mean Charlie cannot get the perfect size to maximize the space in the room."
+    ],
+    "neutral_context": "Charlie has been considering replacing an old bed frame in the bedroom of their single-story home. The current frame has served its purpose for years, but Charlie feels it's time for something new. Recently, Charlie has been watching online videos about DIY furniture projects and has become intrigued by the idea of building a bed frame from scratch using pine wood, which is readily available at local hardware stores. Charlie's experience with furniture has been limited to assembling flat-pack items by following the included instructions\u2014the kind of projects that involve an Allen wrench and labeled parts. The household contains a basic set of tools: a hammer, screwdrivers, a handsaw, and similar items that most people keep around for general repairs. Ren, Charlie's child, has been part of the ongoing family discussion about whether Charlie should take on this woodworking project or simply purchase a ready-made bed frame from a furniture store. The bedroom where the bed would go is a modestly sized room on the ground floor, nothing elaborate. Charlie has expressed that there's something appealing about the idea of sleeping on furniture built with one's own hands, though the family continues to weigh the different options. The local furniture stores carry various bed frame options at different price points, and Charlie has browsed a few of them. Meanwhile, the DIY approach would involve purchasing lumber, hardware, and potentially some additional supplies. The family discussions have touched on various practical considerations as Charlie tries to decide which direction to go with this home project.\n\nA ready-made frame bed costs around $250. The material for building a frame bed would be around $50, but that's excluding tools.",
+    "cq_labels": [
+      "favorable",
+      "irrefutable",
+      "neutral",
+      "irrefutable",
+      "irrefutable",
+      "neutral",
+      "neutral",
+      "favorable",
+      "favorable",
+      "favorable"
+    ],
+    "avg": "3.2",
+    "tier": 1
+  },
+  {
+    "id": "291281",
+    "s_id": "29",
+    "situation": "Charlie, a teammate of yours, is wondering if they should adopt a pet now or wait until their schedule is lighter. Jordan, another teammate, argues:",
+    "topic": "Life-style",
+    "a_id": "128",
+    "dataset": "1",
+    "text": "Adopting gives a homeless animal a stable home, which is good.",
+    "label (automated)": "not supported",
+    "critical questions": [
+      "Is giving a homeless animal a stable home a good thing?  ",
+      "Could Charlie's heavy schedule prevent their adoption from being a good thing?  ",
+      "Has Charlie thought about ways to make sure the pet would still have a stable home given their busy schedule?  ",
+      "Are there other ways for Jordan to support homeless animals without adopting one immediately?"
+    ],
+    "scheme": "Argument from Values",
+    "answers": [
+      "Yes, providing a homeless animal a stable home is generally considered a good thing.",
+      "Yes, Charlie\u2019s heavy schedule could make it hard to provide consistent care and attention, so the adoption might not be a good thing for the pet.",
+      "Charlie has not researched or arranged any backup care options to help ensure a stable home during their busy schedule.",
+      "Yes, Jordan could support homeless animals by volunteering, fostering, or donating through the local shelter."
+    ],
+    "neutral_context": "Charlie and Jordan work together on the same team and have developed a friendly rapport that extends beyond purely professional matters. Recently, Charlie has been contemplating the idea of getting a pet and has mentioned this interest to colleagues during casual conversations. Jordan, who has opinions about pet adoption, has weighed in on the decision. Charlie's job involves a demanding schedule with travel requirements and extended working hours, which is common knowledge among their teammates. In exploring the possibility of pet ownership, Charlie visited a local animal shelter to learn more about the adoption process and what it entails. The shelter provided Charlie with information about their policies, the animals available for adoption, and various programs they offer to the community. Charlie has been open with teammates about the details of their work demands and has shared what they learned during the shelter visit. The decision about when to adopt a pet is one Charlie is actively thinking through, weighing different considerations as they come up in conversations with friends and coworkers like Jordan. The local shelter serves as a resource for community members interested in animal welfare and maintains various programs for different levels of involvement. Charlie has not yet made a final decision about timing and continues to discuss the matter with people in their life.\n\nTaking care of a dog costs around $50 a month. Charlie can afford this.",
+    "cq_labels": [
+      "undermining",
+      "demolishing",
+      "demolishing",
+      "neutral"
+    ],
+    "avg": "1.2",
+    "tier": 0
+  },
+  {
+    "id": "3111",
+    "s_id": "3",
+    "situation": "Taylor, your cousin, just moved to a new city and is trying to budget, and is debating whether to rent a small studio and live alone or to live with roommates to save more. Sky, a friend of Taylor\u2019s, argues:",
+    "topic": "Finance",
+    "a_id": "11",
+    "dataset": "1",
+    "text": "A studio costs more each month, which slows building an emergency fund and other goals. ",
+    "label (automated)": "not supported",
+    "critical questions": [
+      "What other goals does Taylor have that depend on monthly savings?  ",
+      "Is building an emergency fund one of Taylor's current goals? What is the current state of Taylor's emergency fund?  ",
+      "Given Taylor's budget, would renting a studio slow the rate at which he builds an emergency fund?  ",
+      "Based on Taylor's income and expenses, would paying more to live alone slow progress on these goals compared to living with roommates?  ",
+      "Are there additional costs of living with roommates, such as shared expenses or conflicts leading to unexpected moves?  ",
+      "Does living alone offer benefits that could indirectly save Taylor money, such as better sleep or focus for work?"
+    ],
+    "scheme": "Argument from Consequences",
+    "answers": [
+      "Taylor wants to save for a trip to visit family next year and eventually for a career-related certification course.",
+      "No, Taylor's current goals are saving for a trip next year and eventually taking a certification course, and Taylor's emergency fund already holds about three months of living expenses, which Taylor considers enough for now.",
+      "No, renting a studio would not slow the rate at which Taylor builds an emergency fund.",
+      "No, Taylor's out-of-pocket housing cost would be the same either way, so living alone would not slow progress on those goals compared to living with roommates.",
+      "It's not clear whether there would be shared expenses, but Taylor's friend had to move unexpectedly from a shared flat after a conflict, costing them nearly two months' rent in overlapping lease payments and moving expenses.",
+      "No, Taylor's sleep and work focus have stayed consistent in both shared and solo living situations."
+    ],
+    "neutral_context": "Taylor recently relocated to a new city after accepting a job offer and is now working through the practical decisions that come with setting up life in an unfamiliar place. The move was planned in advance, giving Taylor time to build up savings before arriving\u2014currently about three months' worth of living expenses sit in a savings account, which provides some financial cushion during the transition. Beyond the immediate concerns of settling in, Taylor has been thinking about longer-term plans: a trip back home next year to visit family, and eventually enrolling in a certification course that could help with career advancement.\n\nTaylor's new employer offers a housing stipend as part of the compensation package, a benefit that factored into Taylor's decision to take the position. The local rental market includes both studio apartments and shared living arrangements at various price points throughout the city.\n\nSky, a friend of Taylor's, has been offering input on the housing decision. Taylor also has another close friend who went through a roommate situation in the same city last year\u2014that friend ended up moving out after three months following a disagreement over guests and noise levels, which resulted in overlapping lease payments and moving costs totaling nearly two months' rent.\n\nDuring college, Taylor experienced both shared housing and living alone at different points, providing some baseline familiarity with each arrangement. Taylor's sleep patterns and ability to focus on work remained steady across those different living situations.\n\nThe decision between a studio and roommates involves weighing various factors: personal space and independence against potential social connection, the logistics of shared versus solo living, and how each option fits into Taylor's overall plans for this new chapter. Taylor is approaching the choice methodically, gathering perspectives from friends while trying to think through the financial and lifestyle implications of each path.",
+    "cq_labels": [
+      "neutral",
+      "neutral",
+      "demolishing",
+      "demolishing",
+      "demolishing",
+      "neutral"
+    ],
+    "avg": "1.0",
+    "tier": 0
+  },
+  {
+    "id": "15612",
+    "s_id": "15",
+    "situation": "Jordan, a neighbour of yours, is wondering if they should choose whole-grain pasta or regular pasta for their meals. Casey, another neighbour, argues:",
+    "topic": "Food",
+    "a_id": "61",
+    "dataset": "2",
+    "text": "Many guidelines recommend making about half your grains whole for better overall health.",
+    "label (automated)": "weak",
+    "critical questions": [
+      "Which specific guidelines are being cited, and who authored them?  ",
+      "Are the authors of those guidelines experts in nutrition or public health?  ",
+      "Do the authors or their institutions have any conflicts of interest related to recommending whole grains?  ",
+      "What do the guidelines say exactly? If the exact wording can't be checked, does the claim given appear incomplete or out of context?  ",
+      "Is the recommendation supported by scientific evidence?  ",
+      "Do most qualified scientists or relevant professional bodies agree with this recommendation?  ",
+      "Is the recommendation consistent with the current evidence base in nutrition science?  ",
+      "How do these guidelines define overall health?  ",
+      "Is health a priority for Jordan?  ",
+      "Does \"better overall health\" apply to everyone, regardless of individual health conditions?  ",
+      "Does the recommendation apply equally to all types of meals and diets?  ",
+      "What is meant by \"better overall health\"?"
+    ],
+    "scheme": "Argument from Expert Opinion",
+    "answers": [
+      "It's not clear which specific guidelines were being cited, and Casey cannot recall who authored them.",
+      "They are typically developed by experts in nutrition or public health.",
+      "It's not clear whether the authors or their institutions had any conflicts of interest related to recommending whole grains.",
+      "The exact wording can't be checked, and the claim \"about half your grains whole\" appears incomplete or out of context because Casey remembers it only as an imprecise paraphrase and cannot recall the qualifiers or population-specific context.",
+      "A recent systematic review found that the evidence supporting whole grain recommendations is of moderate to low quality.",
+      "It's not clear whether most qualified scientists or relevant professional bodies agree with that recommendation.",
+      "It's not clear whether it is fully consistent with the current evidence base, since some whole-grain recommendations have been criticized and the supporting evidence for specific health outcomes is described as moderate to low quality.",
+      "It's not clear how overall health was defined, and the article did not specify how it was measured.",
+      "It's not clear whether health is a priority for Jordan.",
+      "No, recommendations like this are typically aimed at the general healthy population and may need adjustment for people with certain digestive conditions.",
+      "No, recommendations like this often include qualifiers based on portion sizes, individual dietary needs, and specific populations.",
+      "It's not clear what \"better overall health\" means, though it likely refers to some combination of outcomes such as heart health, digestive function, or disease risk."
+    ],
+    "neutral_context": "Jordan and Casey live in the same neighbourhood and occasionally chat when they run into each other. Jordan has been thinking about making some changes to their regular grocery shopping and recently mentioned considering whether to switch from regular pasta to whole-grain pasta. Casey, who enjoys reading health and lifestyle magazines, recalled seeing something about whole grains in an article they read some time ago and shared what they remembered during a recent conversation.\n\nJordan prepares most of their meals at home and has mentioned to neighbours that they aim for balanced eating, though they've never gone into detail about exactly what factors matter most to them when deciding what to buy. Like many people, Jordan juggles various considerations when shopping, including what sounds appealing, what fits into their schedule, and what works within their budget.\n\nCasey tends to pick up information from various sources and is generally interested in wellness topics, though they don't have any formal background in nutrition or health sciences. The magazine article Casey read was encountered casually rather than sought out for any particular purpose, and the specific publication and date have faded from memory.\n\nThe neighbourhood where they both live is a typical residential area where neighbours sometimes exchange friendly advice or recommendations about everyday matters like recipes, local services, or household tips. These conversations are usually informal and brief, happening during chance encounters while checking mail or walking dogs.\n\nThe pasta decision is one of many small food choices Jordan makes regularly as part of their routine meal planning.\n\nWhole-grain pasta costs double than regular pasta.",
+    "cq_labels": [
+      "undermining",
+      "neutral",
+      "neutral",
+      "undermining",
+      "undermining",
+      "undermining",
+      "undermining",
+      "neutral",
+      "neutral",
+      "undermining",
+      "undermining",
+      "undermining"
+    ],
+    "avg": "1.8",
+    "tier": 1
+  }
+]

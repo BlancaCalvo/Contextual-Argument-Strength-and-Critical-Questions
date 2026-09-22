@@ -1,0 +1,12 @@
+import reflex as rx
+import os
+
+
+config = rx.Config(
+    app_name="experiment_app",
+    plugins=[
+        rx.plugins.SitemapPlugin(),
+        rx.plugins.TailwindV4Plugin(),
+    ],
+    stylesheets=["custom.css"]
+)

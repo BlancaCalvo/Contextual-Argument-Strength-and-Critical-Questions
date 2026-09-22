@@ -1,0 +1,227 @@
+[
+  {
+    "id": "141",
+    "s_id": "1",
+    "situation": "Sam, a roommate of yours, is wondering if they should buy a small rice cooker or keep using ready-made rice packets. Morgan, a friend, argues:",
+    "topic": "Food",
+    "a_id": "4",
+    "dataset": "1",
+    "text": "A rice cooker is better because cooking plain rice at home allows controling salt and oil, which supports healthy eating. ",
+    "label (automated)": "reasonable",
+    "critical questions": [
+      "Is healthy eating a priority for Sam?  ",
+      "Is buying a rice cooker the only option for Sam to cook rice at home?  ",
+      "Can salt and oil be controlled even if Sam is not cooking the rice at home?  ",
+      "Do salt and oil influence the healthiness of the rice?  ",
+      "Do ready-made rice packets actually contain significant amounts of salt or oil?  ",
+      "Are there other consequences of buying a rice cooker that are as important for Sam as health?"
+    ],
+    "scheme": "Argument from Values",
+    "answers": [
+      "Yes, Sam has been paying closer attention to dietary habits and monitoring sodium intake as part of managing blood pressure.",
+      "No, Sam can cook rice on the stovetop at home.",
+      "Sam has not found any pre-cooked rice option that lets him control the salt, and it\u2019s not clear whether he can control the oil.",
+      "Yes, added salt affects how healthy it is for Sam because reducing sodium could help manage blood pressure, and some ready-made rice packets sometimes include oil in their seasoning.",
+      "Many ready-made rice packets Sam checked contain added sodium, and some include oil or butter in their seasoning.",
+      "It's not clear whether any consequence is as important to Sam as health."
+    ],
+    "neutral_context": "Sam shares an apartment with a roommate and has been paying closer attention to dietary habits lately. After a routine check-up revealed slightly elevated blood pressure, Sam began using a tracking app to monitor daily sodium intake, logging amounts in milligrams. The doctor advised that reducing sodium could help manage blood pressure and pointed out that even small amounts of added salt in processed foods can accumulate throughout the day.\n\nCurrently, Sam relies on ready-made rice packets for convenience. When checking nutrition labels at the grocery store, Sam noticed these packets list sodium content in milligrams and that many contain added sodium, with some also including oil or butter in their seasoning. The sodium levels vary between different brands available at the store.\n\nSam has some history with cooking rice at home. Previous attempts on the stovetop proved frustrating, as the results were inconsistent\u2014sometimes the rice turned out too mushy, other times undercooked. These experiences have made Sam hesitant about preparing rice without specialized equipment.\n\nThe apartment where Sam lives has enough counter space to fit a small rice cooker if Sam decided to purchase one. The nearest grocery store that carries ready-made rice packets is conveniently located just a five-minute walk from the apartment.\n\nMorgan, a friend of Sam's, has been part of recent conversations about this decision. The question of whether to invest in a rice cooker or continue with the current routine of buying ready-made packets has come up as Sam thinks through everyday food choices. Sam is weighing different aspects of this decision as part of broader considerations about daily eating habits.\n\nThe rice cooker Sam has considered costs $30. Ready-made packets are $1 each.\n\nSam eats rice daily.",
+    "cq_labels": [
+      "favorable",
+      "favorable",
+      "favorable",
+      "favorable",
+      "neutral",
+      "neutral"
+    ],
+    "avg": "3.7",
+    "changed_questions": {
+      "5": {
+        "original_question": "Are there other factors beyond health, such as cost, time, or convenience, that should also be considered?",
+        "new_question": "Are there other consequences of buying a rice cooker that are as important for Sam as health?"
+      }
+    },
+    "tier": 2
+  },
+  {
+    "id": "11481",
+    "s_id": "11",
+    "situation": "Alex, a neighbour of yours, is upgrading their kitchen and is wondering if they should choose an electric pepper grinder or a manual pepper grinder. Riley, another neighbour, argues:",
+    "topic": "Food",
+    "a_id": "48",
+    "dataset": "1",
+    "text": "Many home cooks still use manual grinders, suggesting they hold up well. ",
+    "label (automated)": "weak",
+    "critical questions": [
+      "Are there other reasons that explain why many home cooks still use manual grinders, other than that they hold up well?  ",
+      "Could manual grinders fail to hold up well even if many home cooks use them?  ",
+      "Do other types of cooks also use manual grinders?  ",
+      "How does Riley know many home cooks still use manual grinders?  ",
+      "Does the fact that people still use manual grinders mean they are actually better than electric ones?  ",
+      "Does a grinder \"holding up well\" make it the right choice for Alex's needs?"
+    ],
+    "scheme": "Argument from Popular Practice",
+    "answers": [
+      "Yes, many home cooks still use manual grinders because they already own them and do not feel a pressing need to spend money on an electric replacement.",
+      "Yes, a significant portion of home cooks using manual grinders report mechanism wear and inconsistent grind quality after two to three years of regular use.",
+      "Yes, professional chefs in restaurants and culinary students in training kitchens use manual grinders too.",
+      "Riley learned it from a lifestyle magazine article reporting kitchen tool usage trends from a national consumer survey.",
+      "No, people still use manual grinders largely because they already own them and do not feel a need to spend money on an electric replacement.",
+      "Not necessarily, since Alex values convenience and dislikes tools that require extra effort or produce inconsistent results."
+    ],
+    "neutral_context": "Alex and Riley live on the same street in a quiet residential neighbourhood where conversations between neighbours often happen over fences or during evening walks. Alex has been planning a kitchen renovation for several months now, gradually making decisions about appliances and tools to include in the updated space. The pepper grinder question came up during a casual chat when Riley stopped by to see how the renovation plans were progressing. Riley had recently read a lifestyle magazine that featured an article about kitchen tool trends, which included data from a national consumer survey about what equipment people keep in their homes. This survey tracked ownership patterns among home cooks across the country. Manual pepper grinders have been a kitchen staple for decades, while electric versions have become more widely available in recent years at various price points. Both types can be found in kitchens belonging to home cooks, professional chefs working in restaurants, and culinary students learning their craft in training kitchens. Alex cooks regularly and has been thoughtful about which tools to include in the new kitchen setup, having already made decisions about other items like cutting boards and mixing bowls. The pepper grinder is one of the remaining choices on the list. Kitchen renovations like this one typically involve many such decisions, as homeowners weigh options for everything from major appliances to smaller accessories. Riley, who takes an interest in home and lifestyle topics, has been offering occasional input throughout the planning process based on articles and information encountered in various publications.\n\nA manual grinder costs around $3. An electric grinder cost around $10.",
+    "cq_labels": [
+      "undermining",
+      "undermining",
+      "neutral",
+      "neutral",
+      "undermining",
+      "undermining"
+    ],
+    "avg": "2.0",
+    "tier": 1
+  },
+  {
+    "id": "5212",
+    "s_id": "5",
+    "situation": "Riley, a friend of yours, is about to launch an online workshop and is wondering if they should start with a free trial or charge a small fee from day one. Jordan, another friend, argues:",
+    "topic": "Business",
+    "a_id": "21",
+    "dataset": "2",
+    "text": "A mentor who has launched similar workshops says starting free helps gather early users quickly.",
+    "label (automated)": "not supported",
+    "critical questions": [
+      "How similar are the workshops that the mentor launched to the one Riley plans to launch?  ",
+      "What evidence supports Jordan's claim that starting free helps gather early users quickly?  ",
+      "Have others who started free run into problems or mixed outcomes?  ",
+      "Are there downsides or risks of starting free?  ",
+      "Who is this mentor, and can Riley rely on them?  ",
+      "Is gathering users quickly the main goal of Riley? If not, does gathering users quickly necessarily translate into Riley's goal? Did that happen in the case of the mentor?  ",
+      "Are there any examples of workshops in the same field that successfully started with a small fee instead?"
+    ],
+    "scheme": "Argument from Analogy",
+    "answers": [
+      "They are not very similar: the mentor launched in-person cooking classes for retirees, while Riley plans an online software development workshop for working professionals.",
+      "The mentor gathered approximately 40 participants within the first two weeks of offering free sessions.",
+      "Yes, the mentor started free and had poor results, converting only 3 of 40 participants into paying customers and later calling the strategy a mistake.",
+      "Yes, starting free can attract people unwilling to pay, damage perceived value, lead to poor conversion when charging later, and generate negative reviews about the switch to paid.",
+      "The mentor is Jordan\u2019s contact who has run in-person cooking classes for retirees for about eight years and is well-known in the local community.",
+      "No; Riley\u2019s main goal is an economically sustainable business, and gathering users quickly does not necessarily translate into that goal, as the mentor quickly gathered about 40 free participants but only 3 converted to paying customers.",
+      "Yes, a competitor in the online software development workshop field charged a modest fee from day one and enrolled 85 paying students in the first month with a 92% retention rate through completion."
+    ],
+    "neutral_context": "Riley has been working in the software development industry for several years and recently decided to create an online workshop teaching programming skills to other working professionals looking to advance their careers. The workshop would be delivered entirely online, allowing participants to learn at their own pace while balancing their full-time jobs. Riley has spent months developing the curriculum and is now at the point of deciding on a launch strategy.\n\nJordan is a friend who has been offering advice throughout the planning process. Jordan knows a mentor who has been involved in the workshop business for approximately eight years and has built a reputation in their local community for their teaching approach. This mentor previously launched in-person cooking classes targeted at retirees in the area.\n\nThe online education market for professional skills has grown considerably in recent years, with various instructors and organizations offering courses in technical subjects. Working professionals represent a distinct audience segment, typically characterized by limited free time, specific career advancement goals, and established incomes. Online delivery differs from in-person instruction in several ways, including how participants discover courses, the nature of the learning experience, and the geographic reach of potential students.\n\nRiley has been thinking carefully about the business model for the workshop, considering factors like pricing structure, marketing approach, and long-term sustainability. The decision between starting free versus charging from the beginning represents a fundamental strategic choice that will shape the early trajectory of the venture. Other instructors have taken various approaches when launching similar educational offerings in the technology space, with different results depending on their specific circumstances and execution.",
+    "cq_labels": [
+      "demolishing",
+      "neutral",
+      "undermining",
+      "demolishing",
+      "neutral",
+      "undermining",
+      "demolishing"
+    ],
+    "avg": "1.2",
+    "tier": 0
+  },
+  {
+    "id": "11432",
+    "s_id": "11",
+    "situation": "Jay, a close friend of yours, is learning Korean and wonders: when watching shows in Korean, should they use subtitles in Korean or watch without subtitles? Noa, another friend, argues:",
+    "topic": "Education",
+    "a_id": "43",
+    "dataset": "2",
+    "text": "Subtitles help learning spelling and noticing grammar patterns that could be missed by ear.",
+    "label (automated)": "reasonable",
+    "critical questions": [
+      "Is learning spelling and grammar Jay's goal when watching series in the target language?  ",
+      "Could the subtitles distract Jay from achieving other goals which are important to them?  ",
+      "Are there studies that actually confirm subtitles improve language learning outcomes?  ",
+      "Does this advice apply for any kind of show?  ",
+      "Are the subtitles accurately translated and correctly reflect the spoken language?"
+    ],
+    "scheme": "Practical Reasoning",
+    "answers": [
+      "Yes, Jay\u2019s goal is to improve written Korean, especially spelling and grammar accuracy.",
+      "It\u2019s not clear that subtitles would distract Jay from any other goals that are important to them.",
+      "Yes, several studies found that learners tend to perform better on vocabulary spelling tests after watching shows with subtitles, though the reported effects varied.",
+      "It\u2019s not clear that it applies equally to every kind of show.",
+      "The subtitles are same-language subtitles taken directly from the original scripts prepared by native Korean speakers, so they are not translations and are intended to match the spoken dialogue."
+    ],
+    "neutral_context": "Currently, Jay is studying to reach the B1 level.\n\nJay and Noa have been friends since college, where they bonded over their shared interest in foreign films and television. About eight months ago, Jay decided to seriously commit to learning Korean, motivated partly by a growing circle of online friends who are native speakers. These friendships have blossomed through text-based conversations on messaging apps, where Jay exchanges messages daily about everything from weekend plans to recommendations for music and restaurants. Jay typically watches two or three episodes of shows in Korean each week, usually in the evening after work as a way to unwind while still engaging with the language. The streaming service Jay subscribes to offers an extensive library of content from countries where Korean is spoken, with options to toggle subtitles on or off. Noa, who learned a second language themselves several years ago through a combination of classes and immersion, often shares opinions about language learning strategies with Jay. The two frequently discuss Jay's progress over coffee, debating different approaches and techniques. Jay's current routine involves watching dialogue-heavy content\u2014primarily dramas centered on workplace dynamics and comedies about friend groups navigating everyday life. These shows feature characters having conversations about ordinary topics like making appointments, discussing relationships, and planning social gatherings. The subtitles available on Jay's streaming platform are synchronized to match the audio, appearing as characters speak and disappearing during silent moments. Jay has been tracking their language learning journey in a notebook, occasionally noting down phrases or expressions encountered while watching shows that seem useful for their conversations with native-speaking friends.",
+    "cq_labels": [
+      "favorable",
+      "favorable",
+      "favorable",
+      "favorable",
+      "neutral"
+    ],
+    "avg": "3.2",
+    "tier": 2
+  },
+  {
+    "id": "272",
+    "s_id": "2",
+    "situation": "Kay, a friend of yours, is packing for an upcoming trip and is wondering whether to use compression cubes or just stuff clothes loosely in their suitcase. Noa, another friend of yours, argues:",
+    "topic": "Clothes",
+    "a_id": "7",
+    "dataset": "2",
+    "text": "Many frequent travelers skip cubes and just stuff clothes into a liner bag.",
+    "label (automated)": "reasonable",
+    "critical questions": [
+      "What evidence shows that many frequent travelers skip cubes and stuff clothes into a liner bag?  ",
+      "Even if many travelers skip cubes, does that fact alone support the conclusion that Kay should skip cubes?  ",
+      "Does Kay's trip have any differences from these other travelers' trips which would make Noa's recommendation less valid?  ",
+      "Are frequent travelers' packing habits necessarily the best approach?"
+    ],
+    "scheme": "Argument from Popular Practice",
+    "answers": [
+      "A survey of 200 frequent flyers found that about 60% preferred using a simple liner bag and loosely packing clothes rather than compression cubes.",
+      "No, the fact that many travelers skip compression cubes by itself does not establish that Kay should skip them.",
+      "No, Kay's trip matches the typical short domestic carry-on trips those other travelers were taking.",
+      "No, frequent travelers' packing habits have practical validity from experience but are not universally optimal for every situation."
+    ],
+    "neutral_context": "Kay has been friends with Noa since college, and the two often exchange advice on practical matters ranging from cooking tips to travel logistics. Kay's upcoming trip is a short domestic flight, and like many travelers these days, Kay plans to bring only carry-on luggage to avoid checked bag fees and the wait at baggage claim. The suitcase Kay owns is a standard carry-on size that fits in overhead bins on most airlines. Kay has been reading various travel blogs lately, partly out of curiosity and partly to pick up useful tips before the trip. Compression cubes are zippered fabric pouches designed to organize and compact clothing inside luggage, while liner bags are simpler lightweight bags that can hold clothes without the compression feature. Kay doesn't travel frequently but tries to pack thoughtfully when trips do come up. Noa travels more often for work and has experimented with different packing methods over the years. The two were chatting about trip preparations when the topic of packing organization came up, and Noa shared thoughts on what approach might work well. Kay is generally open to suggestions but also likes to think through decisions rather than automatically following advice. The trip itself is nothing unusual\u2014a visit that many people take for similar purposes, lasting just a few days. Kay's wardrobe for the trip will include typical casual clothing appropriate for the destination and season. The conversation between Kay and Noa is friendly and low-stakes, the kind of everyday exchange where friends offer opinions on minor practical choices.\n\nKay does not own compression cubes, but they cost around $10 in the local store.",
+    "cq_labels": [
+      "favorable",
+      "favorable",
+      "favorable",
+      "favorable"
+    ],
+    "avg": "3",
+    "tier": 1
+  },
+  {
+    "id": "251141",
+    "s_id": "25",
+    "situation": "Sky, your partner, is wondering whether to buy a new or a used car. Taylor, a friend of yours, argues:",
+    "topic": "Finance",
+    "a_id": "114",
+    "dataset": "1",
+    "text": "If you buy used, you might pay cash and avoid taking a loan. ",
+    "label (automated)": "weak",
+    "critical questions": [
+      "Is paying cash or taking a loan strictly tied to whether Sky is buying a used or new car?  ",
+      "Does Sky have enough cash to purchase a used car?  ",
+      "Does Sky have enough cash to purchase a new car?  ",
+      "Is avoiding a loan a priority for Sky?  ",
+      "Could buying a used car bring unexpected costs that might still force Sky to take a loan?"
+    ],
+    "scheme": "Practical Reasoning",
+    "answers": [
+      "No, the loan can be used for either a new or used car, and Sky cannot pay cash outright for either one.",
+      "No, Sky does not have enough cash on hand to purchase a used car outright.",
+      "No, Sky does not have enough cash on hand to purchase a new car outright.",
+      "Yes, Sky generally prefers to minimize debt when possible.",
+      "Yes, a used car could bring repair or maintenance costs soon after purchase."
+    ],
+    "neutral_context": "Sky and Taylor have been friends since college, often turning to each other for advice on major decisions. Sky currently drives an older sedan that has become increasingly unreliable, prompting the search for a replacement vehicle. The car shopping process began a few weeks ago after Sky's current car broke down twice in one month. Sky lives in a suburban area where public transportation options are limited, making a personal vehicle essential for commuting to work and running daily errands. Taylor works in an unrelated field and has no professional expertise in automotive sales or financing, but enjoys discussing practical matters with friends. Sky recently dealt with some unexpected home repairs that required significant financial attention. Before starting the car search, Sky applied for and received pre-approval for a low-interest auto loan from their credit union, which can be used toward any vehicle purchase. Sky has been browsing both dealership lots and private seller listings online, trying to weigh the various options available in the current market. The local used car market includes vehicles ranging from relatively recent models to older cars that have accumulated considerable mileage. Sky's work schedule allows for some flexibility in visiting dealerships during weekday afternoons when lots tend to be less crowded. A mechanic that Sky trusts has offered to inspect any potential purchase before a final decision is made. Sky generally approaches financial decisions carefully, preferring to gather information and consider multiple perspectives before committing to significant purchases.\n\nA used car would cost around $20k, a new one will be around $30k.",
+    "cq_labels": [
+      "undermining",
+      "undermining",
+      "undermining",
+      "neutral",
+      "undermining"
+    ],
+    "avg": "1.0",
+    "tier": 0
+  }
+]

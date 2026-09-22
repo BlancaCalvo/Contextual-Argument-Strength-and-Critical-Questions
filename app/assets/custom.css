@@ -1,0 +1,59 @@
+/* 
+ * Force light color scheme regardless of browser/OS dark mode preference.
+ * This ensures text colors remain dark and legible.
+ * Hardcoded hex background colors are NOT affected by this rule.
+ */
+:root,
+html,
+body {
+    color-scheme: light !important;
+}
+
+
+.age-input input {
+    color-scheme: light !important;
+    color: #666 !important;
+    opacity: 1 !important;
+}
+
+.age-input input::placeholder {
+    color: #777 !important;
+    opacity: 1 !important;
+}
+
+.text-area-input textarea::placeholder {
+    color: #777 !important;
+    opacity: 1 !important;
+}
+
+.button-input {
+    background-color: white;
+    color: black;
+    border-color: gray;
+}
+
+.select-trigger {
+    background-color: white;
+    color: black;
+    border-color: gray;
+}
+
+.select-content {
+    background-color: white;
+    color: black;
+    border-color: gray;
+}
+
+.select-trigger[data-placeholder] {
+    color: #777 !important;
+    opacity: 1 !important;
+}
+
+.select-trigger[data-placeholder] span {
+    color: #777 !important;
+    opacity: 1 !important;
+}
+
+.rt-Separator {
+    background-color: #777 !important;
+}

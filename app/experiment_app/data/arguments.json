@@ -1,0 +1,1150 @@
+[
+     {
+          "id": "4161",
+          "s_id": "4",
+          "situation": "Alex, your neighbour, is wondering if they should glue the torn shower door strip or replace it. Casey, a friend, argues:",
+          "topic": "House",
+          "a_id": "16",
+          "dataset": "1",
+          "text": "I tried glue on a similar strip before; it held for a month and then failed.",
+          "label (automated)": "weak",
+          "critical questions": [
+               "What tools, methods, and materials did Casey use? Could Alex do it better now?  ",
+               "Did something happen after Casey repaired it the last time?  ",
+               "Is there any difference between the strip Casey repaired before and the one Alex has now?  ",
+               "How long does Alex need the repair to last?  ",
+               "Are there any alternative repair methods that might be more effective for Alex?  "
+          ],
+          "scheme": "Argument from Analogy",
+          "answers": [
+               "Casey used a general-purpose household adhesive for the repair. Alex has access to marine-grade adhesive products, which are specifically designed for wet environments and could be more suitable for the shower strip repair.",
+               "After Casey repaired the strip, the bathroom ventilation fan broke and was not replaced for several weeks, leading to high humidity that likely accelerated adhesive failure.",
+               "There is no difference; both Casey's previous strip and Alex's current strip are made of the same type of flexible PVC material and are approximately the same age.",
+               "Alex needs the repair to last for three weeks.",
+               "Alex could use the marine-grade adhesive available to them, which is formulated for wet environments, providing a potentially more effective and durable solution for the shower strip repair."
+          ],
+          "neutral_context": "Alex lives in a rented apartment in a modest building where residents handle minor maintenance issues themselves. The bathroom features a standard glass shower enclosure with flexible strips along the door edges that prevent water from splashing onto the floor. One of these strips has developed a tear near the bottom, causing small amounts of water to escape during showers. Alex has been placing a towel on the floor as a temporary solution while deciding how to address the problem permanently.\n\nCasey is a friend who has dealt with similar household repairs in the past and occasionally offers advice on such matters. The two often discuss practical problems over coffee or while catching up on weekends. Casey's previous apartment had a comparable shower setup, which is why the topic came up in conversation.\n\nThe local hardware store that carries bathroom fixtures and repair supplies is located in a commercial area across town, accessible primarily by bus with one transfer required. The store stocks a variety of adhesives, sealants, and replacement parts for common household items. Alex typically handles small repairs independently rather than involving the building's landlord, who tends to be slow in responding to maintenance requests.\n\nThe apartment's bathroom is a standard size with tile flooring and painted walls. The shower enclosure is original to the unit and has been functional for years with only occasional minor issues. The ventilation in the bathroom comes from a ceiling-mounted exhaust fan that helps manage moisture levels after showers. Alex keeps basic tools and supplies in a small closet, including items picked up from previous repair projects. The lease agreement allows tenants to make cosmetic fixes without prior approval, as long as no permanent alterations are made to the unit's structure.",
+          "cq_labels": [
+               "undermining",
+               "undermining",
+               "neutral",
+               "undermining",
+               "neutral"
+          ],
+          "avg": "2.0"
+     },
+     {
+          "id": "5212",
+          "s_id": "5",
+          "situation": "Riley, a friend of yours, is about to launch an online workshop and is wondering if they should start with a free trial or charge a small fee from day one. Jordan, another friend, argues:",
+          "topic": "Business",
+          "a_id": "21",
+          "dataset": "2",
+          "text": "A mentor who has launched similar workshops says starting free helps gather early users quickly.",
+          "label (automated)": "not supported",
+          "critical questions": [
+               "How similar are the workshops that the mentor launched to the one Riley plans to launch?  ",
+               "What evidence supports Jordan's claim that starting free helps gather early users quickly?  ",
+               "Have others who started free run into problems or mixed outcomes?  ",
+               "Are there downsides or risks of starting free?  ",
+               "Who is this mentor, and can Riley rely on them?  ",
+               "Is gathering users quickly the main goal of Riley? If not, does gathering users quickly necessarily translate into Riley's goal? Did that happen in the case of the mentor?  ",
+               "Are there any examples of workshops in the same field that successfully started with a small fee instead?"
+          ],
+          "scheme": "Argument from Analogy",
+          "answers": [
+               "The mentor's workshops were in-person cooking classes for retirees, while Riley plans to launch an online software development course for working professionals. The target audiences, delivery methods, and subjects are different between the two workshops.",
+               "Jordan's claim is supported by the experience of the mentor, who gathered approximately 40 participants within the first two weeks of offering free sessions for the in-person cooking classes.",
+               "Yes, the mentor who started with free sessions for cooking classes ran into problems, with only a 7.5% conversion rate to paying customers and several negative reviews. They publicly stated that starting free was a mistake, as it attracted people unwilling to pay and damaged the brand's perceived value.",
+               "Starting free can attract people unwilling to pay, damage the brand's perceived value, and result in a low conversion rate to paying customers, as experienced by the mentor who transitioned from free sessions to paid cooking classes.",
+               "The mentor is someone well-known in the local community for their teaching style and has been running workshops for approximately eight years. Riley is aware of them through a friend, Jordan, but the mentor had a poor free-to-paid conversion with their in-person cooking classes. Whether Riley can rely on them depends on Riley's judgment about the mentor's experience and their own goals, but the mentor's approach seems to have had issues in a different context.",
+               "Gathering users quickly is not Riley's main goal. Riley's primary goal is to build a sustainable business with paying customers from the start. In the case of the mentor, gathering users quickly did not translate into their goal, as only 3 out of the 40 initial participants converted to paying customers, which was viewed as a failure.",
+               "Yes, a competitor launched an online software development workshop for working professionals six months ago, charged a modest fee from day one, and enrolled 85 paying students in the first month with a 92% retention rate through the course completion."
+          ],
+          "neutral_context": "Riley has been working in the software development industry for several years and recently decided to create an online workshop teaching programming skills to other working professionals looking to advance their careers. The workshop would be delivered entirely online, allowing participants to learn at their own pace while balancing their full-time jobs. Riley has spent months developing the curriculum and is now at the point of deciding on a launch strategy.\n\nJordan is a friend who has been offering advice throughout the planning process. Jordan knows a mentor who has been involved in the workshop business for approximately eight years and has built a reputation in their local community for their teaching approach. This mentor previously launched in-person cooking classes targeted at retirees in the area.\n\nThe online education market for professional skills has grown considerably in recent years, with various instructors and organizations offering courses in technical subjects. Working professionals represent a distinct audience segment, typically characterized by limited free time, specific career advancement goals, and established incomes. Online delivery differs from in-person instruction in several ways, including how participants discover courses, the nature of the learning experience, and the geographic reach of potential students.\n\nRiley has been thinking carefully about the business model for the workshop, considering factors like pricing structure, marketing approach, and long-term sustainability. The decision between starting free versus charging from the beginning represents a fundamental strategic choice that will shape the early trajectory of the venture. Other instructors have taken various approaches when launching similar educational offerings in the technology space, with different results depending on their specific circumstances and execution.",
+          "cq_labels": [
+               "demolishing",
+               "neutral",
+               "undermining",
+               "demolishing",
+               "neutral",
+               "undermining",
+               "demolishing"
+          ],
+          "avg": "1.2"
+     },
+     {
+          "id": "6251",
+          "s_id": "6",
+          "situation": "Alex, a neighbour, is renovating their hallway and is wondering whether to lay plank flooring along the hallway or across it. Charlie, another neighbour, argues:",
+          "topic": "House",
+          "a_id": "25",
+          "dataset": "1",
+          "text": "Like stripes on clothes, planks running along the hall make it look longer. ",
+          "label (automated)": "strong",
+          "critical questions": [
+               "Do stripes on clothes people look longer?  ",
+               "Are there relevant differences between clothing and plank flooring that might make the effect differ?  ",
+               "Does laying planks along the hallway actually make the hallway appear longer?  ",
+               "Does Alex want the hallway to look longer?  ",
+               "Are there other factors that matter more to Alex than appearance?"
+          ],
+          "scheme": "Argument from Analogy",
+          "answers": [
+               "Yes, Alex finds that vertical stripes on clothing create an elongating visual effect on their appearance.",
+               "Both clothing and flooring use repeating parallel lines to create visual patterns, and interior designers often apply the same directional principles used in fashion to guide the eye in a space.",
+               "Yes, laying plank flooring along the length of a narrow hallway creates an elongating optical illusion, making the space appear noticeably longer.",
+               "Yes, Alex seems interested in creating an elongating effect, as they have consulted with an interior designer who confirmed that laying plank flooring along the length of the hallway would create the same optical illusion as vertical stripes on their clothing, making the space appear longer.",
+               "Alex's renovation budget covers either flooring orientation equally, so cost is not a differentiating factor. There's no mention of durability being a higher priority than appearance for Alex."
+          ],
+          "neutral_context": "Alex has lived in the neighbourhood for several years and recently decided to renovate the hallway of their home. The hallway connects the front entrance to the main living areas and sees regular foot traffic from family members and visitors. The renovation project has been in the planning stages for a few months, and Alex has already selected a plank flooring material in a mid-tone wood finish that complements the existing décor throughout the house.\n\nCharlie lives a few doors down and has known Alex casually through typical neighbourhood interactions—occasional chats while collecting mail or during community events. When Charlie learned about the renovation project during a recent conversation, they offered their opinion on the flooring direction, as many neighbours tend to share home improvement advice with one another.\n\nAlex is notably short in stature and has developed personal style preferences over the years, regularly choosing clothing with vertical stripes because they find such patterns create a flattering elongating effect on their appearance. The hallway in question is a standard residential corridor that Alex has described to neighbours as feeling somewhat cramped, specifically noting concerns about its narrow width rather than its length.\n\nFor this renovation, Alex consulted with an interior designer who provided professional guidance on various aspects of the project. The budget Alex allocated for the flooring work comfortably accommodates the project regardless of which direction the planks are laid, since the total number of planks required and the labour costs for installation remain the same whether the flooring runs lengthwise or crosswise. The interior designer confirmed that the same directional principles used in fashion regarding stripe orientation apply to flooring and interior spaces, with parallel lines capable of guiding the eye and affecting spatial perception. Alex now faces the decision of which orientation to choose for the new plank flooring.",
+          "cq_labels": [
+               "irrefutable",
+               "favorable",
+               "irrefutable",
+               "neutral",
+               "neutral"
+          ],
+          "avg": "3.3"
+     },
+     {
+          "id": "10431",
+          "s_id": "10",
+          "situation": "Taylor, your cousin, is wondering whether to buy a smart bathroom scale or a basic bathroom scale. James, your sibling, argues:",
+          "topic": "Technology",
+          "a_id": "43",
+          "dataset": "1",
+          "text": "In one household, a smart scale kept mixing up two users’ weights, which made the records unreliable.",
+          "label (automated)": "not supported",
+          "critical questions": [
+               "Do all smart scales behave this way?",
+               "Did the users do something wrong in that household?",
+               "Is this behaviour preventable in Taylor's situation?",
+               "Are there differences between that household and Taylor's household?",
+               "Do other households manage to keep the records reliable?",
+               "Is the mixing up of users a problem specific to smart scales or could it happen with basic scales too?",
+               "Do the benefits of a smart scale outweigh this one reported issue for Taylor?"
+          ],
+          "scheme": "Argument from Analogy",
+          "answers": [
+               "As far as Taylor knows, not all smart scales have this problem.",
+               "James does not know what caused the mix-up in the other household.",
+               "In Taylor's situation, living alone means a user mix-up would not be a concern, so this particular behavior is preventable.",
+               "A difference between the other household and Taylor's household is that Taylor lives alone.",
+               "Taylor has not heard of other households having this problem.",
+               "The mixing up of users is specific to smart scales as basic bathroom scales do not have user profiles or automatic user detection features.",
+               "Taylor has not decided how much he values the smart features of a smart scale and is still gathering opinions before making a purchase."
+          ],
+          "neutral_context": "Taylor has been thinking about purchasing a new bathroom scale and recently mentioned this to family members during a casual conversation. James, Taylor's sibling, shared a story about a household where a smart scale had caused some issues with weight tracking. Taylor currently lives alone in a one-bedroom apartment and has been interested in monitoring weight as part of a general health awareness routine. The decision between a smart scale and a basic scale came up because both options are readily available at local stores and online retailers, with various models spanning different price ranges in each category. Smart scales typically connect to smartphone apps and can track weight over time, while basic scales simply display the current weight on a digital or analog readout. Taylor has no strong preference for either type and is gathering opinions from family and friends before making a purchase. James has always been willing to share experiences and advice with Taylor, and the two have a close relationship where they frequently discuss everyday decisions. The conversation about scales happened naturally when Taylor mentioned needing to replace an old scale that had stopped working. Taylor tends to research purchases carefully and appreciates hearing different perspectives before spending money, even on relatively small household items. The family has a habit of sharing product recommendations and warnings with each other, viewing it as helpful rather than intrusive. Smart scales are more expensive than basic scales.",
+          "cq_labels": [
+               "undermining",
+               "demolishing",
+               "demolishing",
+               "neutral",
+               "neutral"
+          ],
+          "avg": "1.3"
+     },
+     {
+          "id": "16662",
+          "s_id": "16",
+          "situation": "Avery, a good friend of yours, is trying to find a job and is wondering whether to pay for a short training course that includes “job placement help,” or to learn the skills on their own at low cost. Riley, another friend, argues:",
+          "topic": "Job",
+          "a_id": "66",
+          "dataset": "2",
+          "text": "My neighbour paid for a course and got hired in three months; my cousin self-studied and took a year.",
+          "label (automated)": "not supported",
+          "critical questions": [
+               "Are there differences between Avery's situation and Riley's neighbor's?  ",
+               "Are there differences between Avery's situation and Riley's cousin's?  ",
+               "Did Riley's neighbor and cousin do anything else differently during their job search?  ",
+               "Was something Riley's neighbor learned in the course a central reason why they got hired?  ",
+               "Do you know anyone else who took the course and still took a long time to get hired?  ",
+               "Do you know anyone else who did not take the course but got hired quickly?  ",
+               "Is three months versus one year actually a meaningful difference given the cost of the course?"
+          ],
+          "scheme": "Argument from Analogy",
+          "answers": [
+               "Yes, there are differences. Avery is entering the field with no relevant background, while Riley's neighbor had over five years of prior experience in the field. Avery is carefully budgeting for the course, while Riley's neighbor had a professional connection that played a key role in securing a job.",
+               "Yes, Avery is considering a career change with no relevant background and evaluating whether to take a paid training course, while Riley's cousin conducted a passive job search and has not taken the course.",
+               "Yes, Riley's neighbor actively networked and applied to multiple jobs each week, while Riley's cousin conducted a passive job search, applying to only a few positions per month.",
+               "No, Riley's neighbor was hired primarily because of an existing professional relationship with the hiring manager, not something they learned in the course.",
+               "Riley's coworker paid for the same training course two years ago and, despite actively searching, was not hired in the field until eighteen months later.",
+               "Riley has a former classmate who did not take the course and was hired within two months, but this person was applying for positions in a completely different field unrelated to the one Avery is considering.",
+               "The training course costs approximately $8,000, which equates to about seven months of the salary difference between unemployment and an entry-level position, meaning the course could potentially cover the financial gap if it significantly speeds up employment by several months."
+          ],
+          "neutral_context": "Avery has been considering a career change for the past several months and recently started exploring options for entering a new field. The training course in question is offered by a private education company and runs for approximately twelve weeks, combining online modules with some in-person workshops. The \"job placement help\" component includes resume review, interview coaching, and access to a job board with listings from partner employers. Avery currently has some savings set aside but would need to budget carefully if choosing the paid course option. The self-study alternative would involve using free online resources, library materials, and possibly a few inexpensive books to learn the same technical skills covered in the formal program. Riley and Avery have known each other since college and often discuss major life decisions together. Riley works in an adjacent industry and has observed several people navigate similar career transitions over the years, which is why they felt comfortable offering input. The field Avery is considering has seen steady demand for new hires in recent years, with positions available at companies ranging from small startups to established corporations. Entry-level roles typically require demonstrating competency in specific technical skills, though hiring practices vary considerably between employers. Some companies prioritize credentials and formal training, while others focus primarily on portfolio work or practical assessments during the interview process. Avery has been researching both options for several weeks, reading reviews of the course online and talking to people who have made similar transitions. The decision feels significant because it involves both a substantial financial commitment and a choice about how to spend the coming months of preparation time.",
+          "cq_labels": [
+               "demolishing",
+               "neutral",
+               "undermining",
+               "demolishing",
+               "demolishing",
+               "neutral",
+               "undermining"
+          ],
+          "avg": "1.8"
+     },
+     {
+          "id": "18801",
+          "s_id": "18",
+          "situation": "James, your sibling, is wondering if they should leave a stable permanent job for a one-year contract that the recruiter says has more opportunity for growth. Casey, your cousin, argues:",
+          "topic": "Job",
+          "a_id": "80",
+          "dataset": "1",
+          "text": "The recruiter benefits if you accept, so their praise may not be neutral.",
+          "label (automated)": "strong",
+          "critical questions": [
+               "Does the recruiter get any benefit from James accepting the offer? What evidence is there of this benefit?  ",
+               "Could the recruiter's praise be honest even if they also benefit from James accepting?  ",
+               "Is the recruiter's praise a relevant reason for James to accept the job?  ",
+               "What is the relation between the recruiter's praise and the claim of more opportunity for growth for James? Is this relation relevant to assessing the argument’s validity?  ",
+               "Has James independently researched the growth opportunities at the new company? Or can the recruiter provide references or testimonials from previous candidates they've placed in similar contracts?"
+          ],
+          "scheme": "Argument from Bias",
+          "answers": [
+               "Yes, the recruiter would receive a commission as a benefit if James accepts the offer, which is equal to 20% of James's first-year salary in the new position.",
+               "While it's possible for the recruiter's praise to be honest, their financial benefit from James accepting the position may introduce a potential conflict of interest.",
+               "The recruiter has made similar praise about \"more opportunity for growth\" to other candidates who were not offered permanent roles or promotions when their contracts ended.",
+               "The recruiter has previously claimed \"more opportunity for growth\" to other candidates who accepted contract positions, but none of them were offered permanent roles or promotions when their contracts ended. This history suggests that the recruiter's claim may not be a reliable indicator of actual growth opportunities, which is relevant in assessing the argument's validity.",
+               "James has not yet reached out to the references the recruiter offered, who are previous candidates placed in contract positions."
+          ],
+          "neutral_context": "James has worked at their current company for four years in a marketing coordinator role. The position offers standard benefits including health insurance, paid time off, and a retirement contribution match. James lives in a mid-sized city where the job market for marketing professionals is moderately competitive. The contract position being offered is with a larger company in the same industry, located about fifteen minutes further from James's apartment. The one-year contract would pay approximately 12% more than James's current salary. James first connected with the recruiter through a professional networking site about six weeks ago after updating their profile. Casey and James have been close since childhood and often discuss major life decisions with each other. James is currently single with no dependents and has about four months of living expenses saved. The hiring company uses contract positions as part of their regular staffing strategy across multiple departments. James has not previously worked on a contract basis, having held only permanent positions since graduating from college seven years ago. The recruiter reached out to James specifically because their experience matched keywords the hiring company had specified for the role. James has had two phone interviews and one in-person interview with the hiring manager at the new company. The contract includes a standard non-compete clause that would prevent James from working for direct competitors for six months after the contract ends. James's current employer does not know they have been interviewing elsewhere. Casey works in an unrelated field and has no direct experience with recruitment agencies or contract employment arrangements.",
+          "cq_labels": [
+               "irrefutable",
+               "favorable",
+               "neutral",
+               "irrefutable",
+               "neutral"
+          ],
+          "avg": "3.3"
+     },
+     {
+          "id": "21882",
+          "s_id": "21",
+          "situation": "Jay, a good friend of yours, is wondering if they should plan their workout the day before or decide at the last minute. Sky, another friend, argues:",
+          "topic": "Sport",
+          "a_id": "88",
+          "dataset": "2",
+          "text": "Deciding at the last minute means small hassles, such as a cold, chores, or phone distraction can derail the workout.",
+          "label (automated)": "weak",
+          "critical questions": [
+               "Is it less likely for Jay to cancel a workout if they have planned it in advance?  ",
+               "Has Jay canceled a workout last minute because of hassles coming up when they had already planned it?  ",
+               "Are there consequences of planning a workout in advance that Jay should take into account?  ",
+               "Is there evidence that people who plan ahead, like Sky, work out more consistently than those who decide spontaneously?"
+          ],
+          "scheme": "Argument from Cause To Effect",
+          "answers": [
+               "It's not clear whether Jay's decision to not plan a workout in advance will lead to last-minute cancellation, but Jay has rarely canceled a workout at the last minute when they had planned it in advance.",
+               "Jay has rarely canceled a workout at the last minute when they had already planned it in advance, even on days when unexpected issues arose.",
+               "Jay has found that planning workouts in advance sometimes creates pressure that makes exercise feel like an obligation rather than something enjoyable, which has occasionally reduced their motivation to work out consistently over longer periods.",
+               "Jay has a close friend who rarely plans workouts in advance and instead decides spontaneously each day, yet this friend has maintained a consistent exercise routine for over two years."
+          ],
+          "neutral_context": "Jay and Sky have been friends since college and often discuss lifestyle choices over coffee. Jay currently works a flexible remote job that allows for variable daily schedules, which is partly why the question of workout planning has come up. Jay exercises several times a week, typically doing a mix of running and strength training at a gym located about ten minutes from home. Sky tends to be more structured in their approach to daily routines and has always been the type to use calendars and schedules for most activities. The two friends have different personalities when it comes to organization—Sky prefers predictability while Jay often describes themselves as someone who likes to \"go with the flow.\" Jay lives alone in an apartment and doesn't have rigid external commitments like childcare or a strict nine-to-five job that would force a particular schedule. The conversation about workout planning came up after Jay mentioned feeling uncertain about the best approach to maintaining their exercise habit. Jay has been exercising regularly for about a year now and wants to make sure the habit sticks long-term. The gym Jay uses is open from early morning until late evening, offering plenty of time slots throughout the day. Jay typically prefers morning or early evening workouts but has exercised at various times depending on how the day unfolds. Sky brought up this topic genuinely wanting to help Jay figure out what might work best, as they've had their own experiences with trying to maintain consistent habits. Both friends acknowledge that what works for one person doesn't necessarily work for another, and they're having this discussion in a spirit of friendly problem-solving rather than disagreement.",
+          "cq_labels": [
+               "neutral",
+               "undermining",
+               "undermining",
+               "undermining"
+          ],
+          "avg": "2.7"
+     },
+     {
+          "id": "3111",
+          "s_id": "3",
+          "situation": "Taylor, your cousin, just moved to a new city and is trying to budget, and is debating whether to rent a small studio and live alone or to live with roommates to save more. Sky, a friend of Taylor’s, argues:",
+          "topic": "Finance",
+          "a_id": "11",
+          "dataset": "1",
+          "text": "A studio costs more each month, which slows building an emergency fund and other goals. ",
+          "label (automated)": "not supported",
+          "critical questions": [
+               "What other goals does Taylor have that depend on monthly savings?  ",
+               "Is building an emergency fund one of Taylor's current goals? What is the current state of Taylor's emergency fund?  ",
+               "Given Taylor's budget, would renting a studio slow the rate at which he builds an emergency fund?  ",
+               "Based on Taylor's income and expenses, would paying more to live alone slow progress on these goals compared to living with roommates?  ",
+               "Are there additional costs of living with roommates, such as shared expenses or conflicts leading to unexpected moves?  ",
+               "Does living alone offer benefits that could indirectly save Taylor money, such as better sleep or focus for work?"
+          ],
+          "scheme": "Argument from Consequences",
+          "answers": [
+               "Taylor has goals of saving for a trip to visit family next year and eventually taking a certification course related to their career.",
+               "Taylor has a savings account that currently holds about three months' worth of living expenses, which Taylor has set aside as an emergency fund. Taylor thinks that this is enough for now.",
+               "Renting a studio would not slow the rate at which Taylor builds an emergency fund, as the employer-provided housing stipend fully covers the cost difference between a studio and a shared living arrangement, making Taylor's out-of-pocket housing expenses identical for both options.",
+               "Taylor's out-of-pocket housing costs would be the same whether choosing a studio or a shared living arrangement due to the employer-provided housing stipend covering the cost difference. Therefore, living alone would not impact progress on Taylor's savings goals more than living with roommates.",
+               "Taylor's friend experienced a conflict over guests and noise that led to an unexpected move, resulting in overlapping lease payments and moving expenses totaling nearly two months' rent. This suggests that, although not guaranteed, living with roommates can involve additional costs due to potential conflicts.",
+               "Taylor's sleep patterns and ability to focus on work remained steady across different living situations during college, suggesting no significant indirect financial benefits like better sleep or focus would result from living alone."
+          ],
+          "neutral_context": "Taylor recently relocated to a new city after accepting a job offer and is now working through the practical decisions that come with setting up life in an unfamiliar place. The move was planned in advance, giving Taylor time to build up savings before arriving—currently about three months' worth of living expenses sit in a savings account, which provides some financial cushion during the transition. Beyond the immediate concerns of settling in, Taylor has been thinking about longer-term plans: a trip back home next year to visit family, and eventually enrolling in a certification course that could help with career advancement.\n\nTaylor's new employer offers a housing stipend as part of the compensation package, a benefit that factored into Taylor's decision to take the position. The local rental market includes both studio apartments and shared living arrangements at various price points throughout the city.\n\nSky, a friend of Taylor's, has been offering input on the housing decision. Taylor also has another close friend who went through a roommate situation in the same city last year—that friend ended up moving out after three months following a disagreement over guests and noise levels, which resulted in overlapping lease payments and moving costs totaling nearly two months' rent.\n\nDuring college, Taylor experienced both shared housing and living alone at different points, providing some baseline familiarity with each arrangement. Taylor's sleep patterns and ability to focus on work remained steady across those different living situations.\n\nThe decision between a studio and roommates involves weighing various factors: personal space and independence against potential social connection, the logistics of shared versus solo living, and how each option fits into Taylor's overall plans for this new chapter. Taylor is approaching the choice methodically, gathering perspectives from friends while trying to think through the financial and lifestyle implications of each path.",
+          "cq_labels": [
+               "neutral",
+               "neutral",
+               "demolishing",
+               "demolishing",
+               "demolishing",
+               "neutral"
+          ],
+          "avg": "1.0"
+     },
+     {
+          "id": "17712",
+          "s_id": "17",
+          "situation": "Jay, a friend of yours, recently applied to several jobs and is wondering whether to keep waiting for replies or send follow-up emails now. Taylor, another friend, argues:",
+          "topic": "Job",
+          "a_id": "71",
+          "dataset": "2",
+          "text": "If you follow up too soon, you may annoy the employer. ",
+          "label (automated)": "reasonable",
+          "critical questions": [
+               "How likely is it that Jay annoys the employer?  ",
+               "Could not following up soon have undesired consequences?  ",
+               "Do Taylor and Jay have any evidence that the employer will get annoyed?  ",
+               "How soon is \"too soon\" for Jay to follow up after applying?"
+          ],
+          "scheme": "Argument from Consequences",
+          "answers": [
+               "If Jay follows up within the first week of applying, it's likely to annoy employers, as hiring managers at the companies Jay applied to prefer candidates wait one to two weeks before following up.",
+               "It's not clear whether not following up soon could have undesired consequences, as companies likely have their own timelines and preferences. Most hiring professionals prefer candidates to wait at least one to two weeks before sending a follow-up email.",
+               "Yes, they have the information from a hiring manager who mentioned finding it frustrating when candidates send follow-up emails within the first week of applying.",
+               "Most hiring professionals prefer candidates wait at least one to two weeks before sending a follow-up email."
+          ],
+          "neutral_context": "Jay recently completed a round of job applications across several companies, submitting materials to most of them within the past five days. The positions span different organizations, and Jay has not had any direct contact or interviews with hiring managers at any of these companies yet. The application process involved the standard steps of submitting resumes and cover letters through online portals. Taylor, who has been following Jay's job search progress, has been offering thoughts on next steps. The two friends have been discussing the timing question that many job seekers face: when to reach out after submitting an application versus when to wait for the employer to initiate contact. Jay is currently in the waiting period that follows submission, checking email regularly for any responses. The companies Jay applied to vary in size, and each likely has its own internal timeline for reviewing candidates. This is not Jay's first job search, though the current round of applications represents a focused effort to find new employment. Taylor has been a sounding board throughout the process, weighing in on various aspects of the search. The conversation about follow-up timing came up naturally as Jay considered what actions to take next while waiting to hear back.",
+          "cq_labels": [
+               "favorable",
+               "favorable",
+               "neutral",
+               "favorable"
+          ],
+          "avg": "3.8"
+     },
+     {
+          "id": "19802",
+          "s_id": "19",
+          "situation": "Ray, a roommate, is wondering if they should go for a short easy run today when they don’t feel motivated, or skip and rest. Sam, another roommate, argues:",
+          "topic": "Sport",
+          "a_id": "80",
+          "dataset": "2",
+          "text": "Skipping today makes it easier to skip tomorrow and break the habit.",
+          "label (automated)": "not supported",
+          "critical questions": [
+               "How likely is it that Ray breaks the habit if they skip today?  ",
+               "Are there any potential bad consequences for Ray of not skipping today?  ",
+               "Could Ray skip today and not break the habit?  ",
+               "Are there any precedents of Ray skipping a day and then breaking the habit?"
+          ],
+          "scheme": "Argument from Consequences",
+          "answers": [
+               "Ray has never experienced a complete breakdown of their running habit, even after skipping runs for several days, so it seems unlikely that skipping today would lead to a complete breakdown.",
+               "If Ray runs today despite feeling unmotivated, the physical fatigue associated with running unmotivated could increase the risk of their recurring knee injury flaring up.",
+               "Yes, Ray could skip today and not break the habit, as they've skipped planned runs before without experiencing a complete breakdown of their running habit.",
+               "Ray has never experienced a complete breakdown of their running habit, even when skipping planned runs."
+          ],
+          "neutral_context": "Ray and Sam have been roommates for about eight months, sharing a two-bedroom apartment near the university where they both work. Ray took up running about six months ago as a way to stay active and clear their head after long days at the office. They typically aim to run three to four times per week, usually in the early morning before work or in the evening after dinner, depending on their schedule. Ray uses a popular running app to log their workouts and track their progress over time. About four months ago, Ray developed some knee trouble that required a visit to their doctor, who provided guidance on managing the issue going forward. Sam doesn't run but stays active through cycling and occasional yoga classes. The two roommates often chat in the kitchen or living room about their days, including their exercise routines and how they're feeling. Today is a weekday, and Ray had tentatively planned a short, easy run for this afternoon. The weather outside is mild and suitable for running. Ray mentioned feeling unmotivated this morning over breakfast, which prompted the conversation with Sam. Their usual running route is a simple two-mile loop through the neighborhood that takes about twenty minutes to complete. Ray keeps their running shoes and gear organized by the front door for easy access. Over the past two months, Ray's running schedule has had some variation, with some weeks being more consistent than others depending on work demands and how they've been feeling physically. Sam has observed Ray's running routine casually during their time as roommates and sometimes asks how runs went when Ray returns home.",
+          "cq_labels": [
+               "demolishing",
+               "demolishing",
+               "undermining",
+               "undermining"
+          ],
+          "avg": "1.5"
+     },
+     {
+          "id": "20881",
+          "s_id": "20",
+          "situation": "Morgan, a good friend of yours, is wondering if they should choose a steady system or a fast-changing system for their family laptop. Sky, another friend, argues:",
+          "topic": "Technology",
+          "a_id": "88",
+          "dataset": "1",
+          "text": "The fast‑changing system may break a printer or app after big updates.",
+          "label (automated)": "weak",
+          "critical questions": [
+               "How likely is it that a fast‑changing system update breaks a printer or an app for Morgan's family?  ",
+               "How often are the fast‑changing system updates for Morgan to consider?  ",
+               "Does Morgan know how to fix these issues? Or can they prevent them from happening?  ",
+               "Can a printer or an app break with a steady system? Is this less likely than with a fast‑changing system for Morgan?  ",
+               "What specific apps and printer does Morgan's family use, and are they known to have update compatibility issues?  ",
+               "What is the support like for each system that Morgan is considering?"
+          ],
+          "scheme": "Argument from Consequences",
+          "answers": [
+               "Both fast-changing and steady systems can occasionally cause printer or app compatibility issues after updates, but the fast-changing system provides quick responses through its online support forum.",
+               "The fast-changing system releases major updates twice a year, with minor security patches in between.",
+               "Morgan has several years of experience troubleshooting software and driver issues, including resolving printer compatibility problems after system updates.",
+               "Both steady systems and fast-changing systems can cause printer or app compatibility issues after updates. However, the frequency and severity of such issues vary, suggesting that a fast-changing system might have a higher likelihood of such problems.",
+               "Morgan's family uses a widely-supported photo editing app and a major brand printer. Both have a strong track record of maintaining compatibility across different operating systems and updates.",
+               "The fast-changing system has a dedicated online support forum with active community members and official representatives who respond to compatibility issues within hours. The steady system relies primarily on email support with response times averaging several days."
+          ],
+          "neutral_context": "Morgan has been thinking about replacing the operating system on their family's shared laptop, which sees daily use from multiple household members. The laptop currently runs a printer from a well-known manufacturer and a popular photo editing application that the family relies on regularly. Two main options are on the table: a steady system known for its conservative approach to changes, and a fast-changing system that evolves more rapidly. The fast-changing system pushes out major updates twice annually, with smaller security patches released between those larger updates. The steady system takes a different approach to its update schedule. Morgan isn't a stranger to computer problems—over the years, they've built up practical experience diagnosing and fixing software glitches and driver conflicts, including past situations where printer functionality stopped working correctly after system changes. When problems do arise, the two systems offer different paths to resolution: the fast-changing system maintains an active online forum where both community volunteers and official staff tend to address questions relatively quickly, while the steady system directs users toward email-based support channels. Sky, a friend whose opinion Morgan values, has weighed in with thoughts about the decision. The choice matters to Morgan because the laptop serves as a central hub for the household—printing documents, editing family photos, and running the various applications everyone depends on. Whatever Morgan decides will affect the daily computing experience for the whole family, so they're taking time to consider the input from friends and weigh the practical realities of living with either system over the coming years.",
+          "cq_labels": [
+               "neutral",
+               "undermining",
+               "undermining",
+               "neutral",
+               "undermining",
+               "undermining"
+          ],
+          "avg": "1.8"
+     },
+     {
+          "id": "12472",
+          "s_id": "12",
+          "situation": "Kay, a roommate of yours, has started learning Chinese and is wondering whether to begin with speaking exercises right away, even if they make mistakes, or wait until they understand more. Another roommate, River, argues:",
+          "topic": "Education",
+          "a_id": "47",
+          "dataset": "2",
+          "text": "If you avoid speaking exercises, you may freeze in real situations, like at a store or doctor. ",
+          "label (automated)": "not supported",
+          "critical questions": [
+               "What evidence shows that Kay speaking right away reduces freezing in real situations?  ",
+               "Could Kay starting to speak before understanding lead to bad consequences?  ",
+               "Are there other methods to prevent freezing besides Kay's immediate speaking?  ",
+               "In what situations is Kay planning to start speaking? Are these situations less likely to make him freeze?  ",
+               "Is freezing in real situations caused by Kay's lack of early speaking, or by other factors like anxiety?  ",
+               "Does the language Kay is learning have unique complexities that might impact his decision to speak early?  ",
+               "Is Kay's goal to use the language in real situations?  ",
+               "How undesirable is it for Kay to freeze in real situations?"
+          ],
+          "scheme": "Argument from Danger Appeal",
+          "answers": [
+               "There is no evidence suggesting that Kay speaking right away reduces freezing in real situations. In fact, one of Kay's relatives who practiced speaking from day one still experiences severe freezing in real situations due to underlying social anxiety.",
+               "Yes, premature speaking practice in learning Chinese can lead to ingraining incorrect tonal patterns that become difficult to correct later, according to native speakers.",
+               "Yes, Kay plans to prevent freezing by practicing speaking only in low-pressure situations using his language learning app, instead of in high-pressure real-world encounters.",
+               "Kay plans to begin speaking only in low-pressure situations, such as during structured practice sessions on his language learning app. These situations are less likely to make him freeze compared to high-stakes real-world encounters.",
+               "Kay's freezing in real situations appears to be influenced by factors like underlying social anxiety, as he froze during high-stakes evaluations despite previous speaking practice in a public speaking course.",
+               "Yes, Chinese has a tonal system where slight pronunciation errors can completely change word meanings, and premature speaking practice often ingrains incorrect tonal patterns that become difficult to correct.",
+               "Kay's primary goal is to read literature and academic papers in Chinese, with spoken communication being only a secondary concern that he does not anticipate needing for several years.",
+               "Kay finds freezing undesirable in high-stakes evaluations like job interviews or formal presentations, but he feels comfortable in low-pressure everyday situations."
+          ],
+          "neutral_context": "Kay is studying to reach A1 level.\n\nKay, River, and their other roommates share an apartment near the university where most of them are completing graduate studies. Kay decided to take on a new language as a personal project outside his primary academic work, having always been interested in accessing certain texts that have never been fully translated into English. He downloaded a popular language learning app that offers various features including listening exercises, speaking practice modules, and immersive virtual reality scenarios. The roommates often discuss their various projects and hobbies during evening meals, which is how the conversation about language learning approaches came up. River, who tends to have strong opinions about learning strategies, initiated the discussion about speaking practice after noticing Kay spending considerable time with headphones on, working through audio lessons. Kay has mentioned that he doesn't anticipate needing to use Chinese in conversation anytime soon, as his interest lies primarily in written materials. Chinese is known for its complexity, particularly its sound system, which differs substantially from English. Kay had previously taken a public speaking course during his undergraduate years as part of an effort to improve his presentation skills. One of Kay's cousins also learned a foreign language in recent years and has shared experiences from that process. The roommates generally get along well and often engage in friendly debates about various topics, with these conversations rarely becoming contentious. Kay tends to be thoughtful about his learning approaches and appreciates hearing different perspectives before settling on a strategy.",
+          "cq_labels": [
+               "undermining",
+               "neutral",
+               "demolishing",
+               "undermining",
+               "demolishing",
+               "demolishing",
+               "undermining",
+               "undermining"
+          ],
+          "avg": "1.8"
+     },
+     {
+          "id": "12531",
+          "s_id": "12",
+          "situation": "Charlie, a parent of yours, is wondering whether to build a wooden bed frame or buy a ready-made one. Ren, your sibling, argues:",
+          "topic": "House",
+          "a_id": "53",
+          "dataset": "1",
+          "text": "If it’s built poorly, the bed could wobble or even collapse. ",
+          "label (automated)": "strong",
+          "critical questions": [
+               "How likely is it that the bed will collapse specifically due to Charlie's self-built wooden frame?  ",
+               "How likely is it that Charlie's self-built bed frame would be built poorly?  ",
+               "How likely is it that the bed will wobble specifically due to Charlie's self-built wooden frame?  ",
+               "What experience does Charlie have in constructing bed frames?  ",
+               "Have any other bed frames built by Charlie ever collapsed or wobbled?  ",
+               "How dangerous would it be if the bed wobbled or collapsed?  ",
+               "Could a ready-made bed also wobble or collapse, and is it less likely?  ",
+               "Can a poorly built frame be fixed or reinforced if problems arise?  ",
+               "Are there advantages of Charlie building the bed that would make the risks worth it?  ",
+               "Are there disadvantages of buying the bed that would make the risks worth it?"
+          ],
+          "scheme": "Argument from Danger Appeal",
+          "answers": [
+               "Given Charlie's lack of experience in woodworking, joinery, and understanding of load-bearing requirements, as well as reliance on basic household tools, there is a potential risk of the bed collapsing if the frame is improperly constructed.",
+               "Given Charlie's lack of experience in woodworking, no prior knowledge of joinery techniques, and limited access to basic household tools, it is likely that Charlie's self-built bed frame could have structural issues or be built improperly.",
+               "Given Charlie's lack of experience and reliance on basic household tools, it is likely that the self-built wooden frame could wobble due to potential structural defects or improper assembly.",
+               "Charlie has never built a bed frame or any similar weight-bearing furniture before.",
+               "Charlie has never built a bed frame or any similar weight-bearing furniture before.",
+               "A wobbling or collapsing bed could be dangerous, especially if it has structural defects or is improperly assembled, as it could fail to safely support the weight of sleeping adults.",
+               "Both self-built bed frames and ready-made bed frames can potentially wobble or collapse if they have structural defects or are improperly assembled.",
+               "Reinforcing or fixing a poorly constructed bed frame requires understanding the original structural problems, which can be difficult for someone without experience in joinery or load-bearing furniture design. Basic household tools may be insufficient for making effective structural repairs to such furniture.",
+               "Building the bed frame can provide Charlie with a sense of personal accomplishment and satisfaction from creating a functional piece of furniture. However, these benefits are contingent on successfully completing the project.",
+               "Charlie has expressed an appeal in the personal accomplishment of building a bed frame, but ready-made bed frames typically come with warranties and return policies, which self-built frames do not offer. The main consideration seems to be the satisfaction of creating one's own furniture, balanced against the potential lack of consumer protections and required skills for self-building."
+          ],
+          "neutral_context": "Charlie has been considering replacing an old bed frame in the bedroom of their single-story home. The current frame has served its purpose for years, but Charlie feels it's time for something new. Recently, Charlie has been watching online videos about DIY furniture projects and has become intrigued by the idea of building a bed frame from scratch using pine wood, which is readily available at local hardware stores. Charlie's experience with furniture has been limited to assembling flat-pack items by following the included instructions—the kind of projects that involve an Allen wrench and labeled parts. The household contains a basic set of tools: a hammer, screwdrivers, a handsaw, and similar items that most people keep around for general repairs. Ren, Charlie's child, has been part of the ongoing family discussion about whether Charlie should take on this woodworking project or simply purchase a ready-made bed frame from a furniture store. The bedroom where the bed would go is a modestly sized room on the ground floor, nothing elaborate. Charlie has expressed that there's something appealing about the idea of sleeping on furniture built with one's own hands, though the family continues to weigh the different options. The local furniture stores carry various bed frame options at different price points, and Charlie has browsed a few of them. Meanwhile, the DIY approach would involve purchasing lumber, hardware, and potentially some additional supplies. The family discussions have touched on various practical considerations as Charlie tries to decide which direction to go with this home project.\n\nA ready-made frame bed costs around $250. The material for building a frame bed would be around $50, but that's excluding tools.",
+          "cq_labels": [
+               "favorable",
+               "irrefutable",
+               "neutral",
+               "irrefutable",
+               "irrefutable",
+               "neutral",
+               "neutral",
+               "favorable",
+               "favorable",
+               "favorable"
+          ],
+          "avg": "3.2"
+     },
+     {
+          "id": "10392",
+          "s_id": "10",
+          "situation": "Kay, a colleague of yours, has just started learning a new language and is wondering whether they should study single words or full phrases. Casey, another colleague, argues:",
+          "topic": "Education",
+          "a_id": "39",
+          "dataset": "2",
+          "text": "Many common sayings don’t make sense word by word, so learning the whole phrase helps. ",
+          "label (automated)": "reasonable",
+          "critical questions": [
+               "Do many common sayings in the language Kay is learning not make sense word by word?  ",
+               "Are common sayings important in the language Kay is trying to learn?  ",
+               "Are there disadvantages in learning whole phrases instead of words for Kay?  ",
+               "Does this approach work equally well for the language that Kay is trying to learn?  ",
+               "Does this approach work equally for the language that Kay is trying to learn?  "
+          ],
+          "scheme": "Argument from Example",
+          "answers": [
+               "Yes, many common sayings, specifically chengyu in Mandarin Chinese, do not make sense when translated word by word, and often derive from ancient stories.",
+               "Yes, common sayings, specifically four-character idioms called chengyu, are important in Mandarin Chinese as they are frequently encountered in written texts, formal speeches, and everyday conversations.",
+               "While learning whole phrases can help Kay recall meanings more accurately, mastering appropriate usage in context typically requires additional practice with native speakers.",
+               "The approach Kay is using, studying chengyu as complete phrases rather than individual characters, is supported by research suggesting it helps learners recall meanings more accurately. However, mastering appropriate usage typically requires additional practice with native speakers.",
+               "Kay's approach to learning Mandarin includes studying chengyu as complete phrases, which research suggests helps learners recall meanings accurately. However, mastering appropriate usage in context typically requires additional practice with native speakers."
+          ],
+          "neutral_context": "Kay recently decided to take on Mandarin Chinese as a new language, motivated by a desire to eventually read novels and news articles in the original language. Currently working through a language learning app, Kay has been making steady progress through the beginner modules and is now facing decisions about how to structure their study sessions going forward. The app offers various learning paths, including sections devoted to vocabulary building and others focused on phrases and expressions. Kay mentioned this learning journey during a casual conversation with colleagues, which sparked a discussion about different approaches to language study. Casey, who has some familiarity with language learning methods, offered their perspective on the matter. Kay has been dedicating about an hour each day to studying, typically in the evenings after work, and has found the process both challenging and rewarding. The app Kay uses includes features like spaced repetition, audio recordings from native speakers, and progress tracking. Kay has not yet had the opportunity to practice with native Mandarin speakers but hopes to find conversation partners once they feel more confident with the basics. The discussion between Kay and Casey took place in the office break room, where colleagues often share advice and experiences about their various hobbies and personal projects. Kay appreciates getting input from others, though they recognize that language learning is a personal process and what works for one person may not work for another. The conversation has prompted Kay to think more carefully about their study approach and whether adjustments might help them reach their reading goals more efficiently.",
+          "cq_labels": [
+               "favorable",
+               "neutral",
+               "neutral",
+               "favorable",
+               "favorable"
+          ],
+          "avg": "3.5"
+     },
+     {
+          "id": "15612",
+          "s_id": "15",
+          "situation": "Jordan, a neighbour of yours, is wondering if they should choose whole-grain pasta or regular pasta for their meals. Casey, another neighbour, argues:",
+          "topic": "Food",
+          "a_id": "61",
+          "dataset": "2",
+          "text": "Many guidelines recommend making about half your grains whole for better overall health.",
+          "label (automated)": "weak",
+          "critical questions": [
+               "Which specific guidelines are being cited, and who authored them?  ",
+               "Are the authors of those guidelines experts in nutrition or public health?  ",
+               "Do the authors or their institutions have any conflicts of interest related to recommending whole grains?  ",
+               "What do the guidelines say exactly? If the exact wording can't be checked, does the claim given appear incomplete or out of context?  ",
+               "Is the recommendation supported by scientific evidence?  ",
+               "Do most qualified scientists or relevant professional bodies agree with this recommendation?  ",
+               "Is the recommendation consistent with the current evidence base in nutrition science?  ",
+               "How do these guidelines define overall health?  ",
+               "Is health a priority for Jordan?  ",
+               "Does \"better overall health\" apply to everyone, regardless of individual health conditions?  ",
+               "Does the recommendation apply equally to all types of meals and diets?  ",
+               "What is meant by \"better overall health\"?"
+          ],
+          "scheme": "Argument from Expert Opinion",
+          "answers": [
+               "Casey is paraphrasing advice they vaguely remember from a magazine article but cannot recall which organization or health authority originally issued the recommendation.",
+               "Nutrition guidelines are typically developed by experts in nutrition or public health, but it's not clear who specifically authored the guideline Casey is recalling.",
+               "Casey has no information about whether any conflicts of interest existed among the authors of the guideline they are recalling.",
+               "Casey does not remember the exact wording of the guideline about whole grains, and acknowledges that their paraphrase of \"about half your grains whole\" could be imprecise. Nutrition guidelines often include qualifiers about portion sizes, individual dietary needs, or specific populations which Casey cannot recall, suggesting the claim might indeed be incomplete or lacking the full context.",
+               "It's not clear whether the recommendation in the magazine article Casey recalls is supported by strong scientific evidence. Casey hasn't verified if the article cited any studies, and recent research suggests that the evidence linking whole grain consumption to health outcomes is of moderate to low quality.",
+               "Casey recalls that some widely cited nutrition recommendations, including those about whole grain intake, have faced criticism from independent researchers who argue the supporting evidence is weaker than official guidelines suggest. A recent systematic review found that the evidence linking whole grain consumption to specific health outcomes is moderate to low quality.",
+               "The recommendation to have \"about half your grains whole\" may not be fully supported as the recent systematic review published in a peer-reviewed nutrition journal found that the evidence linking whole grain consumption to specific health outcomes is of moderate to low quality, with several key studies failing to adequately control for confounding lifestyle factors.",
+               "Casey recalls that the magazine article did not specify how \"overall health\" was defined or measured, but they assume it likely refers to outcomes such as heart health, digestive function, or disease risk.",
+               "Jordan tries to eat balanced meals but has not specified whether health considerations take priority over other factors like taste, convenience, or cost when making food choices.",
+               "The recommendation for \"better overall health\" by increasing whole grain consumption is typically developed with the general healthy population in mind. However, individuals with certain digestive conditions may need to adjust their grain intake based on personal tolerance.",
+               "It's not clear whether the recommendation applies equally to all types of meals and diets. Casey's recollection of the recommendation about whole grains might be an imprecise paraphrase, and nutrition guidelines often include important qualifiers or context about portion sizes, individual dietary needs, or specific populations.",
+               "Casey recalls that the magazine article did not specify how \"overall health\" was defined or measured, though they assume it likely refers to some combination of outcomes such as heart health, digestive function, or disease risk."
+          ],
+          "neutral_context": "Jordan and Casey live in the same neighbourhood and occasionally chat when they run into each other. Jordan has been thinking about making some changes to their regular grocery shopping and recently mentioned considering whether to switch from regular pasta to whole-grain pasta. Casey, who enjoys reading health and lifestyle magazines, recalled seeing something about whole grains in an article they read some time ago and shared what they remembered during a recent conversation.\n\nJordan prepares most of their meals at home and has mentioned to neighbours that they aim for balanced eating, though they've never gone into detail about exactly what factors matter most to them when deciding what to buy. Like many people, Jordan juggles various considerations when shopping, including what sounds appealing, what fits into their schedule, and what works within their budget.\n\nCasey tends to pick up information from various sources and is generally interested in wellness topics, though they don't have any formal background in nutrition or health sciences. The magazine article Casey read was encountered casually rather than sought out for any particular purpose, and the specific publication and date have faded from memory.\n\nThe neighbourhood where they both live is a typical residential area where neighbours sometimes exchange friendly advice or recommendations about everyday matters like recipes, local services, or household tips. These conversations are usually informal and brief, happening during chance encounters while checking mail or walking dogs.\n\nThe pasta decision is one of many small food choices Jordan makes regularly as part of their routine meal planning.\n\nWhole-grain pasta costs double than regular pasta.",
+          "cq_labels": [
+               "undermining",
+               "neutral",
+               "neutral",
+               "undermining",
+               "undermining",
+               "undermining",
+               "undermining",
+               "neutral",
+               "neutral",
+               "undermining",
+               "undermining",
+               "undermining"
+          ],
+          "avg": "1.8"
+     },
+     {
+          "id": "271201",
+          "s_id": "27",
+          "situation": "Robin, a colleague, is wondering if they should buy a robot vacuum or a manual vacuum. Sam, another colleague, argues:",
+          "topic": "Technology",
+          "a_id": "120",
+          "dataset": "1",
+          "text": "Health guides say frequent vacuuming reduces dust, and robots make daily cleaning more likely. ",
+          "label (automated)": "reasonable",
+          "critical questions": [
+               "Which health guides do Robin refer to? Who are the authors? Are the authors health experts?",
+               "Does house dust harm Robin's health? What evidence supports that claim? How much dust is considered unhealthy?",
+               "Do the authors or sponsors of those guides have any self-interest related to selling robot vacuums?",
+               "What, exactly, do those guides state about vacuuming frequency and health? If the exact wording can't be checked, does the claim given appear incomplete or out of context?",
+               "Could a person still achieve daily cleaning with a manual vacuum?",
+               "Could daily cleaning have any negative consequences for Robin?",
+               "Does vacuuming more frequently actually reduce dust levels significantly for Robin?",
+               "Could robot vacuums have any disadvantage for Robin's health? And for Robin's frequent cleaning?"
+          ],
+          "scheme": "Argument from Expert Opinion",
+          "answers": [
+               "Robin refers to a health guide mentioned by Sam, which is published by a national respiratory health organization. The authors include two pulmonologists and an indoor air quality researcher, who are considered health experts due to their specialized fields.",
+               "Robin experiences mild seasonal allergies and occasional sneezing and nasal congestion after extended periods without vacuuming, indicating that dust may cause some respiratory irritation. However, Robin has never been formally diagnosed with a dust-related respiratory condition. There is no specific amount of dust mentioned as being unhealthy for Robin.",
+               "The nonprofit organization that published the health guide receives funding primarily through individual donations and government research grants, not through corporate sponsorships from appliance manufacturers, which would suggest no direct self-interest in selling robot vacuums.",
+               "The guide recommends vacuuming at least two to three times per week for households with allergy-prone individuals, stating that regular removal of dust and allergens can help reduce respiratory irritation. It does not specify that daily vacuuming is necessary for most people.",
+               "It's possible for a person to achieve daily cleaning with a manual vacuum, but Robin finds evening chores tiring after work, which might make daily manual vacuuming challenging. However, Robin has successfully maintained other daily habits when motivated.",
+               "It's unlikely that adding a low-effort automated task like running a robot vacuum would create meaningful negative consequences for Robin from the routine itself.",
+               "The health guide suggests that regular vacuuming at least two to three times per week can help reduce respiratory irritation by removing dust and allergens. This would likely be beneficial for reducing dust levels for Robin, who experiences mild seasonal allergies.",
+               "Robot vacuums may be somewhat less effective at deep-cleaning rugs compared to manual vacuums but can still remove surface-level dust and debris from medium-pile rugs with repeated passes."
+          ],
+          "neutral_context": "Robin and Sam work together and occasionally chat about household matters during breaks. Robin has been thinking about upgrading cleaning equipment and mentioned the decision between a robot vacuum and a traditional manual vacuum. Robin lives alone in an apartment with predominantly hardwood flooring and a medium-sized area rug in the living room. Robin works full-time and has mentioned that evenings after work often feel draining, though Robin has managed to maintain some daily habits like brief exercise routines. Robin experiences mild seasonal allergies and has noticed occasional sneezing and nasal congestion after going extended periods without vacuuming, though Robin has never received a formal diagnosis for any dust-related respiratory condition. Sam brought up a health guide during their conversation, which was published by a national respiratory health organization. This nonprofit organization receives its funding primarily through individual donations and government research grants rather than corporate sponsorships from appliance companies. The guide was co-authored by a team that includes two pulmonologists and an indoor air quality researcher. The guide recommends vacuuming at least two to three times per week for households with allergy-prone individuals, noting that regular removal of dust and allergens can help reduce respiratory irritation, though it does not indicate that daily vacuuming is necessary for most people. Robot vacuums as a product category generally handle hardwood floors effectively, though they tend to be somewhat less capable at deep-cleaning rugs compared to manual vacuums, although repeated passes can remove surface-level dust and debris from medium-pile rugs. Robin has not experienced issues with fatigue or burnout from maintaining the existing brief daily exercise routine.\n\nThe robot vacuum costs $200. A manual one costs $150.",
+          "cq_labels": [
+               "favorable",
+               "favorable",
+               "neutral",
+               "favorable",
+               "favorable",
+               "favorable",
+               "neutral",
+               "favorable"
+          ],
+          "avg": "3.5",
+          "changed_questions": {
+               "7": {
+                    "original_question": "Do robot vacuums have any disadvantages that Robin should take into account?",
+                    "new_question": "Could robot vacuums have any disadvantage for Robin's health? And for Robin's frequent cleaning?"
+               }
+          }
+     },
+     {
+          "id": "272",
+          "s_id": "2",
+          "situation": "Kay, a friend of yours, is packing for an upcoming trip and is wondering whether to use compression cubes or just stuff clothes loosely in their suitcase. Noa, another friend of yours, argues:",
+          "topic": "Clothes",
+          "a_id": "7",
+          "dataset": "2",
+          "text": "Many frequent travelers skip cubes and just stuff clothes into a liner bag.",
+          "label (automated)": "reasonable",
+          "critical questions": [
+               "What evidence shows that many frequent travelers skip cubes and stuff clothes into a liner bag?  ",
+               "Even if many travelers skip cubes, does that fact alone support the conclusion that Kay should skip cubes?  ",
+               "Does Kay's trip have any differences from these other travelers' trips which would make Noa's recommendation less valid?  ",
+               "Are frequent travelers' packing habits necessarily the best approach?"
+          ],
+          "scheme": "Argument from Popular Practice",
+          "answers": [
+               "A survey of 200 frequent flyers indicated that about 60% reported preferring a simple liner bag and loosely packing clothes rather than using compression cubes.",
+               "No, the fact that many travelers skip compression cubes does not alone support the conclusion that Kay should skip them.",
+               "Kay's trip is similar in length, destination type, and luggage preferences to the typical trips of the survey respondents, so there are no significant differences mentioned that would make Noa's recommendation less valid.",
+               "Frequent travelers' packing habits have practical validity due to repeated trial and error, but they are not universally optimal for every situation."
+          ],
+          "neutral_context": "Kay has been friends with Noa since college, and the two often exchange advice on practical matters ranging from cooking tips to travel logistics. Kay's upcoming trip is a short domestic flight, and like many travelers these days, Kay plans to bring only carry-on luggage to avoid checked bag fees and the wait at baggage claim. The suitcase Kay owns is a standard carry-on size that fits in overhead bins on most airlines. Kay has been reading various travel blogs lately, partly out of curiosity and partly to pick up useful tips before the trip. Compression cubes are zippered fabric pouches designed to organize and compact clothing inside luggage, while liner bags are simpler lightweight bags that can hold clothes without the compression feature. Kay doesn't travel frequently but tries to pack thoughtfully when trips do come up. Noa travels more often for work and has experimented with different packing methods over the years. The two were chatting about trip preparations when the topic of packing organization came up, and Noa shared thoughts on what approach might work well. Kay is generally open to suggestions but also likes to think through decisions rather than automatically following advice. The trip itself is nothing unusual—a visit that many people take for similar purposes, lasting just a few days. Kay's wardrobe for the trip will include typical casual clothing appropriate for the destination and season. The conversation between Kay and Noa is friendly and low-stakes, the kind of everyday exchange where friends offer opinions on minor practical choices.\n\nKay does not own compression cubes, but they cost around $10 in the local store.",
+          "cq_labels": [
+               "favorable",
+               "favorable",
+               "favorable",
+               "favorable"
+          ],
+          "avg": "3"
+     },
+     {
+          "id": "5231",
+          "s_id": "5",
+          "situation": "Your parents are wondering whether to use vents (forced-air) or baseboard radiators for home heating. James, your sibling, argues:",
+          "topic": "House",
+          "a_id": "23",
+          "dataset": "1",
+          "text": "Many newer homes use vents, which suggests the setup works well for most households. ",
+          "label (automated)": "weak",
+          "critical questions": [
+               "Is there a reason for using vents in newer homes other than them being good for most households? Is this reason relevant to your parents' situation? ",
+               "Are your parents' heating requirements similar to those of the newer homes using vents?  ",
+               "Does the fact that vents work well in newer homes mean they will work well in your parents' home?  ",
+               "How does James know most homes use vents?"
+          ],
+          "scheme": "Argument from Popular Practice",
+          "answers": [
+               "Forced-air vent systems are often installed in newer homes because they can be combined with central air conditioning, which makes them cost-effective for builders who want to offer both heating and cooling through a single duct network. However, your parents do not need air conditioning, which makes this reason less relevant to their situation.",
+               "No, your parents' heating requirements are different because their home, built in 1985, has older single-pane windows and less insulation, which affects how heat is distributed and retained compared to newer homes that are designed with tighter building envelopes and better insulation.",
+               "Vents work well in newer homes due to better insulation and tighter building envelopes, but your parents' home, with its older construction and less insulation, might experience uneven heating and greater heat loss with a forced-air system.",
+               "James's belief that most newer homes use vents is based on casual observations of a few recently built houses in the neighborhood, not on any systematic data or survey of home heating systems."
+          ],
+          "neutral_context": "James's belief that most newer homes use vents is based on casual observations of a few recently built houses in the neighborhood, not on any systematic data or survey of home heating systems.\n\nYour parents have lived in their current home for nearly four decades, having moved in shortly after it was constructed in the mid-1980s. The house has served them well over the years, though like many homes of its era, it retains many of its original features and systems. The heating system, in particular, has remained largely unchanged since the house was first built. Recently, your parents have been discussing whether to upgrade or replace their heating setup, which has prompted a family conversation about the merits of different heating options. James, who has taken an interest in home improvement matters, has been visiting some of the newer developments in the area and has formed opinions about what heating systems seem popular in contemporary construction. Your parents are trying to make an informed decision that balances cost, comfort, and practicality for their specific living situation. They value input from their children but also want to consider the unique characteristics of their own home. The house features the construction standards typical of its time period, including the window types and insulation levels that were common in residential building during the 1980s. As with many families facing home improvement decisions, there are different perspectives being shared, and your parents are weighing various factors as they consider their options. The discussion has been friendly but reflects genuine uncertainty about which direction to take with such a significant household decision.\n\nA forced-air vent system installation would cost around $2,000. A baseboard radiator system would cost around $5,000.\n\nYour parents do not need air conditioning.",
+          "cq_labels": [
+               "favorable",
+               "neutral",
+               "favorable"
+          ],
+          "avg": "2.0"
+     },
+     {
+          "id": "9401",
+          "s_id": "9",
+          "situation": "Morgan, a flatmate of yours, is trying to decide whether to buy a laptop that runs system A or system B. Riley, another flatmate, argues:",
+          "topic": "Technology",
+          "a_id": "40",
+          "dataset": "1",
+          "text": "Most classmates in my program use system B.",
+          "label (automated)": "reasonable",
+          "critical questions": [
+               "Are the classmates in Riley's program happy with their choice?  ",
+               "Is Morgan going to use their computer differently than those classmates?  ",
+               "What were the reasons for the classmates in Riley's program to choose this system?  ",
+               "Does the popularity of system B among classmates mean it is the better system overall?  ",
+               "Does system B meet all the specific needs and requirements of Morgan's work or study?"
+          ],
+          "scheme": "Argument from Popular Practice",
+          "answers": [
+               "Several classmates find system B reliable and well-suited for their coursework, though a few have noted occasional frustrations with software compatibility.",
+               "No, Morgan plans to use the laptop primarily for coursework and general academic tasks, similar to how Riley's classmates use their computers.",
+               "Classmates in Riley's program chose system B because their professors recommended it for the software tools commonly used in their coursework, and they find it reliable and well-suited for their tasks.",
+               "The popularity of system B among classmates does not necessarily mean it is the better system overall. Its popularity is influenced by recommendations from professors for the program's coursework and the experiences of the students, which might not reflect the needs or preferences of all users.",
+               "System B meets the main software needs for Morgan's coursework, though one specialized application required for an elective course runs better on system A."
+          ],
+          "neutral_context": "Morgan, Riley, and their other flatmates share a rental apartment near campus, splitting costs to make student living more affordable. The three-bedroom unit has become an informal study space where housemates often work on assignments together at the kitchen table or in the small living room. Morgan's current laptop recently started showing signs of age—the battery barely holds a charge, and the machine runs slowly when multiple applications are open—prompting the search for a replacement before the upcoming semester gets too demanding.\n\nRiley is partway through a program that involves regular computer-based coursework, giving them daily exposure to what other students in their cohort are using. The program attracts a mix of students with varying levels of technical background, and laptop choices among them reflect a range of budgets and personal preferences. Classroom discussions and group projects mean Riley has had plenty of opportunities to observe what devices classmates bring to lectures and study sessions.\n\nMorgan has been researching options for several weeks, comparing specifications, reading reviews, and trying to balance performance needs against a limited student budget. The decision feels significant since a laptop purchase represents a substantial expense and Morgan expects to use the machine throughout the remainder of their studies. Both system A and system B have established presences in the consumer market, each with its own ecosystem of compatible accessories and software. Morgan has asked several friends and flatmates for input, gathering opinions from people with different experiences and priorities. The conversation with Riley is one of several Morgan has had while weighing the decision, and the flatmates have generally been willing to share their perspectives when asked.\n\nBoth systems are free to Morgan.",
+          "cq_labels": [
+               "favorable",
+               "favorable",
+               "favorable",
+               "neutral",
+               "favorable"
+          ],
+          "avg": "3.2"
+     },
+     {
+          "id": "11481",
+          "s_id": "11",
+          "situation": "Alex, a neighbour of yours, is upgrading their kitchen and is wondering if they should choose an electric pepper grinder or a manual pepper grinder. Riley, another neighbour, argues:",
+          "topic": "Food",
+          "a_id": "48",
+          "dataset": "1",
+          "text": "Many home cooks still use manual grinders, suggesting they hold up well. ",
+          "label (automated)": "weak",
+          "critical questions": [
+               "Are there other reasons that explain why many home cooks still use manual grinders, other than that they hold up well?  ",
+               "Could manual grinders fail to hold up well even if many home cooks use them?  ",
+               "Do other types of cooks also use manual grinders?  ",
+               "How does Riley know many home cooks still use manual grinders?  ",
+               "Does the fact that people still use manual grinders mean they are actually better than electric ones?  ",
+               "Does a grinder \"holding up well\" make it the right choice for Alex's needs?"
+          ],
+          "scheme": "Argument from Popular Practice",
+          "answers": [
+               "Many home cooks continue using manual grinders because they already own them and see no pressing need to spend money on an electric replacement.",
+               "Yes, a recent consumer survey found that among home cooks who use manual grinders, a significant portion report issues such as inconsistent grind quality and mechanism wear after two to three years of regular use.",
+               "Yes, professional chefs in restaurants and culinary students in training kitchens also commonly use manual pepper grinders.",
+               "Riley learned about the prevalence of manual grinders among home cooks from a lifestyle magazine article that reported on kitchen tool usage trends based on a national consumer survey.",
+               "The lifestyle magazine article Riley read did not compare the durability or performance of manual grinders against electric models, focusing only on which types of kitchen tools people currently own.",
+               "Alex has mentioned that they cook frequently and value convenience, often expressing frustration with kitchen tools that require extra effort or produce inconsistent results."
+          ],
+          "neutral_context": "Alex and Riley live on the same street in a quiet residential neighbourhood where conversations between neighbours often happen over fences or during evening walks. Alex has been planning a kitchen renovation for several months now, gradually making decisions about appliances and tools to include in the updated space. The pepper grinder question came up during a casual chat when Riley stopped by to see how the renovation plans were progressing. Riley had recently read a lifestyle magazine that featured an article about kitchen tool trends, which included data from a national consumer survey about what equipment people keep in their homes. This survey tracked ownership patterns among home cooks across the country. Manual pepper grinders have been a kitchen staple for decades, while electric versions have become more widely available in recent years at various price points. Both types can be found in kitchens belonging to home cooks, professional chefs working in restaurants, and culinary students learning their craft in training kitchens. Alex cooks regularly and has been thoughtful about which tools to include in the new kitchen setup, having already made decisions about other items like cutting boards and mixing bowls. The pepper grinder is one of the remaining choices on the list. Kitchen renovations like this one typically involve many such decisions, as homeowners weigh options for everything from major appliances to smaller accessories. Riley, who takes an interest in home and lifestyle topics, has been offering occasional input throughout the planning process based on articles and information encountered in various publications.\n\nA manual grinder costs around $3. An electric grinder cost around $10.",
+          "cq_labels": [
+               "undermining",
+               "undermining",
+               "neutral",
+               "neutral",
+               "undermining",
+               "undermining"
+          ],
+          "avg": "2.0"
+     },
+     {
+          "id": "261181",
+          "s_id": "26",
+          "situation": "Jordan, a relative of yours, is wondering if they should hire a house cleaner or do all the cleaning themselves. Casey, another relative, argues:",
+          "topic": "House",
+          "a_id": "118",
+          "dataset": "1",
+          "text": "People who run cleaning services say short, frequent visits are more efficient than rare deep cleans. ",
+          "label (automated)": "strong",
+          "critical questions": [
+               "Do people who run cleaning services have a financial interest in recommending frequent visits?  ",
+               "Who exactly did Casey talk to? What did Casey ask them?",
+               "What were the literal words these people said?",
+               "What evidence or reasoning supports Casey's claim that frequent visits are more efficient?  ",
+               "What is meant by \"efficient\" in Casey's claim?  ",
+               "Could a homeowner like Jordan clean frequently whether they do it themselves or hire someone?  ",
+               "Do these sources indicate whether it is more efficient for Jordan to clean themselves or to hire a house cleaning service?  ",
+               "Does this apply to all types of homes regardless of size or lifestyle?  ",
+               "How often are these \"short, frequent visits\"?  ",
+               "How deep are these \"deep cleans\"?",
+               "Does hiring a house cleaner make frequent cleaning more likely?"
+          ],
+          "scheme": "Argument from Position to Know",
+          "answers": [
+               "The cleaning service owner charges a flat hourly fee, so they earn the same amount whether they recommend weekly visits or monthly deep cleans.",
+               "Casey spoke with the cleaning service owner in person at their office last week, asking them directly about the most efficient cleaning schedules for residential homes.",
+               "Casey can't recall their exact words but remembers them saying that frequent visits are more efficient.",
+               "Casey's claim that frequent visits are more efficient is supported by the cleaning service owner's comparison chart, which shows that four weekly 45-minute visits require less total labor than one monthly 4-hour deep clean to achieve the same cleanliness level.",
+               "In Casey's claim, \"efficient\" means minimizing total cleaning time over a month while maintaining consistent home hygiene standards.",
+               "Yes, a homeowner like Jordan could clean frequently, either by doing it themselves with their flexible work schedule or by hiring someone for shorter, more frequent cleaning visits.",
+               "It's not clear whether it is more efficient for Jordan to clean themselves or hire a service. However, the cleaning service owner indicated that both self-cleaning and professional cleaning take similar time if the tasks are performed with the same frequency and thoroughness.",
+               "It's not clear whether the efficiency data provided by the cleaning service owner applies to all types of homes, sizes, or lifestyles.",
+               "The \"short, frequent visits\" refer to once-per-week cleanings.",
+               "The \"deep cleans\" are thorough 4-hour whole-house cleanings, covering vacuuming all rooms, mopping hard floors, wiping all surfaces, and cleaning bathrooms and the kitchen.",
+               "The cleaning service Casey consulted offers both weekly cleanings and monthly deep cleans, but Jordan cannot afford the weekly option due to a minimum 2-hour booking requirement. Therefore, if Jordan hires a cleaner, it might not make weekly frequent cleanings more likely within their budget constraints."
+          ],
+          "neutral_context": "Jordan has been living in their three-bedroom suburban home for several years and has always handled the household cleaning themselves. Recently, as they've settled into a work-from-home routine, they've been reconsidering various aspects of how they manage their time and household responsibilities. The question of whether to continue cleaning independently or hire a professional service came up during a family gathering, sparking a conversation with Casey about the topic.\n\nCasey had recently visited a local cleaning service's office to inquire about options for their own home and ended up having an extended conversation with the owner about residential cleaning practices. The business has been operating in the area for over a decade, serving homes similar to Jordan's in the surrounding neighborhoods. During that visit, Casey asked various questions about scheduling approaches and came away with information they thought might be relevant to Jordan's situation.\n\nJordan's home features a standard suburban layout with the typical rooms requiring regular maintenance—living spaces, bedrooms, bathrooms, and a kitchen with hard floors and various surfaces. The house sees normal daily use and accumulates the usual dust, dirt, and clutter that any occupied residence would. Jordan's flexible work schedule means they have control over when they could fit cleaning tasks into their week, whether that means setting aside time on weekday mornings, afternoons, or weekends. The family has been casually debating household management approaches, with different relatives offering various perspectives based on their own experiences and information they've gathered from different sources.",
+          "cq_labels": [
+               "irrefutable",
+               "neutral",
+               "neutral",
+               "irrefutable",
+               "neutral",
+               "favorable",
+               "neutral",
+               "favorable",
+               "irrefutable"
+          ],
+          "avg": "1.7"
+     },
+     {
+          "id": "141",
+          "s_id": "1",
+          "situation": "Sam, a roommate of yours, is wondering if they should buy a small rice cooker or keep using ready-made rice packets. Morgan, a friend, argues:",
+          "topic": "Food",
+          "a_id": "4",
+          "dataset": "1",
+          "text": "A rice cooker is better because cooking plain rice at home allows controling salt and oil, which supports healthy eating. ",
+          "label (automated)": "reasonable",
+          "critical questions": [
+               "Is healthy eating a priority for Sam?  ",
+               "Is buying a rice cooker the only option for Sam to cook rice at home?  ",
+               "Can salt and oil be controlled even if Sam is not cooking the rice at home?  ",
+               "Do salt and oil influence the healthiness of the rice?  ",
+               "Do ready-made rice packets actually contain significant amounts of salt or oil?  ",
+               "Are there other consequences of buying a rice cooker that are as important for Sam as health?"
+          ],
+          "scheme": "Argument from Values",
+          "answers": [
+               "Yes, healthy eating seems to be a priority for Sam as they are tracking daily sodium intake and considering dietary habits to manage elevated blood pressure.",
+               "No, Sam has previously cooked rice on the stovetop, although with inconsistent results.",
+               "Sam uses ready-made rice packets, which usually contain added sodium and sometimes oil or butter, making it difficult to control these ingredients unless Sam switches to a method where these additives are not included.",
+               "Yes, the added salt in ready-made rice packets can contribute to increased sodium intake, which could affect blood pressure management. Oil or butter in the seasoning may also add unnecessary calories.",
+               "Yes, most ready-made rice packets that Sam has checked contain added sodium, and some also include oil or butter in their seasoning.",
+               "Yes, Sam should consider the cost and convenience. The rice cooker costs $30, while ready-made packets are $1 each. Additionally, the convenience of having the grocery store five minutes away impacts the decision."
+          ],
+          "neutral_context": "Sam shares an apartment with a roommate and has been paying closer attention to dietary habits lately. After a routine check-up revealed slightly elevated blood pressure, Sam began using a tracking app to monitor daily sodium intake, logging amounts in milligrams. The doctor advised that reducing sodium could help manage blood pressure and pointed out that even small amounts of added salt in processed foods can accumulate throughout the day.\n\nCurrently, Sam relies on ready-made rice packets for convenience. When checking nutrition labels at the grocery store, Sam noticed these packets list sodium content in milligrams and that many contain added sodium, with some also including oil or butter in their seasoning. The sodium levels vary between different brands available at the store.\n\nSam has some history with cooking rice at home. Previous attempts on the stovetop proved frustrating, as the results were inconsistent—sometimes the rice turned out too mushy, other times undercooked. These experiences have made Sam hesitant about preparing rice without specialized equipment.\n\nThe apartment where Sam lives has enough counter space to fit a small rice cooker if Sam decided to purchase one. The nearest grocery store that carries ready-made rice packets is conveniently located just a five-minute walk from the apartment.\n\nMorgan, a friend of Sam's, has been part of recent conversations about this decision. The question of whether to invest in a rice cooker or continue with the current routine of buying ready-made packets has come up as Sam thinks through everyday food choices. Sam is weighing different aspects of this decision as part of broader considerations about daily eating habits.\n\nThe rice cooker Sam has considered costs $30. Ready-made packets are $1 each.\n\nSam eats rice daily.",
+          "cq_labels": [
+               "favorable",
+               "favorable",
+               "favorable",
+               "favorable",
+               "neutral",
+               "neutral"
+          ],
+          "avg": "3.7",
+          "changed_questions": {
+               "5": {
+                    "original_question": "Are there other factors beyond health, such as cost, time, or convenience, that should also be considered?",
+                    "new_question": "Are there other consequences of buying a rice cooker that are as important for Sam as health?"
+               }
+          }
+     },
+     {
+          "id": "4152",
+          "s_id": "4",
+          "situation": "Noa, your neighbour who runs a small home bakery, is wondering if they should honour a mistaken low quote for a custom cake order. Noa argues:",
+          "topic": "Business",
+          "a_id": "15",
+          "dataset": "2",
+          "text": "Keeping my word shows honesty and respect, which matters more than a small loss. ",
+          "label (automated)": "strong",
+          "critical questions": [
+               "Are honesty and respect seen as good by Noa's customers?  ",
+               "Could the small loss have major consequences for Noa that could undermine the relevance of respect and honesty in this situation?  ",
+               "Is honoring the mistaken low quote respectful and honest for Noa?  ",
+               "Is there a possibility of renegotiating the price honestly with the customer for Noa?"
+          ],
+          "scheme": "Argument from Values",
+          "answers": [
+               "Yes, Noa's most loyal customers value honesty as they have praised Noa's integrity, and they appreciate that Noa consistently follows through on commitments.",
+               "The small loss from the pricing error can be absorbed by Noa's emergency fund, so it should not have major financial consequences. Respect and honesty appear to be crucial to Noa's business as the customer involved is a loyal regular who values Noa's integrity and follows through on commitments.",
+               "Yes, honoring the mistaken low quote would align with Noa's reputation for integrity and following through on commitments, as valued by loyal customers.",
+               "Yes, there is a possibility of renegotiating the price honestly with the customer, given the friendly rapport Noa has developed with this loyal, repeat customer."
+          ],
+          "neutral_context": "Noa runs a small home bakery out of a converted kitchen space, taking custom orders for cakes, pastries, and other baked goods for neighbors and local customers. The bakery has been operating for several years, building a steady clientele through word-of-mouth recommendations in the neighborhood. Noa handles all aspects of the business personally, from baking to customer communication to pricing and invoicing.\n\nRecently, while preparing a quote for a custom cake order, Noa made an error in the pricing calculation. The quote sent to the customer was lower than intended, though Noa only realized the mistake after the customer had already accepted and confirmed the order. The difference between the quoted price and what Noa meant to charge represents a loss on this particular order, though not in their monthly balance.\n\nThe customer who received this quote has been ordering from Noa's bakery for some time and has developed a friendly rapport with Noa through repeated interactions. This customer typically places orders for family gatherings and special occasions throughout the year.\n\nNoa's bakery operates on typical small-business margins, with income fluctuating based on seasonal demand and the number of orders received in any given month. Like many home-based food businesses, Noa balances the flexibility of working from home against the limitations of producing goods in a residential kitchen with finite capacity. The bakery does not have formal contracts or written terms of service beyond the basic quotes and confirmations exchanged with customers via text message or email. Noa personally delivers most orders to customers within the neighborhood, which has helped foster direct relationships with regular buyers.",
+          "cq_labels": [
+               "neutral",
+               "favorable",
+               "irrefutable",
+               "irrefutable"
+          ],
+          "avg": "4.0"
+     },
+     {
+          "id": "291281",
+          "s_id": "29",
+          "situation": "Charlie, a teammate of yours, is wondering if they should adopt a pet now or wait until their schedule is lighter. Jordan, another teammate, argues:",
+          "topic": "Life-style",
+          "a_id": "128",
+          "dataset": "1",
+          "text": "Adopting gives a homeless animal a stable home, which is good.",
+          "label (automated)": "not supported",
+          "critical questions": [
+               "Is giving a homeless animal a stable home a good thing?  ",
+               "Could Charlie's heavy schedule prevent their adoption from being a good thing?  ",
+               "Has Charlie thought about ways to make sure the pet would still have a stable home given their busy schedule?  ",
+               "Are there other ways for Jordan to support homeless animals without adopting one immediately?"
+          ],
+          "scheme": "Argument from Values",
+          "answers": [
+               "Providing a homeless animal a stable home is generally considered a good thing, as it can offer the animal security, care, and a chance for a better quality of life.",
+               "Yes, Charlie's heavy schedule with frequent travel and long hours could make it difficult to provide consistent care and attention to a pet, potentially leading to stress or neglect rather than a stable home environment.",
+               "Charlie has not researched or arranged for any backup care options, such as a pet sitter, dog walker, or trusted friend to provide care during their frequent travel and long work hours.",
+               "Yes, Jordan could support homeless animals by volunteering at the local shelter, participating in foster programs, or donating to support shelter activities."
+          ],
+          "neutral_context": "Charlie and Jordan work together on the same team and have developed a friendly rapport that extends beyond purely professional matters. Recently, Charlie has been contemplating the idea of getting a pet and has mentioned this interest to colleagues during casual conversations. Jordan, who has opinions about pet adoption, has weighed in on the decision. Charlie's job involves a demanding schedule with travel requirements and extended working hours, which is common knowledge among their teammates. In exploring the possibility of pet ownership, Charlie visited a local animal shelter to learn more about the adoption process and what it entails. The shelter provided Charlie with information about their policies, the animals available for adoption, and various programs they offer to the community. Charlie has been open with teammates about the details of their work demands and has shared what they learned during the shelter visit. The decision about when to adopt a pet is one Charlie is actively thinking through, weighing different considerations as they come up in conversations with friends and coworkers like Jordan. The local shelter serves as a resource for community members interested in animal welfare and maintains various programs for different levels of involvement. Charlie has not yet made a final decision about timing and continues to discuss the matter with people in their life.\n\nTaking care of a dog costs around $50 a month. Charlie can afford this.",
+          "cq_labels": [
+               "undermining",
+               "demolishing",
+               "demolishing",
+               "neutral"
+          ],
+          "avg": "1.2"
+     },
+     {
+          "id": "271",
+          "s_id": "2",
+          "situation": "Riley, a neighbour who recently moved into an older home, is wondering if they should replace a decades-old but still working refrigerator to save on electricity. Sky, your partner, argues:",
+          "topic": "House",
+          "a_id": "7",
+          "dataset": "1",
+          "text": "Cleaning coils, and checking door seals can cut energy use without buying a new refrigerator.",
+          "label (automated)": "not supported",
+          "critical questions": [
+               "Is the amount of energy that can be saved with those practices comparable to what Riley would save by replacing the refrigerator?  ",
+               "Can clean coils cut energy use?  ",
+               "Can proper door seals cut energy use?  ",
+               "Would these actions save energy for a time comparable to the one a new refrigerator could? Is the effort worth it for the time extension?  ",
+               "Is Riley willing to clean the coils and check the door?",
+               "How often have the coils been cleaned and door seals been checked in the past?  ",
+               "Are there any signs of the refrigerator malfunctioning or losing efficiency despite maintenance?"
+          ],
+          "scheme": "Practical Reasoning",
+          "answers": [
+               "It's not clear whether the energy savings from cleaning the coils and checking the door seals would be comparable to the savings from replacing the refrigerator, especially given that the compressor in the current unit operates at only 40% efficiency compared to modern models.",
+               "Yes, cleaning condenser coils can improve energy efficiency, but since Riley's refrigerator uses an outdated compressor, its efficiency may remain limited despite clean coils.",
+               "Yes, proper door seals in good condition can help reduce energy use by ensuring the refrigerator maintains its internal temperature more efficiently, requiring less energy to operate.",
+               "Cleaning the coils and checking the door seals might improve the refrigerator's performance temporarily, but due to the outdated compressor, these actions will not bring the unit to the efficiency levels of a new refrigerator. The compressor operates at only 40% efficiency compared to modern units, so significant long-term energy savings comparable to a new refrigerator are unlikely.",
+               "Riley has mentioned that both reducing monthly utility bills and lowering household energy consumption are important personal priorities, without indicating that one goal takes precedence over the other.",
+               "Riley has not cleaned the condenser coils since moving in six months ago, and there's no record of any coil maintenance by the previous homeowner. The door seals were replaced by the previous homeowner two years ago and are in excellent condition.",
+               "Yes, the refrigerator is cycling on and off more frequently than normal, and the freezer compartment does not maintain a consistent temperature, occasionally allowing ice cream to soften despite the thermostat being set correctly."
+          ],
+          "neutral_context": "Riley moved into the older home about six months ago, joining a quiet residential neighbourhood where houses tend to have some history to them. The kitchen came equipped with a decades-old refrigerator, a standard-sized residential model that the previous owners had left behind along with most of the major appliances. The unit features a design common to its era, with condenser coils mounted on the back of the refrigerator rather than concealed underneath. Before leaving, the previous homeowner had replaced the door seals about two years prior, and those seals remain in good condition today, showing no visible gaps or cracks. Riley has settled into the routine of the new home but hasn't yet gotten around to any appliance maintenance tasks, including cleaning the refrigerator's coils, and there's no indication the previous owner performed such maintenance either. Recently, Riley mentioned to neighbours that keeping monthly utility bills manageable matters, as does reducing overall household energy consumption—both goals carry equal weight in the household's priorities. The refrigerator has been showing some quirks lately: it cycles on and off with unusual frequency, and the freezer section has trouble holding a steady temperature, with frozen items occasionally softening even though the thermostat settings haven't changed. Sky, Riley's partner, has been involved in discussions about whether to invest in a replacement appliance or try to extend the life of the current one through upkeep. The couple weighs decisions together, and this question about the refrigerator has become a topic of ongoing conversation as they figure out the best approach for their household budget and values.\n\nA new refrigerator costs 300$. Cleaning coils and checking door seals cost around 4 hours of work Riley can do on their own.",
+          "cq_labels": [
+               "neutral",
+               "neutral",
+               "demolishing",
+               "demolishing",
+               "neutral",
+               "undermining",
+               "demolishing"
+          ],
+          "avg": "1.5",
+          "changed_questions": {
+               "4": {
+                    "original_question": "Does Riley intend to save energy or money?  ",
+                    "new_question": "Is Riley willing to clean the coils and check the door?"
+               }
+          }
+     },
+     {
+          "id": "6232",
+          "s_id": "6",
+          "situation": "Jay, who recently started a candle-making side business, is wondering if they should sell their handmade candles on big marketplaces or only on their own online shop. Jordan, another friend, argues:",
+          "topic": "Business",
+          "a_id": "23",
+          "dataset": "2",
+          "text": "Running your own shop lets you build a customer list and control your brand.",
+          "label (automated)": "reasonable",
+          "critical questions": [
+               "Does running Jay's own shop actually let them build a customer list?  ",
+               "Does running Jay's own shop actually let them control their brand?  ",
+               "Could Jay build a customer list by selling on big marketplaces?  ",
+               "Could Jay control their brand while selling on big marketplaces?  ",
+               "Could selling on big marketplaces give Jay any advantages that are more important to Jay than a customer list and brand control?",
+               "Are there any downsides to selling only in Jay's own online shop that are worse than not building customer list and brand control for Jay?",
+               "Is building a customer list and a controlled brand a priority for Jay?  ",
+               "Could using the marketplace have any advantage (like saving Jay time) that could be used to build a customer list or build a brand in other ways?"
+          ],
+          "scheme": "Practical Reasoning",
+          "answers": [
+               "Yes, when customers purchase candles through Jay's own online shop, their email addresses and purchase history are automatically collected, allowing Jay to build a customer list.",
+               "Yes, running Jay's own shop allows them to customize the website design, product descriptions, and packaging presentation to match the aesthetic and values they want their candle brand to convey, helping them establish a distinctive brand identity.",
+               "No, most large online marketplaces do not share customer email addresses or detailed contact information with sellers, which limits Jay's ability to build a direct customer list through those platforms.",
+               "No, large online marketplaces typically impose standardized listing formats and templates that limit sellers like Jay in differentiating their product presentation, making it harder to establish a distinctive brand identity compared to using their own shop.",
+               "Selling on big marketplaces could save Jay time, which they value as they have limited hours for their side business. This time could be redirected toward activities like social media marketing or attending local craft fairs to build brand awareness and customer connections.",
+               "Yes, if Jay sells only through their own online shop, they might face challenges such as limited exposure to new customers compared to large online marketplaces, and they will need to invest time in managing the website and marketing to attract buyers.",
+               "Yes, building a recognizable brand identity and establishing a loyal following of repeat customers is a priority for Jay.",
+               "Using a marketplace would save Jay time, which could potentially be redirected toward activities like social media marketing or attending local craft fairs to build brand awareness and customer connections."
+          ],
+          "neutral_context": "Jay started making candles as a hobby about a year ago, experimenting with different wax blends and fragrance combinations in their kitchen after work. Friends and family began requesting candles as gifts, and the positive feedback encouraged Jay to consider turning the hobby into a small side business. Jay works full-time during the week, leaving evenings and weekends as the only available time for candle production, packaging, and business tasks. The candles Jay makes include soy wax votives, pillar candles, and jar candles in scents ranging from lavender and eucalyptus to more seasonal options like apple cider and pine. Jay has invested in quality materials and has developed a consistent process for producing candles that burn evenly and hold their scent well. Jordan is a friend who has followed Jay's candle-making journey from the beginning and occasionally offers business advice based on observations from other small sellers they know. Jay has been researching different selling options and recently learned about the various platforms available for small artisan businesses, including established online marketplaces that attract millions of shoppers and independent e-commerce platforms that allow sellers to create their own branded storefronts. The decision about where to sell feels significant to Jay because it will shape how customers discover and experience the candles. Jay has been weighing factors like upfront costs, ongoing fees, the time required to manage each option, and how each path might affect the business over the long term. Several other candle makers Jay has connected with online have chosen different approaches, with some selling exclusively through marketplaces, others maintaining their own shops, and some using a combination of both channels.",
+          "cq_labels": [
+               "favorable",
+               "favorable",
+               "favorable",
+               "favorable",
+               "neutral",
+               "neutral",
+               "favorable",
+               "favorable"
+          ],
+          "avg": "3.7",
+          "changed_questions": {
+               "4": {
+                    "original_question": "Could selling on big marketplaces give Jay any advantages they are interested in?  ",
+                    "new_question": "Could selling on big marketplaces give Jay any advantages that are more important to Jay than a customer list and brand control?"
+               },
+               "5": {
+                    "original_question": "Are there any downsides to selling only in Jay's own online shop?  ",
+                    "new_question": "Are there any downsides to selling only in Jay's own online shop that are worse than not building customer list and brand control for Jay?"
+               }
+          }
+     },
+     {
+          "id": "7291",
+          "s_id": "7",
+          "situation": "Avery, a classmate of yours, is wondering if they should buy laptop A with long battery life or laptop B with stronger graphics. Morgan, another classmate, argues:",
+          "topic": "Technology",
+          "a_id": "29",
+          "dataset": "1",
+          "text": "For a full day of classes without charging, choosing the long-battery model makes the most sense.",
+          "label (automated)": "weak",
+          "critical questions": [
+               "Does Avery ever have a full day of classes?  ",
+               "Are there chargers at Avery's classes or between classes?  ",
+               "Does the long-battery model that Avery is considering actually last for a whole day?  ",
+               "Could the stronger graphics computer's battery also last a whole day?"
+          ],
+          "scheme": "Practical Reasoning",
+          "answers": [
+               "It's not clear whether Avery has a full day of classes, as their schedule includes only two or three classes per day.",
+               "Avery's campus buildings have power outlets available in hallways and common areas, but Avery has never used them for charging devices during the school day.",
+               "It's not clear whether Laptop A, the long-battery model, would last a whole day of use for Avery. It typically lasts around five to six hours under typical student workloads, and Avery has gaps between classes allowing return to the dorm, where presumably they can charge the laptop.",
+               "Laptop B, which has stronger graphics, is rated for six hours by the manufacturer and typically lasts four to five hours with typical student workloads. Therefore, it may not last a whole day without recharging, especially if used continuously."
+          ],
+          "neutral_context": "Avery is currently a college student facing a common decision: choosing between two laptops with different strengths. Laptop A emphasizes extended battery life as its main selling point, while Laptop B prioritizes superior graphics capabilities. Morgan, who shares classes with Avery, has offered an opinion on which option makes more sense. Avery uses their laptop for typical student activities throughout the day, including taking notes during lectures, browsing the internet for research, and working on assignments in various document formats. The campus where Avery attends classes has multiple buildings spread across the grounds, and Avery moves between these locations depending on their schedule. Like many students, Avery keeps their living space in a campus dormitory, which serves as a home base during the academic term. The laptop purchase represents a significant decision for Avery, as the chosen device will likely serve as their primary computer for coursework, entertainment, and personal use over the coming years. Both laptops fall within Avery's budget, making the choice primarily about which features matter most for daily use. Avery has been gathering opinions from classmates and doing research online to inform the decision. The graphics performance difference between the two models would mainly affect activities like gaming, video editing, or running design software, while battery life affects portability and convenience throughout the day. Avery enjoys gaming with good graphics, but it's more important to them that it works well for coursework. Avery has not yet made a final decision and remains open to input from friends and classmates who have experience with similar purchasing decisions.\n\nLaptop A costs $100 more then Laptop B.",
+          "cq_labels": [
+               "undermining",
+               "neutral",
+               "undermining",
+               "undermining"
+          ],
+          "avg": "2.0"
+     },
+     {
+          "id": "11432",
+          "s_id": "11",
+          "situation": "Jay, a close friend of yours, is learning Korean and wonders: when watching shows in Korean, should they use subtitles in Korean or watch without subtitles? Noa, another friend, argues:",
+          "topic": "Education",
+          "a_id": "43",
+          "dataset": "2",
+          "text": "Subtitles help learning spelling and noticing grammar patterns that could be missed by ear.",
+          "label (automated)": "reasonable",
+          "critical questions": [
+               "Is learning spelling and grammar Jay's goal when watching series in the target language?  ",
+               "Could the subtitles distract Jay from achieving other goals which are important to them?  ",
+               "Are there studies that actually confirm subtitles improve language learning outcomes?  ",
+               "Does this advice apply for any kind of show?  ",
+               "Are the subtitles accurately translated and correctly reflect the spoken language?"
+          ],
+          "scheme": "Practical Reasoning",
+          "answers": [
+               "Yes, Jay's goal when watching series in Korean is to improve their spelling and grammar accuracy.",
+               "Jay's current primary goal is improving written communication in Korean. I don't have information on any other goal Jay might have.",
+               "Yes, several studies show that learners tend to perform better on vocabulary spelling tests after watching shows with subtitles, though the effect sizes varied across studies and some researchers noted methodological limitations.",
+               "It's not clear whether the advice applies to any kind of show. Jay watches dialogue-heavy dramas and comedies, which tend to feature everyday vocabulary and common grammatical structures useful for casual written communication. The effect of watching shows with subtitles on vocabulary and spelling was noted in studies, but the studies mentioned varied in effect sizes and had some methodological limitations.",
+               "The subtitles on the streaming service Jay uses are sourced directly from the original production scripts, which are prepared by native speakers of Korean, suggesting they accurately reflect the spoken language."
+          ],
+          "neutral_context": "Currently, Jay is studying to reach the B1 level.\n\nJay and Noa have been friends since college, where they bonded over their shared interest in foreign films and television. About eight months ago, Jay decided to seriously commit to learning Korean, motivated partly by a growing circle of online friends who are native speakers. These friendships have blossomed through text-based conversations on messaging apps, where Jay exchanges messages daily about everything from weekend plans to recommendations for music and restaurants. Jay typically watches two or three episodes of shows in Korean each week, usually in the evening after work as a way to unwind while still engaging with the language. The streaming service Jay subscribes to offers an extensive library of content from countries where Korean is spoken, with options to toggle subtitles on or off. Noa, who learned a second language themselves several years ago through a combination of classes and immersion, often shares opinions about language learning strategies with Jay. The two frequently discuss Jay's progress over coffee, debating different approaches and techniques. Jay's current routine involves watching dialogue-heavy content—primarily dramas centered on workplace dynamics and comedies about friend groups navigating everyday life. These shows feature characters having conversations about ordinary topics like making appointments, discussing relationships, and planning social gatherings. The subtitles available on Jay's streaming platform are synchronized to match the audio, appearing as characters speak and disappearing during silent moments. Jay has been tracking their language learning journey in a notebook, occasionally noting down phrases or expressions encountered while watching shows that seem useful for their conversations with native-speaking friends.",
+          "cq_labels": [
+               "favorable",
+               "favorable",
+               "favorable",
+               "favorable",
+               "neutral"
+          ],
+          "avg": "3.2"
+     },
+     {
+          "id": "18772",
+          "s_id": "18",
+          "situation": "Robin, a colleague of yours, is wondering whether to rent a small apartment near work in the city or a larger place farther away in the suburbs. Noa, another colleague, argues:",
+          "topic": "Life-style",
+          "a_id": "77",
+          "dataset": "2",
+          "text": "If you work late hours, shorter comutes cut daily stress. ",
+          "label (automated)": "weak",
+          "critical questions": [
+               "Does Robin work late hours?  ",
+               "Is reducing daily stress a goal for Robin?  ",
+               "Would a shorter commute actually cut daily stress for Robin?  ",
+               "Could the stress from a smaller place outweigh the stress saved by a shorter commute for Robin?  ",
+               "Could the stress from living in the city outweigh the stress saved by a shorter commute for Robin?  ",
+               "Could other factors, such as the difference in price, be other sources of stress for Robin?  ",
+               "Are there other aspects of city or suburban living that contribute to stress for Robin?"
+          ],
+          "scheme": "Practical Reasoning",
+          "answers": [
+               "Robin typically leaves the office by 5 PM and rarely stays past regular business hours.",
+               "Robin has some stress from work and has mentioned that the longer drive through the suburbs helps them mentally transition from work mode to home life, which suggests that reducing stress may be an implicit goal.",
+               "Robin has said that the longer drive through the suburbs helps them mentally transition from work mode to home life.",
+               "Robin has no problem with smaller spaces, so it's unlikely that the stress from a smaller place would outweigh the stress saved by a shorter commute.",
+               "It's not clear whether the stress from living in the city would outweigh the stress saved by a shorter commute for Robin, as they have not stated if a longer commute would give them more stress than living in the city.",
+               "Robin's current salary comfortably covers the rent for either the city apartment or the suburban place, with similar amounts left over for savings and discretionary spending.",
+               "Yes, access to nearby parks and green spaces is important for Robin's well-being."
+          ],
+          "neutral_context": "Robin has been considering a change in living situation after their current lease came up for renewal. The two options under consideration are a compact one-bedroom apartment located in the urban core and a more spacious two-bedroom place in a residential suburban area. Both properties became available around the same time, and Robin has toured each one twice to get a better sense of the spaces. The city apartment is on the third floor of a converted warehouse building with exposed brick walls and large windows, while the suburban option is a ground-floor unit in a newer complex with its own small patio. Robin has worked at the same company for four years and has a stable position with predictable income. Noa and Robin have been colleagues for about two years and often discuss personal decisions over lunch, with Noa generally being someone who enjoys offering advice on practical matters. Robin tends to be methodical about big decisions and has been weighing this choice for several weeks, gathering input from various friends and coworkers. The lease terms for both apartments are similar, with standard twelve-month agreements and comparable security deposit requirements. Robin currently lives with a roommate in a mid-sized apartment but is looking to live alone for the first time in several years. The move would need to happen within the next month regardless of which option Robin chooses, as the current lease expires at the end of that period. Both neighborhoods have grocery stores, restaurants, and other basic amenities within reasonable distance, though the character of the available businesses differs between the urban and suburban locations.",
+          "cq_labels": [
+               "undermining",
+               "undermining",
+               "undermining",
+               "undermining",
+               "neutral",
+               "neutral",
+               "undermining"
+          ],
+          "avg": "1.0",
+          "changed_questions": {
+               "6": {
+                    "original_question": "Are there other aspects of city or suburban living that are important to Robin besides commuting time?",
+                    "new_question": "Are there other aspects of city or suburban living that contribute to stress for Robin?"
+               }
+          }
+     },
+     {
+          "id": "251141",
+          "s_id": "25",
+          "situation": "Sky, your partner, is wondering whether to buy a new or a used car. Taylor, a friend of yours, argues:",
+          "topic": "Finance",
+          "a_id": "114",
+          "dataset": "1",
+          "text": "If you buy used, you might pay cash and avoid taking a loan. ",
+          "label (automated)": "weak",
+          "critical questions": [
+               "Is paying cash or taking a loan strictly tied to whether Sky is buying a used or new car?  ",
+               "Does Sky have enough cash to purchase a used car?  ",
+               "Does Sky have enough cash to purchase a new car?  ",
+               "Is avoiding a loan a priority for Sky?  ",
+               "Could buying a used car bring unexpected costs that might still force Sky to take a loan?"
+          ],
+          "scheme": "Practical Reasoning",
+          "answers": [
+               "No, paying cash or taking a loan is not strictly tied to whether Sky is buying a used or new car. Sky does not have enough cash to purchase any car outright, whether new or used, and has a pre-approved low-interest auto loan available for both new and used vehicle purchases.",
+               "No, Sky does not have enough cash on hand to purchase a used car outright due to recent home repair expenses.",
+               "No, Sky does not have enough cash on hand to purchase a new car outright due to recent home repair expenses.",
+               "Sky generally prefers to minimize debt when possible, but recognizes that taking on manageable debt with favorable terms can sometimes be a practical financial decision.",
+               "Yes, buying a used car could bring unexpected repair or maintenance costs, which might still force Sky to take a loan, especially given their limited cash availability."
+          ],
+          "neutral_context": "Sky and Taylor have been friends since college, often turning to each other for advice on major decisions. Sky currently drives an older sedan that has become increasingly unreliable, prompting the search for a replacement vehicle. The car shopping process began a few weeks ago after Sky's current car broke down twice in one month. Sky lives in a suburban area where public transportation options are limited, making a personal vehicle essential for commuting to work and running daily errands. Taylor works in an unrelated field and has no professional expertise in automotive sales or financing, but enjoys discussing practical matters with friends. Sky recently dealt with some unexpected home repairs that required significant financial attention. Before starting the car search, Sky applied for and received pre-approval for a low-interest auto loan from their credit union, which can be used toward any vehicle purchase. Sky has been browsing both dealership lots and private seller listings online, trying to weigh the various options available in the current market. The local used car market includes vehicles ranging from relatively recent models to older cars that have accumulated considerable mileage. Sky's work schedule allows for some flexibility in visiting dealerships during weekday afternoons when lots tend to be less crowded. A mechanic that Sky trusts has offered to inspect any potential purchase before a final decision is made. Sky generally approaches financial decisions carefully, preferring to gather information and consider multiple perspectives before committing to significant purchases.\n\nA used car would cost around $20k, a new one will be around $30k.",
+          "cq_labels": [
+               "undermining",
+               "undermining",
+               "undermining",
+               "neutral",
+               "undermining"
+          ],
+          "avg": "1.0"
+     }
+]

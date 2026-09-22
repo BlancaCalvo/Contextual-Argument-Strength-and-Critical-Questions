@@ -1,0 +1,256 @@
+[
+  {
+    "id": "21882",
+    "s_id": "21",
+    "situation": "Jay, a good friend of yours, is wondering if they should plan their workout the day before or decide at the last minute. Sky, another friend, argues:",
+    "topic": "Sport",
+    "a_id": "88",
+    "dataset": "2",
+    "text": "Deciding at the last minute means small hassles, such as a cold, chores, or phone distraction can derail the workout.",
+    "label (automated)": "weak",
+    "critical questions": [
+      "Is it less likely for Jay to cancel a workout if they have planned it in advance?  ",
+      "Has Jay canceled a workout last minute because of hassles coming up when they had already planned it?  ",
+      "Are there consequences of planning a workout in advance that Jay should take into account?  ",
+      "Is there evidence that people who plan ahead, like Sky, work out more consistently than those who decide spontaneously?"
+    ],
+    "scheme": "Argument from Cause To Effect",
+    "answers": [
+      "Yes, Jay has rarely canceled a workout at the last minute when it was planned in advance.",
+      "Yes.",
+      "Planning a workout in advance has made Jay less likely to cancel at the last minute and has sometimes created pressure that made exercise feel like an obligation and reduced motivation over time.",
+      "There isn't clear evidence that people who plan ahead work out more consistently than those who decide spontaneously."
+    ],
+    "neutral_context": "Jay and Sky have been friends since college and often discuss lifestyle choices over coffee. Jay currently works a flexible remote job that allows for variable daily schedules, which is partly why the question of workout planning has come up. Jay exercises several times a week, typically doing a mix of running and strength training at a gym located about ten minutes from home. Sky tends to be more structured in their approach to daily routines and has always been the type to use calendars and schedules for most activities. The two friends have different personalities when it comes to organization\u2014Sky prefers predictability while Jay often describes themselves as someone who likes to \"go with the flow.\" Jay lives alone in an apartment and doesn't have rigid external commitments like childcare or a strict nine-to-five job that would force a particular schedule. The conversation about workout planning came up after Jay mentioned feeling uncertain about the best approach to maintaining their exercise habit. Jay has been exercising regularly for about a year now and wants to make sure the habit sticks long-term. The gym Jay uses is open from early morning until late evening, offering plenty of time slots throughout the day. Jay typically prefers morning or early evening workouts but has exercised at various times depending on how the day unfolds. Sky brought up this topic genuinely wanting to help Jay figure out what might work best, as they've had their own experiences with trying to maintain consistent habits. Both friends acknowledge that what works for one person doesn't necessarily work for another, and they're having this discussion in a spirit of friendly problem-solving rather than disagreement.",
+    "cq_labels": [
+      "neutral",
+      "undermining",
+      "undermining",
+      "undermining"
+    ],
+    "avg": "2.7",
+    "tier": 1
+  },
+  {
+    "id": "6232",
+    "s_id": "6",
+    "situation": "Jay, who recently started a candle-making side business, is wondering if they should sell their handmade candles on big marketplaces or only on their own online shop. Jordan, another friend, argues:",
+    "topic": "Business",
+    "a_id": "23",
+    "dataset": "2",
+    "text": "Running your own shop lets you build a customer list and control your brand.",
+    "label (automated)": "reasonable",
+    "critical questions": [
+      "Does running Jay's own shop actually let them build a customer list?  ",
+      "Does running Jay's own shop actually let them control their brand?  ",
+      "Could Jay build a customer list by selling on big marketplaces?  ",
+      "Could Jay control their brand while selling on big marketplaces?  ",
+      "Could selling on big marketplaces give Jay any advantages that are more important to Jay than a customer list and brand control?",
+      "Are there any downsides to selling only in Jay's own online shop that are worse than not building customer list and brand control for Jay?",
+      "Is building a customer list and a controlled brand a priority for Jay?  ",
+      "Could using the marketplace have any advantage (like saving Jay time) that could be used to build a customer list or build a brand in other ways?"
+    ],
+    "scheme": "Practical Reasoning",
+    "answers": [
+      "Yes, Jay\u2019s own shop lets them access customer email addresses and purchase history for future marketing.",
+      "Yes, Jay\u2019s own shop lets them control the website design, product descriptions, and packaging presentation to match the brand they want to convey.",
+      "No, big marketplaces usually do not share customer email addresses or detailed contact information with sellers.",
+      "No, big marketplaces limit how much Jay can control branding and product presentation.",
+      "Yes, a big marketplace could offer Jay a time-saving advantage that may matter more to them because they work full-time and have limited evening and weekend hours for the business.",
+      "Selling only in Jay\u2019s own online shop means paying a $29 monthly fee and likely spending more time managing the shop than using a marketplace.",
+      "Yes, Jay wants a recognizable brand identity and a loyal following of repeat customers.",
+      "Yes, using a marketplace could save Jay time, and that time could be redirected toward social media marketing or attending local craft fairs to build brand awareness and customer connections."
+    ],
+    "neutral_context": "Jay started making candles as a hobby about a year ago, experimenting with different wax blends and fragrance combinations in their kitchen after work. Friends and family began requesting candles as gifts, and the positive feedback encouraged Jay to consider turning the hobby into a small side business. Jay works full-time during the week, leaving evenings and weekends as the only available time for candle production, packaging, and business tasks. The candles Jay makes include soy wax votives, pillar candles, and jar candles in scents ranging from lavender and eucalyptus to more seasonal options like apple cider and pine. Jay has invested in quality materials and has developed a consistent process for producing candles that burn evenly and hold their scent well. Jordan is a friend who has followed Jay's candle-making journey from the beginning and occasionally offers business advice based on observations from other small sellers they know. Jay has been researching different selling options and recently learned about the various platforms available for small artisan businesses, including established online marketplaces that attract millions of shoppers and independent e-commerce platforms that allow sellers to create their own branded storefronts. The decision about where to sell feels significant to Jay because it will shape how customers discover and experience the candles. Jay has been weighing factors like upfront costs, ongoing fees, the time required to manage each option, and how each path might affect the business over the long term. Several other candle makers Jay has connected with online have chosen different approaches, with some selling exclusively through marketplaces, others maintaining their own shops, and some using a combination of both channels.",
+    "cq_labels": [
+      "favorable",
+      "favorable",
+      "favorable",
+      "favorable",
+      "neutral",
+      "neutral",
+      "favorable",
+      "favorable"
+    ],
+    "avg": "3.7",
+    "changed_questions": {
+      "4": {
+        "original_question": "Could selling on big marketplaces give Jay any advantages they are interested in?  ",
+        "new_question": "Could selling on big marketplaces give Jay any advantages that are more important to Jay than a customer list and brand control?"
+      },
+      "5": {
+        "original_question": "Are there any downsides to selling only in Jay's own online shop?  ",
+        "new_question": "Are there any downsides to selling only in Jay's own online shop that are worse than not building customer list and brand control for Jay?"
+      }
+    },
+    "tier": 2
+  },
+  {
+    "id": "20881",
+    "s_id": "20",
+    "situation": "Morgan, a good friend of yours, is wondering if they should choose a steady system or a fast-changing system for their family laptop. Sky, another friend, argues:",
+    "topic": "Technology",
+    "a_id": "88",
+    "dataset": "1",
+    "text": "The fast\u2011changing system may break a printer or app after big updates.",
+    "label (automated)": "weak",
+    "critical questions": [
+      "How likely is it that a fast\u2011changing system update breaks a printer or an app for Morgan's family?  ",
+      "How often are the fast\u2011changing system updates for Morgan to consider?  ",
+      "Does Morgan know how to fix these issues? Or can they prevent them from happening?  ",
+      "Can a printer or an app break with a steady system? Is this less likely than with a fast\u2011changing system for Morgan?  ",
+      "What specific apps and printer does Morgan's family use, and are they known to have update compatibility issues?  ",
+      "What is the support like for each system that Morgan is considering?"
+    ],
+    "scheme": "Argument from Consequences",
+    "answers": [
+      "It seems only occasional, since fast-changing systems can sometimes cause compatibility issues after major updates while Morgan\u2019s widely supported app and major-brand printer usually maintain compatibility.",
+      "The fast-changing system gets major updates twice a year, with minor security patches released in between.",
+      "Morgan knows how to troubleshoot and fix software, driver, and printer compatibility issues, and it's not clear whether they can prevent those issues from happening.",
+      "Yes, a printer or an app can break with a steady system, and it\u2019s not clear whether that is less likely than with a fast-changing system for Morgan.",
+      "Morgan's family uses a widely-supported photo editing app and a major brand printer, and they have a strong track record of staying compatible through updates.",
+      "The fast-changing system offers an active online support forum with responses from community members and official representatives within hours, while the steady system mainly uses email support with average response times of several days."
+    ],
+    "neutral_context": "Morgan has been thinking about replacing the operating system on their family's shared laptop, which sees daily use from multiple household members. The laptop currently runs a printer from a well-known manufacturer and a popular photo editing application that the family relies on regularly. Two main options are on the table: a steady system known for its conservative approach to changes, and a fast-changing system that evolves more rapidly. The fast-changing system pushes out major updates twice annually, with smaller security patches released between those larger updates. The steady system takes a different approach to its update schedule. Morgan isn't a stranger to computer problems\u2014over the years, they've built up practical experience diagnosing and fixing software glitches and driver conflicts, including past situations where printer functionality stopped working correctly after system changes. When problems do arise, the two systems offer different paths to resolution: the fast-changing system maintains an active online forum where both community volunteers and official staff tend to address questions relatively quickly, while the steady system directs users toward email-based support channels. Sky, a friend whose opinion Morgan values, has weighed in with thoughts about the decision. The choice matters to Morgan because the laptop serves as a central hub for the household\u2014printing documents, editing family photos, and running the various applications everyone depends on. Whatever Morgan decides will affect the daily computing experience for the whole family, so they're taking time to consider the input from friends and weigh the practical realities of living with either system over the coming years.",
+    "cq_labels": [
+      "neutral",
+      "undermining",
+      "undermining",
+      "neutral",
+      "undermining",
+      "undermining"
+    ],
+    "avg": "1.8",
+    "tier": 1
+  },
+  {
+    "id": "17712",
+    "s_id": "17",
+    "situation": "Jay, a friend of yours, recently applied to several jobs and is wondering whether to keep waiting for replies or send follow-up emails now. Taylor, another friend, argues:",
+    "topic": "Job",
+    "a_id": "71",
+    "dataset": "2",
+    "text": "If you follow up too soon, you may annoy the employer. ",
+    "label (automated)": "reasonable",
+    "critical questions": [
+      "How likely is it that Jay annoys the employer?  ",
+      "Could not following up soon have undesired consequences?  ",
+      "Do Taylor and Jay have any evidence that the employer will get annoyed?  ",
+      "How soon is \"too soon\" for Jay to follow up after applying?"
+    ],
+    "scheme": "Argument from Consequences",
+    "answers": [
+      "If Jay sends a follow-up within the first week, it is likely to annoy at least some employers.",
+      "It is unlikely that not following up soon will change the outcome of the hiring.",
+      "They have evidence that at least one hiring manager at one of the companies finds follow-up emails within the first week frustrating.",
+      "For Jay, following up within the first week after applying is too soon."
+    ],
+    "neutral_context": "Jay recently completed a round of job applications across several companies, submitting materials to most of them within the past five days. The positions span different organizations, and Jay has not had any direct contact or interviews with hiring managers at any of these companies yet. The application process involved the standard steps of submitting resumes and cover letters through online portals. Taylor, who has been following Jay's job search progress, has been offering thoughts on next steps. The two friends have been discussing the timing question that many job seekers face: when to reach out after submitting an application versus when to wait for the employer to initiate contact. Jay is currently in the waiting period that follows submission, checking email regularly for any responses. The companies Jay applied to vary in size, and each likely has its own internal timeline for reviewing candidates. This is not Jay's first job search, though the current round of applications represents a focused effort to find new employment. Taylor has been a sounding board throughout the process, weighing in on various aspects of the search. The conversation about follow-up timing came up naturally as Jay considered what actions to take next while waiting to hear back.",
+    "cq_labels": [
+      "favorable",
+      "favorable",
+      "neutral",
+      "favorable"
+    ],
+    "avg": "3.8",
+    "tier": 2
+  },
+  {
+    "id": "261181",
+    "s_id": "26",
+    "situation": "Jordan, a relative of yours, is wondering if they should hire a house cleaner or do all the cleaning themselves. Casey, another relative, argues:",
+    "topic": "House",
+    "a_id": "118",
+    "dataset": "1",
+    "text": "People who run cleaning services say short, frequent visits are more efficient than rare deep cleans. ",
+    "label (automated)": "strong",
+    "critical questions": [
+      "Do people who run cleaning services have a financial interest in recommending frequent visits?  ",
+      "Who exactly did Casey talk to? What did Casey ask them?",
+      "What were the literal words these people said?",
+      "What evidence or reasoning supports Casey's claim that frequent visits are more efficient?  ",
+      "What is meant by \"efficient\" in Casey's claim?  ",
+      "Could a homeowner like Jordan clean frequently whether they do it themselves or hire someone?  ",
+      "Do these sources indicate whether it is more efficient for Jordan to clean themselves or to hire a house cleaning service?  ",
+      "Does this apply to all types of homes regardless of size or lifestyle?  ",
+      "How often are these \"short, frequent visits\"?  ",
+      "How deep are these \"deep cleans\"?",
+      "Does hiring a house cleaner make frequent cleaning more likely?"
+    ],
+    "scheme": "Argument from Position to Know",
+    "answers": [
+      "No, this cleaning service owner charges the same $20 hourly rate either way, so they earn the same amount whether they recommend frequent visits or monthly deep cleans.",
+      "Casey talked in person to the owner of a residential cleaning service at their office and asked them directly about the most efficient cleaning schedules for residential homes.",
+      "Casey can't recall their exact words.",
+      "The cleaning service owner told Casey that efficiency meant minimizing total cleaning time over a month while maintaining consistent hygiene, and showed a comparison chart indicating that four weekly 45-minute cleanings require less total labor than one monthly 4-hour deep clean for the same cleanliness level.",
+      "\u201cEfficient\u201d means minimizing total cleaning time over a month while maintaining consistent home hygiene standards.",
+      "Jordan could clean frequently if they do it themselves, but they could not afford frequent cleanings if they hire the company they can afford.",
+      "No; the information says the cleaning-time efficiency is the same whether the work is done by Jordan or by a professional service.",
+      "It's not clear whether it applies to all home sizes or lifestyles.",
+      "They mean once-per-week cleanings lasting about 45 minutes each.",
+      "They are thorough 4-hour whole-house cleanings that cover all standard tasks: vacuuming all rooms, mopping hard floors, wiping all surfaces, and cleaning the bathrooms and kitchen.",
+      "No, hiring a cleaner would make frequent cleaning less likely for Jordan because they can't afford the company's 2-hour weekly minimum."
+    ],
+    "neutral_context": "Jordan has been living in their three-bedroom suburban home for several years and has always handled the household cleaning themselves. Recently, as they've settled into a work-from-home routine, they've been reconsidering various aspects of how they manage their time and household responsibilities. The question of whether to continue cleaning independently or hire a professional service came up during a family gathering, sparking a conversation with Casey about the topic.\n\nCasey had recently visited a local cleaning service's office to inquire about options for their own home and ended up having an extended conversation with the owner about residential cleaning practices. The business has been operating in the area for over a decade, serving homes similar to Jordan's in the surrounding neighborhoods. During that visit, Casey asked various questions about scheduling approaches and came away with information they thought might be relevant to Jordan's situation.\n\nJordan's home features a standard suburban layout with the typical rooms requiring regular maintenance\u2014living spaces, bedrooms, bathrooms, and a kitchen with hard floors and various surfaces. The house sees normal daily use and accumulates the usual dust, dirt, and clutter that any occupied residence would. Jordan's flexible work schedule means they have control over when they could fit cleaning tasks into their week, whether that means setting aside time on weekday mornings, afternoons, or weekends. The family has been casually debating household management approaches, with different relatives offering various perspectives based on their own experiences and information they've gathered from different sources.",
+    "cq_labels": [
+      "irrefutable",
+      "neutral",
+      "neutral",
+      "irrefutable",
+      "neutral",
+      "favorable",
+      "neutral",
+      "favorable",
+      "irrefutable"
+    ],
+    "avg": "1.7",
+    "tier": 0
+  },
+  {
+    "id": "271",
+    "s_id": "2",
+    "situation": "Riley, a neighbour who recently moved into an older home, is wondering if they should replace a decades-old but still working refrigerator to save on electricity. Sky, your partner, argues:",
+    "topic": "House",
+    "a_id": "7",
+    "dataset": "1",
+    "text": "Cleaning coils, and checking door seals can cut energy use without buying a new refrigerator.",
+    "label (automated)": "not supported",
+    "critical questions": [
+      "Is the amount of energy that can be saved with those practices comparable to what Riley would save by replacing the refrigerator?  ",
+      "Can clean coils cut energy use?  ",
+      "Can proper door seals cut energy use?  ",
+      "Would these actions save energy for a time comparable to the one a new refrigerator could? Is the effort worth it for the time extension?  ",
+      "Is Riley willing to clean the coils and check the door?",
+      "How often have the coils been cleaned and door seals been checked in the past?  ",
+      "Are there any signs of the refrigerator malfunctioning or losing efficiency despite maintenance?"
+    ],
+    "scheme": "Practical Reasoning",
+    "answers": [
+      "No, the energy savings from cleaning the coils and checking the seals are not comparable to replacing the refrigerator because its outdated compressor runs at only 40% of modern efficiency and cannot be improved through maintenance.",
+      "It's not clear whether cleaning the coils would cut energy use.",
+      "It's not clear whether proper door seals would cut energy use.",
+      "Cleaning the coils may help for a while, but it is unlikely to save energy for a period comparable to a new refrigerator because the main inefficiency is the outdated compressor and the door seals are already in excellent condition, so the four hours of effort is only worth it as a short-term extension.",
+      "Yes, Riley is willing to do it since the four hours of work is not a big bother for them.",
+      "The coils have not been cleaned at all in the six months Riley has lived there and there is no record of any earlier cleaning, and it\u2019s not clear how often the door seals have been checked in the past.",
+      "Yes\u2014the refrigerator has been cycling on and off more frequently, the freezer temperature is inconsistent, and its outdated compressor operates at only 40% of modern efficiency and cannot be improved through maintenance."
+    ],
+    "neutral_context": "Riley moved into the older home about six months ago, joining a quiet residential neighbourhood where houses tend to have some history to them. The kitchen came equipped with a decades-old refrigerator, a standard-sized residential model that the previous owners had left behind along with most of the major appliances. The unit features a design common to its era, with condenser coils mounted on the back of the refrigerator rather than concealed underneath. Before leaving, the previous homeowner had replaced the door seals about two years prior, and those seals remain in good condition today, showing no visible gaps or cracks. Riley has settled into the routine of the new home but hasn't yet gotten around to any appliance maintenance tasks, including cleaning the refrigerator's coils, and there's no indication the previous owner performed such maintenance either. Recently, Riley mentioned to neighbours that keeping monthly utility bills manageable matters, as does reducing overall household energy consumption\u2014both goals carry equal weight in the household's priorities. The refrigerator has been showing some quirks lately: it cycles on and off with unusual frequency, and the freezer section has trouble holding a steady temperature, with frozen items occasionally softening even though the thermostat settings haven't changed. Sky, Riley's partner, has been involved in discussions about whether to invest in a replacement appliance or try to extend the life of the current one through upkeep. The couple weighs decisions together, and this question about the refrigerator has become a topic of ongoing conversation as they figure out the best approach for their household budget and values.\n\nA new refrigerator costs 300$. Cleaning coils and checking door seals cost around 4 hours of work Riley can do on their own.",
+    "cq_labels": [
+      "neutral",
+      "neutral",
+      "demolishing",
+      "demolishing",
+      "neutral",
+      "undermining",
+      "demolishing"
+    ],
+    "avg": "1.5",
+    "changed_questions": {
+      "4": {
+        "original_question": "Does Riley intend to save energy or money?  ",
+        "new_question": "Is Riley willing to clean the coils and check the door?"
+      }
+    },
+    "tier": 0
+  }
+]

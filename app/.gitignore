@@ -1,0 +1,9 @@
+assets/external/
+__pycache__/
+*.db
+.web
+.states
+*.py[cod]
+.env
+output/
+old_rag/
